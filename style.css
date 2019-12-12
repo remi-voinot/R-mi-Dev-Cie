@@ -1,0 +1,122 @@
+body{
+	background-color: rgb(21, 24, 31);
+}
+
+#nav
+{
+    display: flex;
+    background-color: black;
+    justify-content: space-around;
+
+}
+
+.accueil{
+	color: rgb(5, 227, 56);
+	background-color: black;
+	backface-visibility: 0.6;
+	/* width: 315px;
+	height: 40px; */
+	font-size: 30px;
+	color: white;
+	text-align: center;
+}
+
+.boutique{
+	color: rgb(5, 227, 56);
+	background-color: black;
+	backface-visibility: 0.6;
+	/* width: 315px;
+	height: 40px; */
+	font-size: 30px;
+	color: white;
+	text-align: center;
+}
+
+.commandes{
+	color: rgb(5, 227, 56);
+	background-color: black;
+	backface-visibility: 0.6;
+	/* width: 315px;
+	height: 40px; */
+	font-size: 30px;
+	color: white;
+	text-align: center;
+}
+
+.bot{
+	color: rgb(5, 227, 56);
+	background-color: black;
+	backface-visibility: 0.6;
+	/* width: 315px;
+	height: 40px; */
+	font-size: 30px;
+	color: white;
+	text-align: center;
+}
+
+.soulignement{
+	text-decoration: none;
+}
+
+.connexion{
+	color: rgb(5, 227, 56);
+	background-color: black;
+	backface-visibility: 0.6;
+	/* width: 315px;
+	height: 40px; */
+	font-size: 30px;
+	color: white;
+	text-align: center;
+}
+
+.inscription{
+	color: rgb(5, 227, 56);
+	background-color: black;
+	backface-visibility: 0.6;
+	/* width: 315px;
+	height: 40px; */
+	font-size: 30px;
+	color: white;
+	text-align: center;
+}
+
+.bienvenue{
+	font-size: 35px;
+	margin-left: ;
+	color: rgb(237, 232, 232);
+	margin-left: 100px;
+}
+
+.pub{
+	color: rgb(150, 146, 146);
+	font-size: 25px;
+	margin-left: 100px;
+}
+
+.footer{
+	background-color: white;
+	width: 100%; 
+	height: 100%;
+
+}
+
+.img{
+	float: right;
+    margin-right: 250px;
+}
+
+.bouton{
+	background-color: rgb(44, 52, 83);
+	color: white;
+	height: 20px;  
+	width: 150px;
+	border: rgb(44, 52, 83) solid;
+	border-radius: 100px;
+    margin-left: 100px;
+    text-align: center;
+
+}
+
+.disc{
+	margin-left: 200px;
+}
