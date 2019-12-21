@@ -141,6 +141,7 @@ body{
 	display: flex;
 	justify-content: space-around;
 	margin-top: 20px;
+	font-size: 20px;
 }
 
 .remi2{
@@ -153,13 +154,13 @@ body{
 }
 
 .condition{
-	margin-left: 8.5%;
+	margin-left: 8%;
 
 }
 
 .supporta{
 
-	margin-left: 19%;
+	margin-left: 18.5%;
 
 }
 
@@ -170,3 +171,4 @@ body{
 .dispo{
 	margin-left: 14%;
 }
+
