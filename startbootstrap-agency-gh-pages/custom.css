@@ -33,3 +33,8 @@
         text-align: right;
     }
 }
+@media (max-width:768px){
+    .sm-float-right{
+        float: right!important;
+    }
+}

@@ -67,16 +67,22 @@ body {
     </div>
   </nav>
 <div class="container h-100 o1" style="">
-    <div class="row o2" style="padding: auto">
-        <div class="col-12 col-md-6 md-txtr">Pscedo : </div>
-        <div class="col-12 col-md-6 md-txtr"><input type="text" name="" placeholder="Votre Pscedo" maxlength="20" size="25" class="form-control form-rounded"></div>
+    <form action="" method="post">
+        <div class="row o2" style="padding: auto">
+            <div class="col-12 col-md-6 md-txtr">Pscedo : </div>
+            <div class="col-12 col-md-6 md-txtr"><input type="text" name="" placeholder="Votre Pscedo" maxlength="20" size="25" class="form-control form-rounded"></div>
         <div class="w-100 space-10px"></div>
-        <div class="col-12 col-md-6 md-txtr">Mot de passe : </div>
-        <div class="col-12 col-md-6 md-txtr"><input type="password" name="" placeholder="Votre Pscedo" maxlength="20" size="25" class="form-control form-rounded"></div>
+            <div class="col-12 col-md-6 md-txtr">Mot de passe : </div>
+            <div class="col-12 col-md-6 md-txtr"><input type="password" name="" placeholder="Votre Pscedo" maxlength="20" size="25" class="form-control form-rounded"></div>
         <div class="w-100 space-10px"></div>
-        <div class="col-12 col-md-6 md-txtr">Confirmation du mot de passe : </div>
-        <div class="col-12 col-md-6 md-txtr"><input type="password" name="" placeholder="Votre Pscedo" maxlength="20" size="25" class="form-control form-rounded"></div>
-    </div>
+            <div class="col-12 col-md-6 md-txtr">Confirmation du mot de passe : </div>
+            <div class="col-12 col-md-6 md-txtr"><input type="password" name="" placeholder="Votre Pscedo" maxlength="20" size="25" class="form-control form-rounded"></div>
+        <div class="w-100 space-10px"></div>
+            <div class="col-md-6"></div>
+            <div class="col-md-6"><button type="submit" class="btn btn-primary mb-2 sm-float-right">Submit</button></div>
+        
+        </div>
+    </form>
 </div>
 
 <!--<input type="text" name="" placeholder="Votre Pscedo" maxlength="20" size="25" class="form-control form-rounded">-->
