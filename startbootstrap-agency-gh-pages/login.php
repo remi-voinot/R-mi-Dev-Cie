@@ -38,7 +38,7 @@ body {
 <body id="page-top">
 
   <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg navbar-dark fixed-top navbar-shrink" id="mainNav">
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top navbar-shrink" style="" id="mainNav">
     <div class="container">
       <a class="navbar-brand js-scroll-trigger" href="#page-top">Dev'&'Cie</a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -66,59 +66,20 @@ body {
       </div>
     </div>
   </nav>
-
-  <!--<form>
-  <div class="form-group">
-    <label for="exampleFormControlInput1">Email address</label>
-    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-  </div>
-  <div class="form-group">
-    <label for="exampleFormControlSelect1">Example select</label>
-    <select class="form-control" id="exampleFormControlSelect1">
-      <option>1</option>
-      <option>2</option>
-      <option>3</option>
-      <option>4</option>
-      <option>5</option>
-    </select>
-  </div>
-  <div class="form-group">
-    <label for="exampleFormControlSelect2">Example multiple select</label>
-    <select multiple class="form-control" id="exampleFormControlSelect2">
-      <option>1</option>
-      <option>2</option>
-      <option>3</option>
-      <option>4</option>
-      <option>5</option>
-    </select>
-  </div>
-  <div class="form-group">
-    <label for="exampleFormControlTextarea1">Example textarea</label>
-    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-  </div>
-</form>-->
-
-<!--<div class="h-100 row align-items-center">
-    <form action="" style="width: 100%">
-    <div class="col" style="align-content: center; text-align: center, width: 100%">
-    <div class="form-group">
-    <label for="exampleFormControlInput1">Email address: </label>
-    <input type="email" class="" id="exampleFormControlInput1" placeholder="name@example.com">
-  </div>
-    </form>
-  </div>
-</div>-->
-
-<div class="container h-100" style="text-align: center">
-  <div class="row align-items-center h-100">
-    <div class="col-6" style="background: green">
-      <input type="password" name="" class="form-control form-rounded">
+<div class="container h-100 o1" style="">
+    <div class="row o2" style="padding: auto">
+        <div class="col-12 col-md-6 md-txtr">Pscedo : </div>
+        <div class="col-12 col-md-6 md-txtr"><input type="text" name="" placeholder="Votre Pscedo" maxlength="20" size="25" class="form-control form-rounded"></div>
+        <div class="w-100 space-10px"></div>
+        <div class="col-12 col-md-6 md-txtr">Mot de passe : </div>
+        <div class="col-12 col-md-6 md-txtr"><input type="password" name="" placeholder="Votre Pscedo" maxlength="20" size="25" class="form-control form-rounded"></div>
+        <div class="w-100 space-10px"></div>
+        <div class="col-12 col-md-6 md-txtr">Confirmation du mot de passe : </div>
+        <div class="col-12 col-md-6 md-txtr"><input type="password" name="" placeholder="Votre Pscedo" maxlength="20" size="25" class="form-control form-rounded"></div>
     </div>
-    <div class="col-6" style="background: blue">
-      One of three columns
-    </div>
-  </div>
 </div>
+
+<!--<input type="text" name="" placeholder="Votre Pscedo" maxlength="20" size="25" class="form-control form-rounded">-->
 
   <!-- Footer -->
   <footer class="footer">
