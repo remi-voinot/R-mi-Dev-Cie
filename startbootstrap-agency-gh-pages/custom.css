@@ -1,3 +1,8 @@
+html,
+body {
+  height: 100%
+}
+
 .form-rounded {
     border-radius: 0.75em;
 }
