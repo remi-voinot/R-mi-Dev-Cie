@@ -6,6 +6,11 @@
 
 <head>
 
+<style>html,
+body {
+  height: 100%
+}</style>
+
   <meta charset="utf-8">
   <!--<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">-->
   <meta name="description" content="">
@@ -60,16 +65,61 @@
     </div>
   </nav>
 
-  <!-- Header -->
-  <header class="masthead">
-    <div class="container">
-      <div class="intro-text">
-        <div class="intro-lead-in">Dev'n'Cie</div>
-        <div class="intro-heading text-uppercase">Des bots a votre sauce !</div>
-        <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">Plus d'info ...</a>
-      </div>
+  <!--<form>
+  <div class="form-group">
+    <label for="exampleFormControlInput1">Email address</label>
+    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+  </div>
+  <div class="form-group">
+    <label for="exampleFormControlSelect1">Example select</label>
+    <select class="form-control" id="exampleFormControlSelect1">
+      <option>1</option>
+      <option>2</option>
+      <option>3</option>
+      <option>4</option>
+      <option>5</option>
+    </select>
+  </div>
+  <div class="form-group">
+    <label for="exampleFormControlSelect2">Example multiple select</label>
+    <select multiple class="form-control" id="exampleFormControlSelect2">
+      <option>1</option>
+      <option>2</option>
+      <option>3</option>
+      <option>4</option>
+      <option>5</option>
+    </select>
+  </div>
+  <div class="form-group">
+    <label for="exampleFormControlTextarea1">Example textarea</label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+  </div>
+</form>-->
+
+<!--<div class="h-100 row align-items-center">
+    <form action="" style="width: 100%">
+    <div class="col" style="align-content: center; text-align: center, width: 100%">
+    <div class="form-group">
+    <label for="exampleFormControlInput1">Email address: </label>
+    <input type="email" class="" id="exampleFormControlInput1" placeholder="name@example.com">
+  </div>
+    </form>
+  </div>
+</div>-->
+
+<div class="container h-100" style="text-align: center">
+  <div class="row align-items-center h-100">
+    <div class="col" style="background: green">
+      One of three columns
     </div>
-  </header>
+    <div class="col" style="background: blue">
+      One of three columns
+    </div>
+    <div class="col" style="background: red">
+      One of three columns
+    </div>
+  </div>
+</div>
 
   <!-- Footer -->
   <footer class="footer">
