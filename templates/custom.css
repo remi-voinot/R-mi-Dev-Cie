@@ -34,6 +34,9 @@ body {
     height: 10px;
 }
 @media (min-width:768px){
+    .sm-hide {
+        display: none;
+    }
     .md-txtr{
         text-align: right;
     }
@@ -45,6 +48,9 @@ body {
     }
 }
 @media (max-width:768px){
+    .sm-hide {
+        display: unset;
+    }
     .sm-float-right{
         float: right!important;
     }
