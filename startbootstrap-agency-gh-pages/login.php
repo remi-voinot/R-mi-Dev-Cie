@@ -1,5 +1,6 @@
 <?php
     session_start();
+    require_once("./include.php");
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -84,10 +85,7 @@ body {
         </div>
     </form>
 </div>
-
-<!--<input type="text" name="" placeholder="Votre Pscedo" maxlength="20" size="25" class="form-control form-rounded">-->
-
-  <!-- Footer -->
+  <!-- Footer 
   <footer class="footer">
     <div class="container">
       <div class="row align-items-center">
@@ -125,7 +123,8 @@ body {
         </div>
       </div>
     </div>
-  </footer>
+  </footer>-->
+  <?php footer(); ?>
 
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
