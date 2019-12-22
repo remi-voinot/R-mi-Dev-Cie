@@ -16,7 +16,7 @@ body {
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>Connexion</title>
+  <title>Inscription</title>
 
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -42,12 +42,15 @@ body {
 <div class="container h-100 o1" style="">
     <form action="" method="post">
         <div class="row o2" style="padding: auto">
-            <div class="col-12 col-md-12 md-txtc sm-undrlin md-undrlin">Se connecter</div>
+            <div class="col-12 col-md-12 md-txtc sm-undrlin md-undrlin">S'inscrire</div>
         <div class="w-100 space-10px"></div>
             <div class="col-12 col-md-6 md-txtr">Pseudo : </div>
             <div class="col-12 col-md-6 md-txtr"><input type="text" name="" placeholder="Votre pseudo" maxlength="20" size="25" class="form-control form-rounded"></div>
         <div class="w-100 space-10px"></div>
             <div class="col-12 col-md-6 md-txtr">Mot de passe : </div>
+            <div class="col-12 col-md-6 md-txtr"><input type="password" name="" placeholder="Votre mot de passe" maxlength="20" size="25" class="form-control form-rounded"></div>
+        <div class="w-100 space-10px"></div>
+            <div class="col-12 col-md-6 md-txtr">Confirmation du mot de passe : </div>
             <div class="col-12 col-md-6 md-txtr"><input type="password" name="" placeholder="Votre mot de passe" maxlength="20" size="25" class="form-control form-rounded"></div>
         <div class="w-100 space-10px"></div>
             <div class="col-md-6"></div>

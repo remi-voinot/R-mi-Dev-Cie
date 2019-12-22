@@ -32,9 +32,18 @@
     .md-txtr{
         text-align: right;
     }
+    .md-txtc{
+        text-align: center;
+    }
+    .md-undrlin {
+        border-bottom: 1px solid;
+    }
 }
 @media (max-width:768px){
     .sm-float-right{
         float: right!important;
+    }
+    .sm-undrlin {
+        border-bottom: 1px solid;
     }
 }
