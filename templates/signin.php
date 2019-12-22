@@ -44,8 +44,11 @@ body {
         <div class="row o2" style="padding: auto">
             <div class="col-12 col-md-12 md-txtc sm-undrlin md-undrlin">S'inscrire</div>
         <div class="w-100 space-10px"></div>
-            <div class="col-12 col-md-6 md-txtr">Pseudo : </div>
+        <div class="col-12 col-md-6 md-txtr">Pseudo : </div>
             <div class="col-12 col-md-6 md-txtr"><input type="text" name="" placeholder="Votre pseudo" maxlength="20" size="25" class="form-control form-rounded"></div>
+        <div class="w-100 space-10px"></div>
+            <div class="col-12 col-md-6 md-txtr">Email : </div>
+            <div class="col-12 col-md-6 md-txtr"><input type="email" name="" placeholder="Votre adresse email" maxlength="20" size="25" class="form-control form-rounded"></div>
         <div class="w-100 space-10px"></div>
             <div class="col-12 col-md-6 md-txtr">Mot de passe : </div>
             <div class="col-12 col-md-6 md-txtr"><input type="password" name="" placeholder="Votre mot de passe" maxlength="20" size="25" class="form-control form-rounded"></div>

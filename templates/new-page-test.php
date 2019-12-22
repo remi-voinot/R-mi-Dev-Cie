@@ -16,7 +16,7 @@ body {
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>Connexion</title>
+  <title>Ton nom</title>
 
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -40,20 +40,26 @@ body {
 <?php hheader() ?>
 
 <div class="container h-100 o1" style="">
-    <form action="" method="post">
+    <!--
+        Ton contenu
+    -->
+    <!-- ou un systeme de grid
+
+        Voir docs : #https://getbootstrap.com/docs/4.0/layout/grid/ (Docs officielle et fonctionnel meme si on utilise un bootstrap modifié(template) ou voir des vidéos souvent en anglais).
+    
         <div class="row o2" style="padding: auto">
-            <div class="col-12 col-md-12 md-txtc sm-undrlin md-undrlin">Se connecter</div>
+            <div class="col-12 col-md-12 md-txtc sm-undrlin md-undrlin">qqch</div>
         <div class="w-100 space-10px"></div>
-            <div class="col-12 col-md-6 md-txtr">Pseudo / Email : </div>
-            <div class="col-12 col-md-6 md-txtr"><input type="text" name="" placeholder="Votre pseudo ou votre adresse mail" maxlength="20" size="25" class="form-control form-rounded"></div>
+            <div class="col-12 col-md-6 md-txtr">r 1 c 1</div>
+            <div class="col-12 col-md-6 md-txtr">r 1 c 2</div>
         <div class="w-100 space-10px"></div>
-            <div class="col-12 col-md-6 md-txtr">Mot de passe : </div>
-            <div class="col-12 col-md-6 md-txtr"><input type="password" name="" placeholder="Votre mot de passe" maxlength="20" size="25" class="form-control form-rounded"></div>
+            <div class="col-12 col-md-6 md-txtr">r 2 c 1</div>
+            <div class="col-12 col-md-6 md-txtr">r 2 c 2</div>
         <div class="w-100 space-10px"></div>
             <div class="col-md-6"></div>
-            <div class="col-md-6"><button type="submit" class="btn btn-primary mb-2 sm-float-right">Submit</button></div>
+            <div class="col-md-6"></div>
         </div>
-    </form>
+    -->
 </div>
   <?php footer(); ?>
 
