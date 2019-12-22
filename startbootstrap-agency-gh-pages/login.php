@@ -69,8 +69,8 @@ body {
 <div class="container h-100 o1" style="">
     <form action="" method="post">
         <div class="row o2" style="padding: auto">
-            <div class="col-12 col-md-6 md-txtr">Pscedo : </div>
-            <div class="col-12 col-md-6 md-txtr"><input type="text" name="" placeholder="Votre Pscedo" maxlength="20" size="25" class="form-control form-rounded"></div>
+            <div class="col-12 col-md-6 md-txtr">Pseudo : </div>
+            <div class="col-12 col-md-6 md-txtr"><input type="text" name="" placeholder="Votre Pseudo" maxlength="20" size="25" class="form-control form-rounded"></div>
         <div class="w-100 space-10px"></div>
             <div class="col-12 col-md-6 md-txtr">Mot de passe : </div>
             <div class="col-12 col-md-6 md-txtr"><input type="password" name="" placeholder="Votre Pscedo" maxlength="20" size="25" class="form-control form-rounded"></div>
