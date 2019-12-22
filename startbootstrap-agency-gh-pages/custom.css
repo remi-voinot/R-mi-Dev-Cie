@@ -1,0 +1,40 @@
+.form-rounded {
+    border-radius: 0.75em;
+}
+.txtr {
+    text-align: right;
+}
+.col-6 {
+    width: 50%;
+}
+.row{
+    width: 100%;
+    min-height: 1px;
+}
+.o1 { 
+    height: 200px;
+    position: relative;
+  }
+  
+  .o2 {
+  position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+.space-10px {
+    min-width: 1px;
+    width: 1px;
+    min-height: 10px;
+    height: 10px;
+}
+@media (min-width:768px){
+    .md-txtr{
+        text-align: right;
+    }
+}
+@media (max-width:768px){
+    .sm-float-right{
+        float: right!important;
+    }
+}
