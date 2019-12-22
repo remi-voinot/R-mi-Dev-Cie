@@ -31,6 +31,8 @@ body {
   <!-- Custom styles for this template -->
   <link href="css/agency.min.css" rel="stylesheet">
 
+  <link rel="stylesheet" href="./custom.css">
+
 </head>
 
 <body id="page-top">
@@ -109,13 +111,10 @@ body {
 
 <div class="container h-100" style="text-align: center">
   <div class="row align-items-center h-100">
-    <div class="col" style="background: green">
-      One of three columns
+    <div class="col-6" style="background: green">
+      <input type="password" name="" class="form-control form-rounded">
     </div>
-    <div class="col" style="background: blue">
-      One of three columns
-    </div>
-    <div class="col" style="background: red">
+    <div class="col-6" style="background: blue">
       One of three columns
     </div>
   </div>
