@@ -231,7 +231,7 @@ session_start();
                   <h4 class="subheading">Fondateur & Développeur Web</h4>
                 </div>
                 <div class="timeline-body">
-                  <p class="text-muted">Il gère toute l'entreprise <br/>et les sites internet !</p>
+                  <p class="text-muted">Il gère toute l'entreprise <br />et les sites internet !</p>
                 </div>
               </div>
             </li>

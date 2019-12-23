@@ -1,6 +1,9 @@
 <?php
     session_start();
     require_once("./include.php");
+    if($_POST) {
+        var_dump($_POST);
+    }
 ?>
 <!DOCTYPE html>
 <html lang="en">
