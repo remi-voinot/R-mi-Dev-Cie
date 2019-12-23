@@ -46,6 +46,9 @@ session_start();
             <a class="nav-link js-scroll-trigger" href="#services">Acceuil</a>
           </li>
           <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="Boutique.html">Boutique</a>
+          </li>
+          <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#portfolio">Nouvelle commande</a>
           </li>
           <li class="nav-item">
