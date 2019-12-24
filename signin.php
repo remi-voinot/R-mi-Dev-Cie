@@ -55,16 +55,16 @@ if(isset($outtt)) flashvar()->error($outtt, null, true);
                 <div class="col-12 col-md-12 md-txtc sm-undrlin md-undrlin">S'inscrire</div>
                 <div class="w-100 space-10px"></div>
                 <div class="col-12 col-md-6 md-txtr">Pseudo : </div>
-                <div class="col-12 col-md-6 md-txtr"><input <?php if ($_POST && $_POST["pseudo"]) echo ('value="' . $_POST["pseudo"] . '"') ?>type="text" name="pseudo" placeholder="Votre pseudo" maxlength="20" size="25" class="form-control form-rounded"></div>
+                <div class="col-12 col-md-6 md-txtr"><input <?php if ($_POST && $_POST["pseudo"]) echo ('value="' . $_POST["pseudo"] . '"') ?>type="text" name="pseudo" placeholder="Votre pseudo" size="25" class="form-control form-rounded"></div>
                 <div class="w-100 space-10px"></div>
                 <div class="col-12 col-md-6 md-txtr">Email : </div>
-                <div class="col-12 col-md-6 md-txtr"><input <?php if ($_POST && $_POST["email"]) echo ('value="' . $_POST["email"] . '"') ?>type="email" name="email" placeholder="Votre adresse email" maxlength="20" size="25" class="form-control form-rounded"></div>
+                <div class="col-12 col-md-6 md-txtr"><input <?php if ($_POST && $_POST["email"]) echo ('value="' . $_POST["email"] . '"') ?>type="email" name="email" placeholder="Votre adresse email" size="25" class="form-control form-rounded"></div>
                 <div class="w-100 space-10px"></div>
                 <div class="col-12 col-md-6 md-txtr">Mot de passe : </div>
-                <div class="col-12 col-md-6 md-txtr"><input type="password" name="mdp" placeholder="Votre mot de passe" maxlength="20" size="25" class="form-control form-rounded"></div>
+                <div class="col-12 col-md-6 md-txtr"><input type="password" name="mdp" placeholder="Votre mot de passe" size="25" class="form-control form-rounded"></div>
                 <div class="w-100 space-10px"></div>
                 <div class="col-12 col-md-6 md-txtr">Confirmation du mot de passe : </div>
-                <div class="col-12 col-md-6 md-txtr"><input type="password" name="cmdp" placeholder="Votre mot de passe" maxlength="20" size="25" class="form-control form-rounded"></div>
+                <div class="col-12 col-md-6 md-txtr"><input type="password" name="cmdp" placeholder="Votre mot de passe" size="25" class="form-control form-rounded"></div>
                 <div class="w-100 space-10px"></div>
                 <div class="col-12 col-md-6 md-txtr">J'accepte les CGUV</div>
                 <div class="col-12 col-md-6"><input type="checkbox" name="cguv" id="cgu" onclick="affiche_bouton()" class="form-control" style="width: 25px; height: 25px" checked></div>
