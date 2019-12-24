@@ -2,26 +2,27 @@
 require_once("./include.php");
 function error($cat)
 {
-    echo ("- Vous n'avez pas rempli le champ " . $cat . " !<br>");
+    return "- Vous n'avez pas rempli le champ " . $cat . " !<br>";
 }
 function login($post, $bdd)
 {
+    $varr="";
     $valid = true;
     if (!isset($post)) {
-        echo ("- Une erreur interne est survenue, veuillez réessayez<br>");
+        $varr .= "- Une erreur interne est survenue, veuillez réessayez<br>";
         $valid = false;
-        return;
+        return $varr;
     } elseif ($post == []) {
-        echo ("- Une erreur interne est survenue, veuillez réessayez<br>");
+        $varr .= "- Une erreur interne est survenue, veuillez réessayez<br>";
         $valid = false;
-        return;
+        return $varr;
     }
     if (empty($post['pseudo'])) {
-        error('Pseudo');
+        $varr .= "- Vous n'avez pas rempli le champ Pseudo !<br>";
         $valid = false;
     }
     if (empty($post['mdp'])) {
-        error('Mot de passe');
+        $varr .= "- Vous n'avez pas rempli le champ Mot de passe !<br>";
         $valid = false;
     }
     if ($valid) {
@@ -29,16 +30,22 @@ function login($post, $bdd)
         $fetched = $rep->fetch();
         $fetched2 = $rep->fetch();
         if(!$fetched) {
-            echo("error");
+            $varr .= '<span style="color:red">Le mot de passe ou l\'identifiant est faux.</span>';
+            return $varr;
         } elseif($fetched2 != false) {
-            echo("Deux comptes ont soit la même adresse soit le même nom, veuillez contacter le webmaster pour gêgler le probleme");
+            $varr .= "Deux comptes ont soit la même adresse soit le même nom, veuillez contacter le webmaster pour gêgler le probleme";
+            return $varr;
         }else {
             if(password_verify($post['mdp'], $fetched["user_password"])) {
-                echo("Tu est connecté !");
+                $varr = "";
+                return $varr;
+            }else{
+                $varr .= '<span style="color:red">Le mot de passe ou l\'identifiant est faux.</span>';
+                return $varr;
             }
         }
-        return true;
+        
     } else {
-        return false;
+        return $varr;
     }
 }

@@ -1,5 +1,5 @@
 <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
-
+<script src="/hideflash.js"></script>
 <meta charset="utf-8">
 <meta name="description" content="">
 <meta name="author" content="">

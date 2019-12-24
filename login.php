@@ -2,6 +2,14 @@
 session_start();
 require_once("./include.php");
 require_once("./logintraitement.php");
+if ($_POST) {
+    $outtt = login($_POST, bdd());
+    if(empty($outtt)) {
+        if(empty($_SESSION['flash'])) $_SESSION['flash'] = [];
+        $_SESSION['flash']['success'] = "Vous venez de vous connecter avec succès !";
+        header('Location: ./../index.php');
+    }
+}
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -27,10 +35,8 @@ require_once("./logintraitement.php");
         <form action="./login.php" method="post">
             <div class="row o2" style="padding: auto">
                 <div class="col-12 col-md-12">
-                    <?php
-                    if ($_POST) {
-                        login($_POST, bdd());
-                    }
+                    <?php 
+                    if(isset($outtt)) echo($outtt);
                     ?>
                 </div>
                 <div class="col-12 col-md-12" style="height: 20px"></div>

@@ -45,7 +45,9 @@ require_once("./signintraitement.php");
                 <div class="col-12 col-md-12">
                     <?php
                     if ($_POST) {
-                        if (signin($_POST, bdd())) echo ("<br>Great !!");
+                        if (signin($_POST, bdd())) {
+                            
+                        };
                     }
                     ?>
                 </div>
