@@ -35,8 +35,6 @@ if(isset($outtt)) flashvar()->error($outtt, null, true);
     <div class="container h-100 o1">
         <form action="./login.php" method="post">
             <div class="row o2" style="padding: auto">
-                <div class="col-12 col-md-12">
-                </div>
                 <div class="col-12 col-md-12" style="height: 20px"></div>
                 <div class="col-12 col-md-12 md-txtc sm-undrlin md-undrlin">Se connecter</div>
                 <div class="w-100 space-10px"></div>

@@ -2,6 +2,15 @@
 session_start();
 require_once("./include.php");
 require_once("./signintraitement.php");
+if ($_POST) {
+    $outtt = signin($_POST, bdd());
+    if(empty($outtt)) {
+        flashvar()->success("Vous êtes connecté !");
+        header('Location: ./../index.php');
+        exit();
+    }
+}
+if(isset($outtt)) flashvar()->error($outtt, null, true);
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -42,15 +51,6 @@ require_once("./signintraitement.php");
     <div class="container h-100 o1">
         <form action="./signin.php" method="post">
             <div class="row o2" style="padding: auto">
-                <div class="col-12 col-md-12">
-                    <?php
-                    if ($_POST) {
-                        if (signin($_POST, bdd())) {
-                            
-                        };
-                    }
-                    ?>
-                </div>
                 <div class="col-12 col-md-12" style="height: 20px"></div>
                 <div class="col-12 col-md-12 md-txtc sm-undrlin md-undrlin">S'inscrire</div>
                 <div class="w-100 space-10px"></div>

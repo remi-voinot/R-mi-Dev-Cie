@@ -4,7 +4,15 @@ function error($cat)
 {
     return "- Vous n'avez pas rempli le champ " . $cat . " !<br>";
 }
-function login($post, $bdd)
+/**
+     * Function login
+     * 
+     * @param  Array  $post ($_POST)  The post
+     * @param  PDO  $bdd ( bdd() )    The Database connexion
+     * @return object
+     * 
+     */
+function login(Array $post, PDO $bdd)
 {
     $varr="";
     $valid = true;
@@ -18,11 +26,11 @@ function login($post, $bdd)
         return $varr;
     }
     if (empty($post['pseudo'])) {
-        $varr .= "- Vous n'avez pas rempli le champ Pseudo !<br>";
+        $varr .= error("Pseudo");
         $valid = false;
     }
     if (empty($post['mdp'])) {
-        $varr .= "- Vous n'avez pas rempli le champ Mot de passe !<br>";
+        $varr .= error("Mot de passe");
         $valid = false;
     }
     if ($valid) {
