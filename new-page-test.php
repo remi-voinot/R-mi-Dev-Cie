@@ -1,6 +1,5 @@
 <?php
 session_start();
-$_SESSION["flash"]["success"] = "Salut";
 require_once("./include.php");
 ?>
 <!DOCTYPE html>

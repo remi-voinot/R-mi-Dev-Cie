@@ -61,7 +61,6 @@ function signin($post, $bdd)
         } else {
             $req = $bdd->prepare('INSERT INTO comptes(email, pseudo, user_password) VALUES(?, ?, ?)');
             $req->execute([htmlspecialchars($post['email']), htmlspecialchars($post['pseudo']), password_hash(htmlspecialchars($post['mdp']), PASSWORD_DEFAULT, array('cost' => 15))]);
-            $_SESSION["flash"]["success"] = "Vous avez créer votre compte, connecter vous avec les meme identifiants !";
             header('Location: /../login.php');
             return true;
         }

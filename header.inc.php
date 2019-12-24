@@ -1,3 +1,8 @@
+<?php
+require_once("./include.php");
+require_once("./tools/FlashMessages.php");
+?>
+
 <nav class="navbar navbar-expand-lg navbar-dark fixed-top navbar-shrink" id="mainNav">
   <div class="container">
     <a class="navbar-brand js-scroll-trigger" href="#page-top">Dev'&'Cie</a>
@@ -23,3 +28,8 @@
     </div>
   </div>
 </nav>
+<?php if (!empty($_SESSION["flash_messages"])) {
+  echo ('<div style="z-index: 100;position: fixed; margin-top: 64px; float: right; width: 95%; margin-left: 2.5%; margin-right: 2.5%">');
+  flashvar()->display();
+  echo ("</div>");
+} ?>

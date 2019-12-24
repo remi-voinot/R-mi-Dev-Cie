@@ -1,7 +1,6 @@
 <?php
 session_start();
 require_once("./include.php");
-$f = $_SESSION;
 ?>
 <!DOCTYPE html>
 <html lang="en">

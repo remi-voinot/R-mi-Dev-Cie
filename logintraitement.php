@@ -9,11 +9,11 @@ function login($post, $bdd)
     $varr="";
     $valid = true;
     if (!isset($post)) {
-        $varr .= "- Une erreur interne est survenue, veuillez réessayez<br>";
+        $varr .= "- Une erreur interne est survenue, veuillez réessayez";
         $valid = false;
         return $varr;
     } elseif ($post == []) {
-        $varr .= "- Une erreur interne est survenue, veuillez réessayez<br>";
+        $varr .= "- Une erreur interne est survenue, veuillez réessayez";
         $valid = false;
         return $varr;
     }
@@ -30,22 +30,24 @@ function login($post, $bdd)
         $fetched = $rep->fetch();
         $fetched2 = $rep->fetch();
         if(!$fetched) {
-            $varr .= '<span style="color:red">Le mot de passe ou l\'identifiant est faux.</span>';
-            return $varr;
+            $varr .= 'Le mot de passe ou l\'identifiant est faux.';
         } elseif($fetched2 != false) {
             $varr .= "Deux comptes ont soit la même adresse soit le même nom, veuillez contacter le webmaster pour gêgler le probleme";
-            return $varr;
         }else {
             if(password_verify($post['mdp'], $fetched["user_password"])) {
                 $varr = "";
-                return $varr;
             }else{
-                $varr .= '<span style="color:red">Le mot de passe ou l\'identifiant est faux.</span>';
-                return $varr;
+                $varr .= 'Le mot de passe ou l\'identifiant est faux.';
             }
         }
-        
+        if(substr($varr, -4) == "<br>") {
+            $varr = trim($varr, "<br>");
+        }
+        return $varr;
     } else {
+        if(substr($varr, -4) == "<br>") {
+            $varr = trim($varr, "<br>");
+        }
         return $varr;
     }
 }

@@ -1,4 +1,14 @@
 <?php
+if (!$_SESSION) {
+    session_status();
+}
+require_once('./tools/FlashMessages.php');
+
+function flashvar() {
+    $msg = new \Tools\FlashMessages();
+    return $msg;
+}
+
 function bdd()
 {
     $host = "localhost";
@@ -9,16 +19,19 @@ function bdd()
     $bdd = new PDO($sql, $user, $password);
     return $bdd;
 }
+
 function footer()
 {
     include("./footer.inc.php");
 };
+
 function hheader()
 {
     include("./header.inc.php");
 }
 
-function headimport($title) {
+function headimport($title)
+{
     include("./import-head.php");
-    echo("<title>".$title."</title>");
+    echo ("<title>" . $title . "</title>");
 }
