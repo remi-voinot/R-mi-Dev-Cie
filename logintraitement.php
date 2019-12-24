@@ -33,7 +33,9 @@ function login($post, $bdd)
         } elseif($fetched2 != false) {
             echo("Deux comptes ont soit la même adresse soit le même nom, veuillez contacter le webmaster pour gêgler le probleme");
         }else {
-            var_dump($fetched);
+            if(password_verify($post['mdp'], $fetched["user_password"])) {
+                echo("Tu est connecté !");
+            }
         }
         return true;
     } else {

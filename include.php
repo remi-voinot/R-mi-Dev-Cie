@@ -17,4 +17,8 @@ function hheader()
 {
     include("./header.inc.php");
 }
-bdd();
+
+function headimport($title) {
+    include("./import-head.php");
+    echo("<title>".$title."</title>");
+}

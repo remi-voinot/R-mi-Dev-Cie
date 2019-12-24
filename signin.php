@@ -15,26 +15,7 @@ require_once("./signintraitement.php");
         }
     </style>
 
-    <meta charset="utf-8">
-    <meta name="description" content="">
-    <meta name="author" content="">
-
-    <title>Inscription</title>
-
-    <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom fonts for this template -->
-    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
-
-    <!-- Custom styles for this template -->
-    <link href="css/agency.min.css" rel="stylesheet">
-
-    <link rel="stylesheet" href="./custom.css">
+    <?php headimport("Inscription"); ?>
 
     <script type="text/javascript">
         function affiche_bouton() {
@@ -64,7 +45,7 @@ require_once("./signintraitement.php");
                 <div class="col-12 col-md-12">
                     <?php
                     if ($_POST) {
-                        if(signin($_POST, bdd())) echo("<br>Great !!");
+                        if (signin($_POST, bdd())) echo ("<br>Great !!");
                     }
                     ?>
                 </div>

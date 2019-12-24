@@ -1,0 +1,106 @@
+.my-notify-info,
+.my-notify-success,
+.my-notify-warning,
+.my-notify-error,
+.my-notify-note {
+    padding: 10px;
+    margin: 10px 5px;
+}
+
+.my-notify-info:before,
+.my-notify-success:before,
+.my-notify-warning:before,
+.my-notify-error:before,
+.my-notify-note:before {
+    font-family: FontAwesome, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    display: inline-block;
+    text-decoration: inherit;
+    width: 1em;
+    margin-right: .2em;
+    text-align: center;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1em;
+    margin-left: .2em;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
+}
+
+.my-notify- {
+    display: none;
+}
+
+.ch,
+#button {
+    content: "";
+    float: right;
+}
+
+.ch:before {
+    text-align: start;
+    content: "\f00d";
+    font-size: 1em;
+}
+
+.my-notify-note:before {
+    content: "\f682";
+}
+
+.my-notify-info:before {
+    content: "\f05a";
+}
+
+.my-notify-success:before {
+    content: '\f00c';
+}
+
+.my-notify-warning:before {
+    content: '\f071';
+}
+
+.my-notify-error:before {
+    content: '\f057';
+}
+
+.my-notify-info {
+    color: #00529B;
+    background-color: #BDE5F8;
+}
+
+.my-notify-note {
+    color: rgb(88, 190, 216);
+    background-color: rgb(104, 107, 109);
+}
+
+.my-notify-success {
+    color: #ffffff;
+    background-color: #00ff00;
+}
+
+.my-notify-warning {
+    color: #9F6000;
+    background-color: #FEEFB3;
+}
+
+.my-notify-error {
+    color: #ffffff;
+    background-color: #FF0000;
+}
+
+.ch,
+#button {
+    content: "";
+    float: right;
+}
+
+.ch:before {
+    text-align: start;
+    content: "\f00d";
+    font-size: 1em;
+}
+
+#chtest {
+    background-color: blue;
+}

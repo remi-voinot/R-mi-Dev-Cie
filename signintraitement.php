@@ -55,9 +55,7 @@ function signin($post, $bdd)
     if ($valid) {
         $rep = $bdd->query('SELECT * FROM `comptes` WHERE email="' . htmlspecialchars($post['email']) . '" OR pseudo="' . htmlspecialchars($post['pseudo']) . '"');
         $fetched = $rep->fetch();
-        var_dump($fetched);
-        var_dump($rep);
-        if ($fetched == false) {
+        if ($fetched != false) {
             echo ("Vous ne pouvez pas créer un compte ayant le meme pseudo ou la meme adresse mail d'un autre utilisateur !");
             return false;
         } else {
