@@ -1,7 +1,6 @@
 <?php
 session_start();
 require_once("./include.php");
-require_once("./logintraitement.php");
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -19,7 +18,7 @@ require_once("./logintraitement.php");
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Connexion</title>
+    <title>Ton nom</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -43,28 +42,25 @@ require_once("./logintraitement.php");
     <?php hheader() ?>
 
     <div class="container h-100 o1">
-        <form action="./login.php" method="post">
-            <div class="row o2" style="padding: auto">
-                <div class="col-12 col-md-12">
-                    <?php
-                    if ($_POST) {
-                        login($_POST, bdd());
-                    }
-                    ?>
-                </div>
-                <div class="col-12 col-md-12" style="height: 20px"></div>
-                <div class="col-12 col-md-12 md-txtc sm-undrlin md-undrlin">Se connecter</div>
-                <div class="w-100 space-10px"></div>
-                <div class="col-12 col-md-6 md-txtr">Pseudo / Email : </div>
-                <div class="col-12 col-md-6 md-txtr"><input <?php if ($_POST && $_POST["pseudo"]) echo ('value="' . $_POST["pseudo"] . '"') ?>type="text" name="pseudo" placeholder="Votre pseudo/email" maxlength="20" size="25" class="form-control form-rounded"></div>
-                <div class="w-100 space-10px"></div>
-                <div class="col-12 col-md-6 md-txtr">Mot de passe : </div>
-                <div class="col-12 col-md-6 md-txtr"><input type="password" name="mdp" placeholder="Votre mot de passe" maxlength="20" size="25" class="form-control form-rounded"></div>
-                <div class="w-100 space-10px"></div>
-                <div class="col-md-6"></div>
-                <div class="col-md-6"><button type="submit" id="submite" class="btn btn-primary mb-2 sm-float-right">Se connecter</button></div>
+        <div class="row o2 textc" style='font-family: "Myriad pro Semibold"; font-weight: 550; font-size: 1.5em'>
+            <div class="col-sm-12 col-md-3 txtc shop-frame">
+                <div class="space-1em"></div>
+                FreeBot
+                <div class="space-1em"></div>
             </div>
-        </form>
+            <div class="col-md-1 sm-md-col-1-spacer"></div>
+            <div class="col-sm-12 col-md-3 txtc shop-frame">
+                <div class="space-1em"></div>
+                PremiumBot
+                <div class="space-1em"></div>
+            </div>
+            <div class="col-md-1 sm-md-col-1-spacer"></div>
+            <div class="col-sm-12 col-md-3 txtc shop-frame">
+                <div class="space-1em"></div>
+                CustomBot
+                <div class="space-1em"></div>
+            </div>
+        </div>
     </div>
     <?php footer(); ?>
 

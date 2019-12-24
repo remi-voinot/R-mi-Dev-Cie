@@ -41,7 +41,7 @@ require_once("./include.php");
 
     <?php hheader() ?>
 
-    <div class="container h-100 o1" style="">
+    <div class="container h-100 o1">
         <!--
         Ton contenu
     -->

@@ -64,7 +64,7 @@ require_once("./signintraitement.php");
                 <div class="col-12 col-md-12">
                     <?php
                     if ($_POST) {
-                        signin($_POST, bdd());
+                        if(signin($_POST, bdd())) echo("<br>Great !!");
                     }
                     ?>
                 </div>
@@ -90,7 +90,7 @@ require_once("./signintraitement.php");
                 <div class="col-12 col-md-6"><input type="checkbox" name="new" onclick="affiche_bouton()" class="form-control" style="width: 25px; height: 25px" checked></div>
                 <div class="w-100 space-10px"></div>
                 <div class="col-md-6"></div>
-                <div class="col-md-6"><button type="submit" id="submite" disabled="disabled" class="btn btn-primary mb-2 sm-float-right">Submit</button></div>
+                <div class="col-md-6"><button type="submit" id="submite" disabled="disabled" class="btn btn-primary mb-2 sm-float-right">S'inscrire</button></div>
             </div>
         </form>
     </div>
