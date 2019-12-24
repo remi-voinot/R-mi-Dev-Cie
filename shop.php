@@ -14,7 +14,7 @@ require_once("./include.php");
         }
     </style>
 
-   <?php headimport("Boutique"); ?>
+    <?php headimport("Boutique"); ?>
 
 </head>
 
@@ -24,22 +24,31 @@ require_once("./include.php");
 
     <div class="container h-100 o1">
         <div class="row o2 textc" style='font-family: "Myriad pro Semibold"; font-weight: 550; font-size: 1.5em'>
-            <div class="col-sm-12 col-md-3 txtc shop-frame">
-                <div class="space-1em"></div>
-                FreeBot
-                <div class="space-1em"></div>
+            <div class="col-sm-12 col-md-4 txtc">
+                <div class="shop-frame">
+                    <div class="space-10px"></div>
+                    FreeBot
+                    <div class="shop-separate"></div>
+                    <div class="space-10px"></div>
+                </div>
             </div>
-            <div class="col-md-1 sm-md-col-1-spacer"></div>
-            <div class="col-sm-12 col-md-3 txtc shop-frame">
-                <div class="space-1em"></div>
-                PremiumBot
-                <div class="space-1em"></div>
+            <div class="sm-spacer"></div>
+            <div class="col-sm-12 col-md-4 txtc">
+                <div class="shop-frame">
+                    <div class="space-10px"></div>
+                    PremiumBot
+                    <div class="shop-separate"></div>
+                    <div class="space-10px"></div>
+                </div>
             </div>
-            <div class="col-md-1 sm-md-col-1-spacer"></div>
-            <div class="col-sm-12 col-md-3 txtc shop-frame">
-                <div class="space-1em"></div>
-                CustomBot
-                <div class="space-1em"></div>
+            <div class="sm-spacer"></div>
+            <div class="col-sm-12 col-md-4 txtc">
+                <div class="shop-frame">
+                    <div class="space-10px"></div>
+                    CustomBot
+                    <div class="shop-separate"></div>
+                    <div class="space-10px"></div>
+                </div>
             </div>
         </div>
     </div>
