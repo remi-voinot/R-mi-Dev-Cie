@@ -4,13 +4,13 @@ require_once("./include.php");
 require_once("./logintraitement.php");
 if ($_POST) {
     $outtt = login($_POST, bdd());
-    if(empty($outtt)) {
+    if (empty($outtt)) {
         flashvar()->success("Vous êtes connecté !");
         header('Location: ./../index.php');
         exit();
     }
 }
-if(isset($outtt)) flashvar()->error($outtt, null, true);
+if (isset($outtt)) flashvar()->error($outtt, null, true);
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -33,9 +33,10 @@ if(isset($outtt)) flashvar()->error($outtt, null, true);
     <?php hheader() ?>
 
     <div class="container h-100 o1">
+
         <form action="./login.php" method="post">
             <div class="row o2" style="padding: auto">
-                <div class="col-12 col-md-12" style="height: 20px"></div>
+                <div class="mobile-col-safe"></div>
                 <div class="col-12 col-md-12 md-txtc sm-undrlin md-undrlin">Se connecter</div>
                 <div class="w-100 space-10px"></div>
                 <div class="col-12 col-md-6 md-txtr">Pseudo / Email : </div>

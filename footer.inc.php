@@ -1,6 +1,6 @@
 <footer class="footer">
   <div class="container">
-    <div class="row align-items-center">
+    <div class="row align-items-center mobile-col-safe">
       <div class="col-md-4">
         <span class="copyright">Copyright &copy; Dev'&'Cie 2019</span>
       </div>

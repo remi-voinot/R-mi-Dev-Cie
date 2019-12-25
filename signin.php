@@ -51,8 +51,7 @@ if(isset($outtt)) flashvar()->error($outtt, null, true);
     <div class="container h-100 o1">
         <form action="./signin.php" method="post">
             <div class="row o2" style="padding: auto">
-                <div class="col-12 col-md-12" style="height: 20px"></div>
-                <div class="col-12 col-md-12 md-txtc sm-undrlin md-undrlin">S'inscrire</div>
+                <div class="col-12 col-md-12 md-txtc sm-undrlin md-undrlin mobile-col-safe">S'inscrire</div>
                 <div class="w-100 space-10px"></div>
                 <div class="col-12 col-md-6 md-txtr">Pseudo : </div>
                 <div class="col-12 col-md-6 md-txtr"><input <?php if ($_POST && $_POST["pseudo"]) echo ('value="' . $_POST["pseudo"] . '"') ?>type="text" name="pseudo" placeholder="Votre pseudo" size="25" class="form-control form-rounded"></div>

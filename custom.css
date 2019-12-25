@@ -117,3 +117,31 @@ body {
         height: 20px;
     }
 }
+
+@media (max-height:570px),
+(max-width:350px) {
+    .mobile-col-safe {
+        margin-top: 65px;
+    }
+    .mobile-col-safe-f {
+        margin-top: initial;
+    }
+}
+
+@media (max-height:300px) {
+    .mobile-col-safe {
+        margin-top: 320px;
+    }
+    .mobile-col-safe-f {
+        margin-top: 200px;
+    }
+}
+
+@media (min-height:400px) and (min-width:400px) {
+    .mobile-col-safe {
+        margin-top: initial;
+    }
+    .mobile-col-safe-f {
+        margin-top: initial;
+    }
+}
