@@ -5,7 +5,7 @@ require_once("./tools/FlashMessages.php");
 
 <nav class="navbar navbar-expand-lg navbar-dark fixed-top navbar-shrink" id="mainNav">
   <div class="container">
-    <a class="navbar-brand js-scroll-trigger" href="#page-top">Dev'&'Cie</a>
+    <a class="navbar-brand js-scroll-trigger" href="#page-top"><span class="dc dc-logo" style="padding-right: 10px"></span>Dev'&'Cie</a>
     <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
       Menu
       <i class="fas fa-bars"></i>
