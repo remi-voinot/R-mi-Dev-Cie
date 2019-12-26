@@ -6,7 +6,7 @@
 <meta name="author" content="">
 <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-<link rel="stylesheet" href="src/customfont.css" type="text/css">
+<link rel="stylesheet" href="src/fontc.css" type="text/css">
 
 <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
 <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">

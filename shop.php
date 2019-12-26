@@ -29,6 +29,8 @@ require_once("./include.php");
                     <div class="space-10px"></div>
                     FreeBot
                     <div class="shop-separate"></div>
+                    <div><span class="dc dc-freebot dc-2x"></span></div>
+                    <div>Un bot simple et gratuit</div>
                     <div class="space-10px"></div>
                 </div>
             </div>
@@ -38,6 +40,8 @@ require_once("./include.php");
                     <div class="space-10px"></div>
                     PremiumBot
                     <div class="shop-separate"></div>
+                    <div><span class="dc dc-premiumbot dc-2x"></span></div>
+                    <div>Un bot payant mais très facile a utiliser et des options inédites</div>
                     <div class="space-10px"></div>
                 </div>
             </div>
@@ -47,6 +51,7 @@ require_once("./include.php");
                     <div class="space-10px"></div>
                     CustomBot
                     <div class="shop-separate"></div>
+                    <div><span class="dc dc-freebot dc-2x"></span></div>
                     <div class="space-10px"></div>
                 </div>
             </div>
