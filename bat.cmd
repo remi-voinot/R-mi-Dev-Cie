@@ -1,1 +1,1 @@
-cls && sass ./dashboard/scss/sb-admin-2.scss:./dashboard/css/sb-admin-2.min.css --watch --no-cache
+cls && sass ./dashboard/scss/sb-admin-2.scss:./dashboard/css/sb-admin-2.min.css --watch --no-cache --sourcemap=none

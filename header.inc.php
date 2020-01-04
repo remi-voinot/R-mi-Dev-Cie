@@ -13,7 +13,7 @@ require_once("./tools/FlashMessages.php");
     <div class="collapse navbar-collapse" id="navbarResponsive">
       <ul class="navbar-nav text-uppercase ml-auto">
         <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="/">Acceuil</a>
+          <a class="nav-link js-scroll-trigger" href="/">Accueil</a>
         </li>
         <li class="nav-item">
           <a class="nav-link js-scroll-trigger" href="shop">Boutique</a>

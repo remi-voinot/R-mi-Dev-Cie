@@ -6,3 +6,4 @@ RewriteCond %{THE_REQUEST} !/admintemplate [NC]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule ^([^\.]+)$ $1.php [NC,L]
 </IfModule>
+ErrorDocument 404 "Sorry can't allow you access today"
