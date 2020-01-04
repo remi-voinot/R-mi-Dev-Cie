@@ -1,2 +1,0 @@
-## SASS INSTALLER VIA NPM ("npm install -g sass")
-sass ./profile/scss/sb-admin-2.scss ./profile/css/sb-admin-2.min.css --watch --no-source-map
