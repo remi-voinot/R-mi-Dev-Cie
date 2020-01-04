@@ -1,3 +1,8 @@
+<?php
+session_start();
+require_once("./include.php");
+$b = printhost();
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -6,13 +11,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>404 HTML Template by Colorlib</title>
+    <link rel="icon" href="https://s.ytimg.com/yts/img/favicon_144-vfliLAfaB.png" sizes="144x144">
+
+    <title>Erreur</title>
 
     <link href="https://fonts.googleapis.com/css?family=Montserrat:700,900" rel="stylesheet">
 
-    <link type="text/css" rel="stylesheet" href="errorfile/style.css" />
-    <link type="text/css" rel="stylesheet" href="errorfile/style2.css" />
-    <script src="/errorfile/script.js"></script>
+    <link type="text/css" rel="stylesheet" href="http://<?php echo $b;?>/errorfile/style.css" />
+    <link type="text/css" rel="stylesheet" href="http://<?php echo $b;?>/errorfile/style2.css" />
+    <script src="http://<?php echo $b;?>/errorfile/script.js"></script>
 </head>
 
 <body>

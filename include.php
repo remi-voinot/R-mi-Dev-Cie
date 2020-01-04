@@ -4,7 +4,14 @@ if (!$_SESSION) {
 }
 require_once('./tools/FlashMessages.php');
 
-function flashvar() {
+function printhost()
+{
+    $hostname = $_SERVER['HTTP_HOST'];
+    return $hostname;
+}
+
+function flashvar()
+{
     $msg = new \Tools\FlashMessages();
     return $msg;
 }
