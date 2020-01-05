@@ -32,9 +32,10 @@ function footer()
     include("./footer.inc.php");
 };
 
-function hheader()
+function hheader($space = true)
 {
     include("./header.inc.php");
+    if($space) echo('<div class="headspace"></div>');
 }
 
 function headimport($title)

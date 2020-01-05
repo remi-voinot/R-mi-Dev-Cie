@@ -28,6 +28,7 @@ require_once("./tools/FlashMessages.php");
     </div>
   </div>
 </nav>
+
 <?php if (!empty($_SESSION["flash_messages"])) {
   echo ('<div style="z-index: 100;position: fixed; margin-top: 64px; float: right; width: 95%; margin-left: 2.5%; margin-right: 2.5%">');
   flashvar()->display();

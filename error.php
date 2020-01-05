@@ -11,7 +11,7 @@ $b = printhost();
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="icon" href="https://s.ytimg.com/yts/img/favicon_144-vfliLAfaB.png" sizes="144x144">
+    <link rel="icon" href="/src/errorfavicon.png" sizes="240x240">
 
     <title>Erreur</title>
 
