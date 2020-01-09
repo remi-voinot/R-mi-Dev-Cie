@@ -20,7 +20,7 @@ require_once("./include.php");
     <div class="container">
       <div class="intro-text">
         <div class="intro-lead-in">Dev'&'Cie</div>
-        <div class="intro-heading text-uppercase">Des bots a votre sauce !</div>
+        <div class="intro-heading text-uppercase">UN SERVICE WEB/BOT INEDIT !</div>
         <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">Plus d'info ...</a>
       </div>
     </div>
@@ -31,8 +31,9 @@ require_once("./include.php");
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-center">
-          <h2 class="section-heading text-uppercase">Nos performances</h2>
-          <h3 class="section-subheading text-muted">Dev'n'Cie possède des machines très puissantes, réservé pour vos bots !</h3>
+          <h2 class="section-heading text-uppercase">Pourquoi Dev'&'Cie ?</h2>
+          <h3 class="section-subheading text-muted">Notre entreprise a pour but de satisfaire gratuitement nos clients en leurs offrant des bots discord de qualité.  
+          Nous vous proposons également des services payants qui vous permettront d'avoir vos propres bot personalisés. Vous avez aussi la possibilité de commander des sites internet.</h3>
         </div>
       </div>
       <div class="row text-center">
@@ -42,7 +43,7 @@ require_once("./include.php");
             <i class="fas fa-server fa-stack-1x fa-inverse"></i>
           </span>
           <h4 class="service-heading">Serveurs dernière génération</h4>
-          <p class="text-muted">Des machines avec les meilleurs composants du marché, optimisé pour garantir la qualité maximale a nos clients pour leurs bots.</p>
+          <p class="text-muted">Des machines avec les meilleurs composants du marché, optimisé pour garantir la qualité maximale à nos clients pour leurs bots.</p>
         </div>
         <div class="col-md-4">
           <span class="fa-stack fa-4x">
@@ -50,7 +51,7 @@ require_once("./include.php");
             <i class="fas fa-laptop fa-stack-1x fa-inverse"></i>
           </span>
           <h4 class="service-heading">Interface web de configuration</h4>
-          <p class="text-muted">Vous pouvez gérer les options de votre bot Discord via une interface web. Ajouter des fonctionnalité sera un jeu d'enfant pour vous !</p>
+          <p class="text-muted">Vous pouvez gérer les options de votre bot Discord via une interface web. Ajouter des fonctionnalités sera un jeu d'enfant pour vous !</p>
         </div>
         <div class="col-md-4">
           <span class="fa-stack fa-4x">
@@ -58,7 +59,7 @@ require_once("./include.php");
             <i class="fas fa-lock fa-stack-1x fa-inverse"></i>
           </span>
           <h4 class="service-heading">Sécurité oblige !</h4>
-          <p class="text-muted">Comme votre bot est susceptible de contenir des informations sensibles, nous garantissons sa sécurié en empechant toute intrusion dans les fichier du bot. Les bases de données sont cryptés pour garantir une sécurité maximale.</p>
+          <p class="text-muted">Comme votre bot est susceptible de contenir des informations sensibles, nous garantissons sa sécurité en emêpchant toute intrusion dans les fichiers du bot. Les bases de données sont cryptés pour garantir une sécurité maximale.</p>
         </div>
       </div>
     </div>
