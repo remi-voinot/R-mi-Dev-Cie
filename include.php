@@ -4,7 +4,14 @@ if (!$_SESSION) {
 }
 require_once('./tools/FlashMessages.php');
 
-function flashvar() {
+function printhost()
+{
+    $hostname = $_SERVER['HTTP_HOST'];
+    return $hostname;
+}
+
+function flashvar()
+{
     $msg = new \Tools\FlashMessages();
     return $msg;
 }
@@ -25,9 +32,10 @@ function footer()
     include("./footer.inc.php");
 };
 
-function hheader()
+function hheader($space = true)
 {
     include("./header.inc.php");
+    if($space) echo('<div class="headspace"></div>');
 }
 
 function headimport($title)

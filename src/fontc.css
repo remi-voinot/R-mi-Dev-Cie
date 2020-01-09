@@ -1,0 +1,72 @@
+@font-face {
+    font-family: 'DevnCie';
+    src: url('devncie.ttf'), local("Montserrat");
+}
+
+.dc-1x {
+    font-size: 1em;
+}
+
+.dc-2x {
+    font-size: 2em;
+}
+
+.dc-3x {
+    font-size: 3em;
+}
+
+.dc-4x {
+    font-size: 4em;
+}
+
+.dc-5x {
+    font-size: 5em;
+}
+
+.dc-6x {
+    font-size: 6em;
+}
+
+.dc-7x {
+    font-size: 7em;
+}
+
+.dc-8x {
+    font-size: 8em;
+}
+
+.dc-9x {
+    font-size: 9em;
+}
+
+.dc-10x {
+    font-size: 10em;
+}
+
+.dc {
+    font-family: 'DevnCie';
+}
+
+.dc-logo {
+    content: ""
+}
+
+.dc-logo:before {
+    content: "\dc1"
+}
+
+.dc-premiumbot {
+    content: "";
+}
+
+.dc-premiumbot:before {
+    content: "\dc2"
+}
+
+.dc-freebot {
+    content: ""
+}
+
+.dc-freebot:before {
+    content: "\dc3"
+}

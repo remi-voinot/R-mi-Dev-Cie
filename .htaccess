@@ -1,6 +1,31 @@
 <IfModule mod_rewrite.c>
 RewriteEngine On 
 RewriteCond %{THE_REQUEST} !/phpmyadmin [NC]
+RewriteCond %{THE_REQUEST} !/dashboard [NC]
+RewriteCond %{THE_REQUEST} !/admintemplate [NC]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule ^([^\.]+)$ $1.php [NC,L]
 </IfModule>
+
+ErrorDocument 400 /error.php
+ErrorDocument 401 /error.php
+ErrorDocument 402 /error.php
+ErrorDocument 403 /error.php
+ErrorDocument 404 /error404.php
+ErrorDocument 405 /error.php
+ErrorDocument 406 /error.php
+ErrorDocument 407 /error.php
+ErrorDocument 408 /error.php
+ErrorDocument 409 /error.php
+ErrorDocument 410 /error.php
+ErrorDocument 411 /error.php
+ErrorDocument 412 /error.php
+ErrorDocument 413 /error.php
+ErrorDocument 414 /error.php
+ErrorDocument 415 /error.php
+ErrorDocument 500 /error.php
+ErrorDocument 501 /error.php
+ErrorDocument 502 /error.php
+ErrorDocument 503 /error.php
+ErrorDocument 504 /error.php
+ErrorDocument 505 /error.php

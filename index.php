@@ -13,7 +13,7 @@ require_once("./include.php");
 
 <body id="page-top">
 
-  <?php hheader() ?>
+  <?php hheader(false) ?>
 
   <!-- Header -->
   <header class="masthead">

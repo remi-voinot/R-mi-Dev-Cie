@@ -1,0 +1,2 @@
+## SASS INSTALLER VIA NPM ("npm install -g sass")
+sass ./dashboard/scss/sb-admin-2.scss:./dashboard/css/sb-admin-2.min.css --watch --no-cache --sourcemap=none

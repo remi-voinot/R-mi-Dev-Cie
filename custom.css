@@ -66,6 +66,16 @@ body {
     background-color: rgba(46, 45, 45, 0.644);
 }
 
+.headspace {
+    box-sizing: border-box;
+    display: block;
+    content: "";
+    min-height: 66px;
+    height: 66px;
+    min-width: 1px;
+    width: 100%;
+}
+
 @media (min-width:768px) {
     .shop-frame {
         margin-left: 3%;
