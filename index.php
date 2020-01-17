@@ -43,7 +43,7 @@ require_once("./include.php");
             <i class="fas fa-server fa-stack-1x fa-inverse"></i>
           </span>
           <h4 class="service-heading">Serveurs dernière génération</h4>
-          <p class="text-muted">Des machines avec les meilleurs composants du marché, optimisé pour garantir la qualité maximale à nos clients pour leurs bots.</p>
+          <p class="text-muted">Des machines avec les meilleurs composants du marché, optimisé pour garantir une qualité maximale à nos clients.</p>
         </div>
         <div class="col-md-4">
           <span class="fa-stack fa-4x">
@@ -59,7 +59,7 @@ require_once("./include.php");
             <i class="fas fa-lock fa-stack-1x fa-inverse"></i>
           </span>
           <h4 class="service-heading">Sécurité oblige !</h4>
-          <p class="text-muted">Comme votre bot est susceptible de contenir des informations sensibles, nous garantissons sa sécurité en emêpchant toute intrusion dans les fichiers du bot. Les bases de données sont cryptés pour garantir une sécurité maximale.</p>
+          <p class="text-muted">Comme votre bot et vos sites sont susceptiblent de contenir des informations sensibles, nous garantissons leurs sécurités en emêpchant toute intrusion dans les fichiers. Les bases de données sont cryptés pour garantir une sécurité maximale.</p>
         </div>
       </div>
     </div>
@@ -71,7 +71,7 @@ require_once("./include.php");
       <div class="row">
         <div class="col-lg-12 text-center">
           <h2 class="section-heading text-uppercase">Nos bots !</h2>
-          <h3 class="section-subheading text-muted">Nous avons beaucoup de client, dont notament certains très connus !</h3>
+          <h3 class="section-subheading text-muted">Voici les différents bots discord que nous proposons à Dev'&'Cie :</h3>
         </div>
       </div>
       <div class="row">
