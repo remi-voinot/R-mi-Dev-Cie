@@ -39,6 +39,9 @@ require_once("./include.php");
 =======
           <h3 class="section-subheading text-muted">Notre entreprise a pour but de satisfaire gratuitement nos clients en leurs offrant des bots discord de qualité.  
           Nous vous proposons également des services payants qui vous permettront d'avoir vos propres bot personnalisés. Vous avez aussi la possibilité de commander des sites internet.</h3>
+<<<<<<< HEAD
+>>>>>>> 45c50d91d0aba88b2748c13ec3e9777b293b4f71
+=======
 >>>>>>> 45c50d91d0aba88b2748c13ec3e9777b293b4f71
         </div>
       </div>
@@ -134,7 +137,11 @@ require_once("./include.php");
         <div class="col-lg-12 text-center">
           <h2 class="section-heading text-uppercase">Notre équipe</h2>
 <<<<<<< HEAD
+<<<<<<< HEAD
           <h3 class="section-subheading text-muted">Nous vous présentons notre équipe de passionnés au service de nos clients </h3>
+=======
+          <h3 class="section-subheading text-muted">Notre équipe soudée travail en permanence a vous offrir la qualité !</h3>
+>>>>>>> 45c50d91d0aba88b2748c13ec3e9777b293b4f71
 =======
           <h3 class="section-subheading text-muted">Notre équipe soudée travail en permanence a vous offrir la qualité !</h3>
 >>>>>>> 45c50d91d0aba88b2748c13ec3e9777b293b4f71
@@ -168,7 +175,11 @@ require_once("./include.php");
                 </div>
                 <div class="timeline-body">
 <<<<<<< HEAD
+<<<<<<< HEAD
                   <p class="text-muted">IL s'occupe de développement du site web Dev'&'Cie et il gère l'équipe de Développeur bot </p>
+=======
+                  <p class="text-muted">Il s'occupe de tout les sites internet ainsi que les bots discord </p>
+>>>>>>> 45c50d91d0aba88b2748c13ec3e9777b293b4f71
 =======
                   <p class="text-muted">Il s'occupe de tout les sites internet ainsi que les bots discord </p>
 >>>>>>> 45c50d91d0aba88b2748c13ec3e9777b293b4f71
@@ -200,7 +211,11 @@ require_once("./include.php");
                 </div>
                 <div class="timeline-body">
 <<<<<<< HEAD
+<<<<<<< HEAD
                   <p class="text-muted">Thibault graphiste de père en fils </p>
+=======
+                  <p class="text-muted">Vous utilisez notre plateforme, vous nous permettez de vivre de notre passion et en plus de vous mettre a disposition des bots avec des fonctionnalités inédites et exceptionnel !</p>
+>>>>>>> 45c50d91d0aba88b2748c13ec3e9777b293b4f71
 =======
                   <p class="text-muted">Vous utilisez notre plateforme, vous nous permettez de vivre de notre passion et en plus de vous mettre a disposition des bots avec des fonctionnalités inédites et exceptionnel !</p>
 >>>>>>> 45c50d91d0aba88b2748c13ec3e9777b293b4f71
