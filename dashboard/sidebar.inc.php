@@ -2,7 +2,7 @@
 <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
 
 <!-- Sidebar - Brand -->
-<a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.php">
+<a class="sidebar-brand d-flex align-items-center justify-content-center" href="index">
     <div class="dc-fweight">
         <span class="dc dc-logo dc-2x dc-fweight color-y"></span>
     </div>
@@ -14,7 +14,7 @@
 
 <!-- Nav Item - Dashboard -->
 <li class="nav-item active">
-    <a class="nav-link" href="index.php">
+    <a class="nav-link" href="index">
         <i class="fas fa-fw fa-tachometer-alt"></i>
         <span>Dashboard</span></a>
 </li>
@@ -24,37 +24,41 @@
 
 <!-- Heading -->
 <div class="sidebar-heading">
-    Interface
+    Mon compte
 </div>
 
-<!-- Nav Item - Pages Collapse Menu -->
 <li class="nav-item">
-    <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
-        <i class="fas fa-fw fa-cog"></i>
-        <span>Components</span>
+    <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#user-part" aria-expanded="true" aria-controls="user-part">
+        <i class="fas fa-fw fa-user"></i>
+        <span>Espace personnel</span>
     </a>
-    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
+    <div id="user-part" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
         <div class="bg-white py-2 collapse-inner rounded">
-            <h6 class="collapse-header">Custom Components:</h6>
-            <a class="collapse-item" href="buttons.php">Buttons</a>
-            <a class="collapse-item" href="cards.php">Cards</a>
+            <h6 class="collapse-header">Informations :</h6>
+            <a class="collapse-item" href="buttons">Mon profile</a>
+            <a class="collapse-item" href="cards">Mot de passe</a>
+            <a class="collapse-item" href="cards">Services connectés</a>
+            <h6 class="collapse-header">Mes souscriptions :</h6>
+            <a class="collapse-item" href="buttons">Solde / Argent</a>
+            <a class="collapse-item" href="cards">Mes bots Discord</a>
+            <a class="collapse-item" href="cards">Mes sites Web</a>
         </div>
     </div>
 </li>
 
-<!-- Nav Item - Utilities Collapse Menu -->
 <li class="nav-item">
-    <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseUtilities" aria-expanded="true" aria-controls="collapseUtilities">
+    <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#user-management" aria-expanded="true" aria-controls="user-management">
         <i class="fas fa-fw fa-wrench"></i>
-        <span>Utilities</span>
+        <span>Gestion</span>
     </a>
-    <div id="collapseUtilities" class="collapse" aria-labelledby="headingUtilities" data-parent="#accordionSidebar">
+    <div id="user-management" class="collapse" aria-labelledby="headingUtilities" data-parent="#accordionSidebar">
         <div class="bg-white py-2 collapse-inner rounded">
-            <h6 class="collapse-header">Custom Utilities:</h6>
-            <a class="collapse-item" href="utilities-color.php">Colors</a>
-            <a class="collapse-item" href="utilities-border.php">Borders</a>
-            <a class="collapse-item" href="utilities-animation.php">Animations</a>
-            <a class="collapse-item" href="utilities-other.php">Other</a>
+            <h6 class="collapse-header">Mes équipes :</h6>
+            <a class="collapse-item" href="utilities-color">Liste des équipes</a>
+            <a class="collapse-item" href="utilities-border">Permissions des <br>utilisateurs</a>
+            <h6 class="collapse-header">Publique :</h6>
+            <a class="collapse-item" href="utilities-color">Pub affichées</a>
+            <a class="collapse-item" href="utilities-border">Status</a>
         </div>
     </div>
 </li>
@@ -64,41 +68,140 @@
 
 <!-- Heading -->
 <div class="sidebar-heading">
-    Addons
+    Mes sites
 </div>
 
 <!-- Nav Item - Pages Collapse Menu -->
 <li class="nav-item">
-    <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePages" aria-expanded="true" aria-controls="collapsePages">
-        <i class="fas fa-fw fa-folder"></i>
-        <span>Pages</span>
+    <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#subscribed-sites" aria-expanded="true" aria-controls="subscribed-sites">
+        <i class="fas fa-fw fa-check-square"></i>
+        <span>Sites souscrits</span>
     </a>
-    <div id="collapsePages" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
+    <div id="subscribed-sites" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
         <div class="bg-white py-2 collapse-inner rounded">
-            <h6 class="collapse-header">Login Screens:</h6>
-            <a class="collapse-item" href="login.php">Login</a>
-            <a class="collapse-item" href="register.php">Register</a>
-            <a class="collapse-item" href="forgot-password.php">Forgot Password</a>
+            <h6 class="collapse-header">Sites vitrines :</h6>
+            <a class="collapse-item" href="login">MACOMMU.fr</a>
+            <a class="collapse-item" href="register">C-LA-FETE.com</a>
+            <a class="collapse-item" href="forgot-password">MONSITE.devandcie.fr</a>
             <div class="collapse-divider"></div>
-            <h6 class="collapse-header">Other Pages:</h6>
-            <a class="collapse-item" href="404.php">404 Page</a>
-            <a class="collapse-item" href="blank.php">Blank Page</a>
+            <h6 class="collapse-header">Sites forums:</h6>
+            <a class="collapse-item" href="404">forum.MACOMMU.fr</a>
+            <a class="collapse-item" href="blank">MONFORUM.de</a>
         </div>
     </div>
 </li>
 
 <!-- Nav Item - Charts -->
 <li class="nav-item">
-    <a class="nav-link" href="charts.php">
+    <a class="nav-link" href="charts">
         <i class="fas fa-fw fa-chart-area"></i>
-        <span>Charts</span></a>
+        <span>Visites / N° Membres</span></a>
 </li>
 
 <!-- Nav Item - Tables -->
 <li class="nav-item">
-    <a class="nav-link" href="tables.php">
+    <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#services" aria-expanded="true" aria-controls="services">
         <i class="fas fa-fw fa-table"></i>
-        <span>Tables</span></a>
+        <span>Services</span>
+    </a>
+    <div id="services" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
+        <div class="bg-white py-2 collapse-inner rounded">
+            <a class="collapse-item" href="404">Bases de données</a>
+            <a class="collapse-item" href="blank">API connectées</a>
+        </div>
+    </div>
+</li>
+
+<!-- Divider -->
+<hr class="sidebar-divider d-none d-md-block">
+
+<!-- Heading -->
+<div class="sidebar-heading">
+    Mes bots
+</div>
+
+<li class="nav-item">
+    <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#subscribed-options" aria-expanded="true" aria-controls="subscribed-options">
+        <i class="fas fa-fw fa-dollar-sign"></i>
+        <span>Options achetés</span>
+    </a>
+    <div id="subscribed-options" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
+        <div class="bg-white py-2 collapse-inner rounded">
+            <h6 class="collapse-header">Informations :</h6>
+            <a class="collapse-item" href="buttons">Mon profile</a>
+            <a class="collapse-item" href="cards">Mot de passe</a>
+            <a class="collapse-item" href="cards">Services connectés</a>
+            <h6 class="collapse-header">Mes souscriptions :</h6>
+            <a class="collapse-item" href="buttons">Solde / Argent</a>
+            <a class="collapse-item" href="cards">Mes bots Discord</a>
+            <a class="collapse-item" href="cards">Mes sites Web</a>
+        </div>
+    </div>
+</li>
+
+<li class="nav-item">
+    <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#discord-var" aria-expanded="true" aria-controls="discord-var">
+        <i class="fas fa-fw fa-columns"></i>
+        <span>Données</span>
+    </a>
+    <div id="discord-var" class="collapse" aria-labelledby="headingUtilities" data-parent="#accordionSidebar">
+        <div class="bg-white py-2 collapse-inner rounded">
+            <h6 class="collapse-header">Utilisations :</h6>
+            <a class="collapse-item" href="utilities-color">Par équipe</a>
+            <a class="collapse-item" href="utilities-border">Par commande</a>
+            <h6 class="collapse-header">Stats :</h6>
+            <a class="collapse-item" href="utilities-color">Chat rank</a>
+            <a class="collapse-item" href="utilities-border">Invite rank</a>
+        </div>
+    </div>
+</li>
+
+<!-- Divider -->
+<hr class="sidebar-divider d-none d-md-block">
+
+<div class="sidebar-heading">
+    Souscriptions
+</div>
+
+<li class="nav-item">
+    <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#new-sub" aria-expanded="true" aria-controls="new-sub">
+        <i class="fas fa-fw fa-plus-square"></i>
+        <span>Nouvelle sousription</span>
+    </a>
+    <div id="new-sub" class="collapse" aria-labelledby="headingUtilities" data-parent="#accordionSidebar">
+        <div class="bg-white py-2 collapse-inner rounded">
+            <a class="collapse-item" href="utilities-color">Nouveau site</a>
+            <a class="collapse-item" href="utilities-border">Nouveau serveur FreeBot</a>
+            <a class="collapse-item" href="utilities-border">Nouveau serveur PremiumBot</a>
+            <a class="collapse-item" href="utilities-border">Nouveau bot CustomBot</a>
+        </div>
+    </div>
+</li>
+
+<li class="nav-item">
+    <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#discord-stats" aria-expanded="true" aria-controls="discord-stats">
+        <i class="fas fa-fw fa-sort-amount-down"></i>
+        <span>Discord stats</span>
+    </a>
+    <div id="discord-stats" class="collapse" aria-labelledby="headingUtilities" data-parent="#accordionSidebar">
+        <div class="bg-white py-2 collapse-inner rounded">
+            <a class="collapse-item" href="utilities-color">Chat rank</a>
+            <a class="collapse-item" href="utilities-border">Invite rank</a>
+        </div>
+    </div>
+</li>
+
+<li class="nav-item">
+    <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#web-stats" aria-expanded="true" aria-controls="web-stats">
+        <i class="fas fa-fw fa-cubes"></i>
+        <span>Web stats</span>
+    </a>
+    <div id="web-stats" class="collapse" aria-labelledby="headingUtilities" data-parent="#accordionSidebar">
+        <div class="bg-white py-2 collapse-inner rounded">
+            <a class="collapse-item" href="utilities-color">Revenus pubs</a>
+            <a class="collapse-item" href="utilities-border">Invite rank</a>
+        </div>
+    </div>
 </li>
 
 <!-- Divider -->
