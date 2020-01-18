@@ -3,6 +3,14 @@ body {
     height: 100%
 }
 
+.color-y {
+    color: #FED136;
+}
+
+.color-g {
+    color: #212529;
+}
+
 .db-sidebar-text {
     font-size: larger;
 }
