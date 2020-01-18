@@ -135,7 +135,7 @@ require_once("./include.php");
           <ul class="timeline">
             <li>
               <div class="timeline-image">
-                <img class="rounded-circle img-fluid" src="img/about/1.jpg" alt="">
+                <img class="rounded-circle img-fluid" src="img/logos/avatar-gratuit4.png" alt="">
               </div>
               <div class="timeline-panel">
                 <div class="timeline-heading">
