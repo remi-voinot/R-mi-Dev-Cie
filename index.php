@@ -33,8 +33,8 @@ require_once("./include.php");
       <div class="row">
         <div class="col-lg-12 text-center">
           <h2 class="section-heading text-uppercase">Pourquoi Dev'&'Cie ?</h2>
-          <h3 class="section-subheading text-muted">Notre entreprise a pour but de satisfaire gratuitement nos clients en leurs offrant des bots discord de qualité.  
-          Nous vous proposons également des services payants qui vous permettront d'avoir vos propres bot personnalisés. Vous avez aussi la possibilité de commander des sites internet.</h3>
+          <h3 class="section-subheading text-muted">Notre entreprise a pour but de satisfaire gratuitement nos clients en leurs offrant des bots discord de qualité. <br/> 
+          Nous vous proposons également des services payants qui vous permettront d'avoir vos propres bot personalisés. <br/> Vous avez aussi la possibilité de commander des sites internet.</h3>
         </div>
       </div>
       <div class="row text-center">
@@ -72,7 +72,7 @@ require_once("./include.php");
       <div class="row">
         <div class="col-lg-12 text-center">
           <h2 class="section-heading text-uppercase">Nos bots !</h2>
-          <h3 class="section-subheading text-muted">Voici les différents bots discord que nous proposons à Dev'&'Cie :</h3>
+          <h3 class="section-subheading text-muted">Voici les différents bots discord que nous proposons à Dev'&'Cie </h3>
         </div>
       </div>
       <div class="row">
@@ -128,7 +128,9 @@ require_once("./include.php");
       <div class="row">
         <div class="col-lg-12 text-center">
           <h2 class="section-heading text-uppercase">Notre équipe</h2>
-          <h3 class="section-subheading text-muted">Notre équipe soudée travail en permanence a vous offrir la qualité !</h3>
+
+          <h3 class="section-subheading text-muted">Nous vous présentons notre équipe de passionnés au service de nos clients </h3>
+
         </div>
       </div>
       <div class="row">
@@ -141,7 +143,7 @@ require_once("./include.php");
               <div class="timeline-panel">
                 <div class="timeline-heading">
                   <h4>Rémi</h4>
-                  <h4 class="subheading">Créateur & Développeur Web</h4>
+                  <h4 class="subheading">Fondateur de Dev'&'Cie et Développeur Web</h4>
                 </div>
                 <div class="timeline-body">
                   <p class="text-muted">Il gère toute l'entreprise <br />et les sites internet !</p>
@@ -154,11 +156,13 @@ require_once("./include.php");
               </div>
               <div class="timeline-panel">
                 <div class="timeline-heading">
-                  <h4>NonozgYtb</h4>
-                  <h4 class="subheading">Développeur Web & Discord.js</h4>
+                  <h4>Noé</h4>
+                  <h4 class="subheading">Co-Fondateur de Dev'&'Cie, Développeur Web et bot</h4>
                 </div>
                 <div class="timeline-body">
-                  <p class="text-muted">Il s'occupe de tout les sites internet ainsi que les bots discord </p>
+
+                  <p class="text-muted">IL s'occupe de développement du site web Dev'&'Cie et il gère l'équipe de Développeur bot </p>
+
                 </div>
               </div>
             </li>
@@ -169,10 +173,10 @@ require_once("./include.php");
               <div class="timeline-panel">
                 <div class="timeline-heading">
                   <h4>Dialex</h4>
-                  <h4 class="subheading">Dévelopeur Web</h4>
+                  <h4 class="subheading">Dévelopeur bot</h4>
                 </div>
                 <div class="timeline-body">
-                  <p class="text-muted">C'est lui qui est chargé de faire vos bots Custom Bot</p>
+                  <p class="text-muted">C'est lui qui est chargé de faire vos bots discord</p>
                 </div>
               </div>
             </li>
@@ -186,21 +190,21 @@ require_once("./include.php");
                   <h4 class="subheading">Graphiste</h4>
                 </div>
                 <div class="timeline-body">
-                  <p class="text-muted">Vous utilisez notre plateforme, vous nous permettez de vivre de notre passion et en plus de vous mettre a disposition des bots avec des fonctionnalités inédites et exceptionnel !</p>
+                  <p class="text-muted">Thibault graphiste de père en fils </p>
                 </div>
               </div>
             </li>
             <li>
               <div class="timeline-image">
-                <img class="rounded-circle img-fluid" src="img/about/3.jpg" alt="">
+                <img class="rounded-circle img-fluid" src="img/logos/avatar-gratuit7.png" alt="">
               </div>
               <div class="timeline-panel">
                 <div class="timeline-heading">
-                  <h4>Nicolas Dupont</h4>
-                  <h4 class="subheading">Graphiste</h4>
+                  <h4>Arthur</h4>
+                  <h4 class="subheading">Développeur bot</h4>
                 </div>
                 <div class="timeline-body">
-                  <p class="text-muted">Il fait toutes les images et les icones de Dev'&'Cie</p>
+                  <p class="text-muted">Il contribut à la création des bots discord</p>
                 </div>
               </div>
             </li>
