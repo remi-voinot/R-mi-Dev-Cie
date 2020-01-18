@@ -82,7 +82,7 @@ require_once("./include.php");
                 <i class="fas fa-plus fa-3x"></i>
               </div>
             </div>
-            <img class="img-fluid" src="https://cdn.discordapp.com/attachments/653306561615364096/659855043897458708/SPOILER_gratuiter_simpliciter_diveersiter_tout2.png" alt="">
+            <img class="img-fluid" src="src/freebot-400x300.png" alt="">
           </a>
           <div class="portfolio-caption">
             <h4>Free Bot</h4>
