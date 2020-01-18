@@ -22,6 +22,7 @@ require_once("./include.php");
         <div class="intro-lead-in">Dev'&'Cie</div>
         <div class="intro-heading text-uppercase">UN SERVICE WEB/BOT INEDIT !</div>
         <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">Plus d'info ...</a>
+        <link rel="icon" type="image/png" href="img/logos/logo Dev'&'Cie.png">
       </div>
     </div>
   </header>
@@ -135,12 +136,12 @@ require_once("./include.php");
           <ul class="timeline">
             <li>
               <div class="timeline-image">
-                <img class="rounded-circle img-fluid" src="img/logos/avatar-gratuit4.png" alt="">
+                <img class="rounded-circle img-fluid" src="img/logos/avatar-gratuit5.png" alt="">
               </div>
               <div class="timeline-panel">
                 <div class="timeline-heading">
                   <h4>Rémi</h4>
-                  <h4 class="subheading">Fondateur & Développeur Web</h4>
+                  <h4 class="subheading">Créateur & Développeur Web</h4>
                 </div>
                 <div class="timeline-body">
                   <p class="text-muted">Il gère toute l'entreprise <br />et les sites internet !</p>
@@ -149,7 +150,7 @@ require_once("./include.php");
             </li>
             <li class="timeline-inverted">
               <div class="timeline-image">
-                <img class="rounded-circle img-fluid" src="img/about/2.jpg" alt="">
+                <img class="rounded-circle img-fluid" src="img/logos/avatar-gratuit-w.png" alt="">
               </div>
               <div class="timeline-panel">
                 <div class="timeline-heading">
@@ -157,7 +158,35 @@ require_once("./include.php");
                   <h4 class="subheading">Développeur Web & Discord.js</h4>
                 </div>
                 <div class="timeline-body">
-                  <p class="text-muted">Oui, c'est moi, je crée le site et les bots, biensur, je ne serai pas le seul a le faire !</p>
+                  <p class="text-muted">Il s'occupe de tout les sites internet ansi que les bots discord </p>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="timeline-image">
+                <img class="rounded-circle img-fluid" src="img/logos/avatar-gratuit1.png" alt="">
+              </div>
+              <div class="timeline-panel">
+                <div class="timeline-heading">
+                  <h4>Dialex</h4>
+                  <h4 class="subheading">Dévelopeur Web</h4>
+                </div>
+                <div class="timeline-body">
+                  <p class="text-muted">C'est lui qui est chargé de faire vos bots Custom Bot</p>
+                </div>
+              </div>
+            </li>
+            <li class="timeline-inverted">
+              <div class="timeline-image">
+                <img class="rounded-circle img-fluid" src="img/logos/SPOILER_avatar-gratuit.png" alt="">
+              </div>
+              <div class="timeline-panel">
+                <div class="timeline-heading">
+                  <h4>Thibault</h4>
+                  <h4 class="subheading">Graphiste</h4>
+                </div>
+                <div class="timeline-body">
+                  <p class="text-muted">Vous utiliser notre plateforme, vous nous permettez de vivre de notre passion et en plus de vous mettre a disposition des bots avec des fonctionnalités inédites et exceptionnel !</p>
                 </div>
               </div>
             </li>
@@ -175,25 +204,8 @@ require_once("./include.php");
                 </div>
               </div>
             </li>
-            <li class="timeline-inverted">
-              <div class="timeline-image">
-                <img class="rounded-circle img-fluid" src="img/about/4.jpg" alt="">
-              </div>
-              <div class="timeline-panel">
-                <div class="timeline-heading">
-                  <h4>Vous !</h4>
-                  <h4 class="subheading"> </h4>
-                </div>
-                <div class="timeline-body">
-                  <p class="text-muted">Vous utiliser notre plateforme, vous nous permettez de vivre de notre passion et en plus de vous mettre a disposition des bots avec des fonctionnalités inédites et exceptionnel !</p>
                 </div>
               </div>
-            </li>
-            <li class="timeline-inverted">
-              <div class="timeline-image">
-                <h4>A vous
-                  <br>d'écrire la
-                  <br>suite !</h4>
               </div>
             </li>
           </ul>
