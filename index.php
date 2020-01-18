@@ -82,11 +82,11 @@ require_once("./include.php");
                 <i class="fas fa-plus fa-3x"></i>
               </div>
             </div>
-            <img class="img-fluid" src="img/portfolio/01-thumbnail.jpg" alt="">
+            <img class="img-fluid" src="https://cdn.discordapp.com/attachments/653306561615364096/659855043897458708/SPOILER_gratuiter_simpliciter_diveersiter_tout2.png" alt="">
           </a>
           <div class="portfolio-caption">
-            <h4>Bot 1</h4>
-            <p class="text-muted">L'un des outils majeur de N'ter Price</p>
+            <h4>Free Bot</h4>
+            <p class="text-muted">Un bot multifonction gratuit et de efficace !</p>
           </div>
         </div>
         <div class="col-md-4 col-sm-6 portfolio-item">
@@ -99,8 +99,8 @@ require_once("./include.php");
             <img class="img-fluid" src="img/portfolio/02-thumbnail.jpg" alt="">
           </a>
           <div class="portfolio-caption">
-            <h4>Bot 2</h4>
-            <p class="text-muted">Connu de tous mais l'une de nos oeuvres</p>
+            <h4>Premium Bot </h4>
+            <p class="text-muted">Accèdez à toutes les commandes VIP grace à Premium Bot !</p>
           </div>
         </div>
         <div class="col-md-4 col-sm-6 portfolio-item">
@@ -113,54 +113,12 @@ require_once("./include.php");
             <img class="img-fluid" src="img/portfolio/03-thumbnail.jpg" alt="">
           </a>
           <div class="portfolio-caption">
-            <h4>Bot 3</h4>
-            <p class="text-muted">Très utilisé et performant</p>
+            <h4>Custom Bot</h4>
+            <p class="text-muted">Avec Custom Bot concevez vos propre bot sur messure !</p>
           </div>
         </div>
-        <div class="col-md-4 col-sm-6 portfolio-item">
-          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal4">
-            <div class="portfolio-hover">
-              <div class="portfolio-hover-content">
-                <i class="fas fa-plus fa-3x"></i>
-              </div>
-            </div>
-            <img class="img-fluid" src="img/portfolio/04-thumbnail.jpg" alt="">
-          </a>
-          <div class="portfolio-caption">
-            <h4>Merde</h4>
-            <p class="text-muted">C'est chiant d'écrire !</p>
-          </div>
-        </div>
-        <div class="col-md-4 col-sm-6 portfolio-item">
-          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal5">
-            <div class="portfolio-hover">
-              <div class="portfolio-hover-content">
-                <i class="fas fa-plus fa-3x"></i>
-              </div>
-            </div>
-            <img class="img-fluid" src="img/portfolio/05-thumbnail.jpg" alt="">
-          </a>
-          <div class="portfolio-caption">
-            <h4>Faut-il ?</h4>
-            <p class="text-muted">Encore que j'ecrive combien de chose la?</p>
-          </div>
-        </div>
-        <div class="col-md-4 col-sm-6 portfolio-item">
-          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal6">
-            <div class="portfolio-hover">
-              <div class="portfolio-hover-content">
-                <i class="fas fa-plus fa-3x"></i>
-              </div>
-            </div>
-            <img class="img-fluid" src="img/portfolio/06-thumbnail.jpg" alt="">
-          </a>
-          <div class="portfolio-caption">
-            <h4>Enfin !</h4>
-            <p class="text-muted">C'est enfin la fin du diapo, oh non, y en a encore a faire !</p>
-          </div>
-        </div>
-      </div>
-    </div>
+        
+          
   </section>
 
   <!-- About -->
