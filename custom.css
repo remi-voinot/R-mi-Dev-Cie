@@ -7,6 +7,10 @@ body {
     font-size: larger;
 }
 
+.icon-div-center {
+    align-content: center;
+}
+
 .form-rounded {
     border-radius: 0.75em;
 }
