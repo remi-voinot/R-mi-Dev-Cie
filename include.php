@@ -41,5 +41,8 @@ function hheader($space = true)
 function headimport($title)
 {
     include("./import-head.php");
-    echo ("<title>" . $title . "</title>");
+    $page_dashboard = "Dev'&'Cie";
+    if($title != "ERR45689427857-NO-PAGE") {
+        echo("<title>".$title." - ".$page_dashboard."</title>");
+    };
 }

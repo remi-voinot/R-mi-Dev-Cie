@@ -6,7 +6,7 @@
     <div class="dc-fweight">
         <span class="dc dc-logo dc-2x dc-fweight color-y"></span>
     </div>
-    <div class="sidebar-brand-text mx-3 db-sidebar-text color-y">Dev'&'Cie</div>
+    <div class="sidebar-brand-text mx-3 db-sidebar-text color-y ttf-ks f-500">Dev'&'Cie</div>
 </a>
 
 <!-- Divider -->
@@ -17,6 +17,12 @@
     <a class="nav-link" href="index">
         <i class="fas fa-fw fa-tachometer-alt"></i>
         <span>Dashboard</span></a>
+</li>
+
+<li class="nav-item active">
+    <a class="nav-link" href="/">
+        <i class="fas fa-fw fa-home"></i>
+        <span>Acceuil du site</span></a>
 </li>
 
 <!-- Divider -->
@@ -147,7 +153,7 @@
     <div id="discord-var" class="collapse" aria-labelledby="headingUtilities" data-parent="#accordionSidebar">
         <div class="bg-white py-2 collapse-inner rounded">
             <h6 class="collapse-header">Utilisations :</h6>
-            <a class="collapse-item" href="utilities-color">Par équipe</a>
+            <a class="collapse-item" href="utilities-color">Par serveur</a>
             <a class="collapse-item" href="utilities-border">Par commande</a>
             <h6 class="collapse-header">Stats :</h6>
             <a class="collapse-item" href="utilities-color">Chat rank</a>

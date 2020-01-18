@@ -78,3 +78,10 @@
 .dc-freebot:before {
     content: "\dc3"
 }
+
+
+/*=============*/
+
+.ttf-ks {
+    font-family: 'Kaushan Script'
+}

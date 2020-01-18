@@ -33,8 +33,13 @@ require_once("./include.php");
       <div class="row">
         <div class="col-lg-12 text-center">
           <h2 class="section-heading text-uppercase">Pourquoi Dev'&'Cie ?</h2>
+<<<<<<< HEAD
           <h3 class="section-subheading text-muted">Notre entreprise a pour but de satisfaire gratuitement nos clients en leurs offrant des bots discord de qualité. <br/> 
           Nous vous proposons également des services payants qui vous permettront d'avoir vos propres bot personalisés. <br/> Vous avez aussi la possibilité de commander des sites internet.</h3>
+=======
+          <h3 class="section-subheading text-muted">Notre entreprise a pour but de satisfaire gratuitement nos clients en leurs offrant des bots discord de qualité.  
+          Nous vous proposons également des services payants qui vous permettront d'avoir vos propres bot personnalisés. Vous avez aussi la possibilité de commander des sites internet.</h3>
+>>>>>>> 45c50d91d0aba88b2748c13ec3e9777b293b4f71
         </div>
       </div>
       <div class="row text-center">
@@ -60,7 +65,7 @@ require_once("./include.php");
             <i class="fas fa-lock fa-stack-1x fa-inverse"></i>
           </span>
           <h4 class="service-heading">Sécurité oblige !</h4>
-          <p class="text-muted">Comme votre bot et vos sites sont susceptiblent de contenir des informations sensibles, nous garantissons leurs sécurités en emêpchant toute intrusion dans les fichiers. Les bases de données sont cryptés pour garantir une sécurité maximale.</p>
+          <p class="text-muted">Comme votre bot et vos sites sont susceptibles de contenir des informations sensibles, nous garantissons leurs sécurités en empêchant toute intrusion dans les fichiers. Les bases de données sont cryptés pour garantir une sécurité maximale.</p>
         </div>
       </div>
     </div>
@@ -87,7 +92,7 @@ require_once("./include.php");
           </a>
           <div class="portfolio-caption">
             <h4>Free Bot</h4>
-            <p class="text-muted">Un bot multifonction gratuit et de efficace !</p>
+            <p class="text-muted">Un bot multifonction gratuit et efficace !</p>
           </div>
         </div>
         <div class="col-md-4 col-sm-6 portfolio-item">
@@ -101,7 +106,7 @@ require_once("./include.php");
           </a>
           <div class="portfolio-caption">
             <h4>Premium Bot </h4>
-            <p class="text-muted">Accèdez à toutes les commandes VIP grace à Premium Bot !</p>
+            <p class="text-muted">Accèdez à toutes les commandes VIP grâce à Premium Bot !</p>
           </div>
         </div>
         <div class="col-md-4 col-sm-6 portfolio-item">
@@ -115,7 +120,7 @@ require_once("./include.php");
           </a>
           <div class="portfolio-caption">
             <h4>Custom Bot</h4>
-            <p class="text-muted">Avec Custom Bot concevez vos propre bot sur messure !</p>
+            <p class="text-muted">Avec Custom Bot concevez vos propre bot sur mesure !</p>
           </div>
         </div>
         
@@ -128,7 +133,11 @@ require_once("./include.php");
       <div class="row">
         <div class="col-lg-12 text-center">
           <h2 class="section-heading text-uppercase">Notre équipe</h2>
+<<<<<<< HEAD
           <h3 class="section-subheading text-muted">Nous vous présentons notre équipe de passionnés au service de nos clients </h3>
+=======
+          <h3 class="section-subheading text-muted">Notre équipe soudée travail en permanence a vous offrir la qualité !</h3>
+>>>>>>> 45c50d91d0aba88b2748c13ec3e9777b293b4f71
         </div>
       </div>
       <div class="row">
@@ -158,7 +167,11 @@ require_once("./include.php");
                   <h4 class="subheading">Co-Fondateur de Dev'&'Cie, Développeur Web et bot</h4>
                 </div>
                 <div class="timeline-body">
+<<<<<<< HEAD
                   <p class="text-muted">IL s'occupe de développement du site web Dev'&'Cie et il gère l'équipe de Développeur bot </p>
+=======
+                  <p class="text-muted">Il s'occupe de tout les sites internet ainsi que les bots discord </p>
+>>>>>>> 45c50d91d0aba88b2748c13ec3e9777b293b4f71
                 </div>
               </div>
             </li>
@@ -186,7 +199,11 @@ require_once("./include.php");
                   <h4 class="subheading">Graphiste</h4>
                 </div>
                 <div class="timeline-body">
+<<<<<<< HEAD
                   <p class="text-muted">Thibault graphiste de père en fils </p>
+=======
+                  <p class="text-muted">Vous utilisez notre plateforme, vous nous permettez de vivre de notre passion et en plus de vous mettre a disposition des bots avec des fonctionnalités inédites et exceptionnel !</p>
+>>>>>>> 45c50d91d0aba88b2748c13ec3e9777b293b4f71
                 </div>
               </div>
             </li>
