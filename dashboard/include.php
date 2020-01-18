@@ -3,6 +3,10 @@ function sidebar()
 {
     include("./sidebar.inc.php");
 };
+function topbar()
+{
+    include("./topbar.inc.php");
+};
 function importh(string $title = "ERR45689427857-NO-PAGE")
 {
     include_once("./import-head.php");
