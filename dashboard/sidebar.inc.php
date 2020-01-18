@@ -4,9 +4,9 @@
 <!-- Sidebar - Brand -->
 <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.php">
     <div class="dc-fweight">
-        <span class="dc dc-logo dc-2x dc-fweight"></span>
+        <span class="dc dc-logo dc-2x dc-fweight color-y"></span>
     </div>
-    <div class="sidebar-brand-text mx-3 db-sidebar-text">Dev'&'Cie</div>
+    <div class="sidebar-brand-text mx-3 db-sidebar-text color-y">Dev'&'Cie</div>
 </a>
 
 <!-- Divider -->
