@@ -1,6 +1,35 @@
+@import url("./src/fontc.css");
+@import url("./src/segoe-ui-font/style.css");
+@import url("./src/flag-font/css/flag-icon.css");
+@import url('https://fonts.googleapis.com/css?family=Nunito&display=swap');
+.segoe {
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.pad-txt-shop {
+    padding-left: 10px;
+    padding-right: 10px
+}
+
+.f-s-75 {
+    font-size: 0.75em;
+}
+
+.f-s-70 {
+    font-size: 0.70em;
+}
+
+.segoi {
+    font-family: "Nunito", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
 html,
 body {
     height: 100%
+}
+
+.shop-t-f {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
 }
 
 .d-flash {
@@ -74,6 +103,13 @@ body {
     top: 50%;
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
+}
+
+.space-1em {
+    min-width: 1px;
+    width: 1px;
+    min-height: 1em;
+    height: 1em;
 }
 
 .space-10px {
@@ -156,10 +192,6 @@ body {
     .md-m-w-135 {
         max-width: 135%;
     }
-    .shop-frame {
-        margin-left: 3%;
-        margin-right: 3%;
-    }
     .sm-hide {
         display: initial;
     }
@@ -174,9 +206,6 @@ body {
     }
     .md-undrlin {
         border-bottom: 1px solid rgb(59, 59, 59);
-    }
-    .sm-spacer {
-        display: none;
     }
 }
 
@@ -218,12 +247,6 @@ body {
         min-height: 10px;
         height: 10px;
     }
-    .sm-spacer {
-        min-width: 1px;
-        width: 1px;
-        min-height: 20px;
-        height: 20px;
-    }
 }
 
 @media (max-height:570px),
@@ -233,6 +256,39 @@ body {
     }
     .mobile-col-safe-f {
         margin-top: initial;
+    }
+}
+
+@media (max-width:992px) {
+    .sm-h-180px {
+        min-height: 180px;
+        height: 180px;
+        min-width: 10px;
+    }
+    .shop-frame {
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+    .sm-spacer {
+        min-width: 1px;
+        width: 1px;
+        min-height: 20px;
+        height: 20px;
+    }
+}
+
+@media (min-width:992px) {
+    .sm-spacer {
+        min-width: 0;
+        max-width: 0;
+        width: 0;
+        min-height: 0;
+        max-height: 0;
+        height: 0;
+        display: none;
+    }
+    .lg-hide {
+        display: none;
     }
 }
 
@@ -254,19 +310,17 @@ body {
     }
 }
 
-.soulignement{
+.soulignement {
     text-decoration: none;
 }
 
-.bouton{
-	background-color: black;
-	color: white;
-	border: black solid;
-	border-radius: 100px;
+.bouton {
+    background-color: black;
+    color: white;
+    border: black solid;
+    border-radius: 100px;
     margin-left: 15.5%;
     text-align: center;
     width: 70%;
     font-size: 70%;
-
-
 }

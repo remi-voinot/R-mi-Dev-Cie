@@ -22,57 +22,51 @@ require_once("./include.php");
 
     <?php hheader() ?>
 
-    <div class="container h-100 o1">
+    <div class="container h-100 o1 ">
         <div class="row o2 textc" style='font-family: "Myriad pro Semibold"; font-weight: 550; font-size: 1.5em'>
-            <div class="col-sm-12 col-md-4 txtc">
+            <div class="col-sm-12 col-lg-4 txtc">
                 <div class="shop-frame">
                     <div class="space-10px"></div>
-                    FreeBot
+                    <span>FreeBot</span>
                     <div class="shop-separate"></div>
                     <div><span class="dc dc-freebot dc-2x"></span></div>
-                    <div>FreeBot est un bot multifonction, gratuit ! IL a été conçut pour les personnes voulant un bot de qualité sans devoir débourser la moindre somme d'argent.
-                    Ce robot possède une grande gamme de commandes tel que les commandes de modération, de musique ou même les commandes utilitaire.   
-                    </div><br/>
-                    <a class="soulignement" href="#">
-                <div class="bouton">ACCÈDEZ MAINTENANT </div>
-            </a>
+                    <div class="pad-txt-shop"><span class="segoi f-s-75"> FreeBot est un bot multifonction, gratuit ! Il a été conçut pour les personnes voulant un bot de qualité sans devoir débourser la moindre somme d'argent. Ce robot possède une grande gamme de commandes tel que les commandes de modération, de musique ou même des commandes utilitaires.</span></div>
+                    <div class="space-1em"></div>
+                    <button type="button" class="btn btn-secondaryy">L'ajouter à mon serveur</button>
                     <div class="space-10px"></div>
                 </div>
             </div>
-            <div class="sm-spacer"></div>
-            <div class="col-sm-12 col-md-4 txtc">
+            <div class="sm-spacer lg-hide"></div>
+            <div class="col-sm-12 col-lg-4 txtc">
                 <div class="shop-frame">
                     <div class="space-10px"></div>
-                    PremiumBot
+                    <span>PremiumBot</span>
                     <div class="shop-separate"></div>
                     <div><span class="dc dc-premiumbot dc-2x"></span></div>
-                    <div>PremiumBot permet au utilisateur de FreeBot d'accèder à l'intégralité des commandes VIP. Vous pourrez ansi à un prix très abordable accèder à des commandes
-                    que vous ne verez jamais sur un autre bot que celui-ci ! De plus vous aurez la possibilité d'accèder au rôle client bot sur notre serveur discord. </div><br/> 
-                    <a class="soulignement" href="#">
-                <div class="bouton">ACCÈDEZ MAINTENANT </div>
-            </a>
+                    <div class="pad-txt-shop"><span class="segoi f-s-75"> PremiumBot permet aux utilisateurs de FreeBot d'accéder à l'intégralité des commandes VIP. Vous pourrez ainsi à un prix très abordable accéder à des commandes que vous ne verez jamais sur un autre bot que celui-ci ! De plus vous aurez la possibilité d'accéder au rôle client bot sur notre serveur discord. </span></div>
+                    <div class="space-1em"></div>
+                    <button type="button" class="btn btn-secondaryy">Débloquer les options</button>
                     <div class="space-10px"></div>
                 </div>
             </div>
-            
-            <div class="sm-spacer"></div>
-            <div class="col-sm-12 col-md-4 txtc">
+
+            <div class="sm-spacer lg-hide"></div>
+            <div class="col-sm-12 col-lg-4 txtc">
                 <div class="shop-frame">
                     <div class="space-10px"></div>
-                    CustomBot
+                    <span>CustomBot</span>
                     <div class="shop-separate"></div>
                     <div><span class="dc dc-freebot dc-2x"></span></div>
-                    <div>Vous n'etes pas encore satisfait, vous cherchez un bot sur mesure qui répond entièrement à vos attente ? Ne vous inquiètez pas, CustomBot est fait pour vous ! 
-                    Un prix attractif, commandez rapidement et reçevait votre bot sur mesure en seulement 1 semaines. Alors qu'attendez vous ?  </div><br/>
-                    <a class="soulignement" href="#">
-                <div class="bouton">ACCÈDEZ MAINTENANT </div>
-            </a>
+                    <div class="pad-txt-shop"><span class="segoi f-s-70"> Vous n'êtes pas encore satisfait, vous cherchez un bot sur mesure qui répond entièrement à vos attentes ? Ne vous inquiétez pas, CustomBot est fait pour vous ! Un prix attractif, commandez rapidement et recevait votre bot sur mesure et totalement personnalisé en seulement 1 semaines. Alors qu'attendez vous ?</span></div>
+                    <div class="space-1em"></div>
+                    <button type="button" class="btn btn-secondaryy">Acheter maintenant</button>
                     <div class="space-10px"></div>
                 </div>
             </div>
+
         </div>
     </div>
-    <?php footer(); ?>
+    <?php footer() ?>
 
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
