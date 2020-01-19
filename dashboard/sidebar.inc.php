@@ -42,7 +42,7 @@
         <div class="bg-white py-2 collapse-inner rounded">
             <h6 class="collapse-header">Informations :</h6>
             <a class="collapse-item" href="profile">Mon profile</a>
-            <a class="collapse-item" href="cards">Mot de passe</a>
+            <a class="collapse-item" href="new-password">Mot de passe</a>
             <a class="collapse-item" href="cards">Services connectés</a>
             <h6 class="collapse-header">Mes souscriptions :</h6>
             <a class="collapse-item" href="buttons">Solde / Argent</a>

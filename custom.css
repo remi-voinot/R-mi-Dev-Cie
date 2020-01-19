@@ -2,6 +2,11 @@
 @import url("./src/segoe-ui-font/style.css");
 @import url("./src/flag-font/css/flag-icon.css");
 @import url('https://fonts.googleapis.com/css?family=Nunito&display=swap');
+.btn-place {
+    height: 38px;
+    min-width: 10px
+}
+
 .segoe {
     font-family: 'Segoe UI', sans-serif;
 }
@@ -41,6 +46,13 @@ body {
     margin-left: 0;
     margin-bottom: 0;
     margin-right: 0;
+}
+
+.no-pad {
+    padding-top: 0;
+    padding-left: 0;
+    padding-bottom: 0;
+    padding-right: 0;
 }
 
 .vert-align {
@@ -210,6 +222,10 @@ body {
 }
 
 @media (max-width:768px) {
+    .sm-no-pad-sides {
+        padding-left: 0;
+        padding-right: 0;
+    }
     .sm-no-marg {
         margin-top: 0;
         margin-left: 0;
