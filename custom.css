@@ -113,6 +113,12 @@ body {
 }
 
 @media (min-width:768px) {
+    .md-pad-30 {
+        padding-top: 30px;
+        padding-left: 30px;
+        padding-bottom: 30px;
+        padding-right: 30px;
+    }
     .md-m-w-135 {
         max-width: 135%;
     }
@@ -141,6 +147,22 @@ body {
 }
 
 @media (max-width:768px) {
+    .sm-no-marg {
+        margin-top: 0;
+        margin-left: 0;
+        margin-bottom: 0;
+        margin-right: 0;
+    }
+    .sm-no-pad {
+        padding-top: 0;
+        padding-left: 0;
+        padding-bottom: 0;
+        padding-right: 0;
+    }
+    .sm-left-rounded-input {
+        border-top-left-radius: 0.3em !important;
+        border-bottom-left-radius: 0.3em !important;
+    }
     .m-w-110 {
         max-width: 110%;
     }

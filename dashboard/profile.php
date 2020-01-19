@@ -44,25 +44,26 @@ require_once("./include.php");
                   <h6 class="m-0 font-weight-bold text-primary">T0nPscEd0</h6>
                 </div>
                 <div class="card-body">
-                  <div class="row">
-                    <img src="/img/logos/avatar-gratuit-w.png" class="r-img m-w-110 col-sm-12 col-md-4" alt="">
+                  <div class="row no-marg">
+                    <img src="/img/logos/avatar-gratuit-w.png" class="r-img m-w-110 col-sm-12 col-md-4 md-pad-30" alt="">
                     <div class="col-12 col-md-8 pad-10p">
-                      <div class="row h-100">
-                        <div class="vert-align" style="width: 100%">
-                          <div class="input-group input-group-lg col-12">
-                            <div class="input-group-prepend">
+                      <div class="row h-100 sm-no-marg sm-no-pad">
+                        <div class="vert-align sm-no-marg sm-no-pad" style="width: 100%">
+                          <div class="col-12 space-10px md-hide"></div>
+                          <div class="input-group input-group-lg col-12 sm-left-rounded-input sm-no-pad">
+                            <div class="input-group-prepend sm-hide">
                               <span class="input-group-text" id="pscedo">Pscedo</span>
                             </div>
-                            <input type="text" class="form-control" aria-label="pscedo" aria-describedby="inputGroup-sizing-lg">
+                            <input type="text" class="form-control sm-left-rounded-input" aria-label="pscedo" aria-describedby="inputGroup-sizing-lg">
                           </div>
                           <div class="col-12 space-10px"></div>
-                          <div class="input-group input-group-default col-8">
-                            <div class="input-group-prepend">
+                          <div class="input-group input-group-default col-12 col-md-8 sm-left-rounded-input sm-no-pad">
+                            <div class="input-group-prepend sm-hide">
                               <span class="input-group-text" id="about">About</span>
                             </div>
-                            <input type="text" class="form-control" aria-label="about" aria-describedby="inputGroup-sizing-default">
+                            <input type="text" class="form-control sm-left-rounded-input" aria-label="about" aria-describedby="inputGroup-sizing-default">
                           </div>
-                          <div class="col-4"></div>
+                          <div class="col-md-4"></div>
                         </div>
                       </div>
                     </div>
