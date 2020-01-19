@@ -101,7 +101,7 @@
 <li class="nav-item">
     <a class="nav-link" href="charts">
         <i class="fas fa-fw fa-chart-area"></i>
-        <span>Visites / N° Membres</span></a>
+        <span>Statistiques</span></a>
 </li>
 
 <!-- Nav Item - Tables -->

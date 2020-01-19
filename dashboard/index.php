@@ -7,9 +7,9 @@ require_once("./include.php");
 <head>
 
 
-<?php 
-  importh("Dashboard");
-  ?>
+    <?php
+    importh("Dashboard");
+    ?>
 
 </head>
 
@@ -28,14 +28,14 @@ require_once("./include.php");
             <!-- Main Content -->
             <div id="content">
 
-            <?php topbar() ?>
+                <?php topbar() ?>
                 <!-- Begin Page Content -->
                 <div class="container-fluid">
 
                     <!-- Page Heading -->
                     <div class="d-sm-flex align-items-center justify-content-between mb-4">
                         <h1 class="h3 mb-0 text-gray-800">Dashboard</h1>
-                        <a href="#" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"><i class="fas fa-download fa-sm text-white-50"></i> Generate Report</a>
+                        <a href="#" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"><i class="fas fa-phone-square-alt fa-sm text-white-50"></i>Aide / Support</a>
                     </div>
 
                     <!-- Content Row -->
@@ -47,8 +47,8 @@ require_once("./include.php");
                                 <div class="card-body">
                                     <div class="row no-gutters align-items-center">
                                         <div class="col mr-2">
-                                            <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">Earnings (Monthly)</div>
-                                            <div class="h5 mb-0 font-weight-bold text-gray-800">$55,000</div>
+                                            <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">Mes bots</div>
+                                            <div class="h5 mb-0 font-weight-bold text-gray-800">3 Premium<br>6 Custom</div>
                                         </div>
                                         <div class="col-auto">
                                             <i class="fas fa-calendar fa-2x text-gray-300"></i>
@@ -64,8 +64,8 @@ require_once("./include.php");
                                 <div class="card-body">
                                     <div class="row no-gutters align-items-center">
                                         <div class="col mr-2">
-                                            <div class="text-xs font-weight-bold text-success text-uppercase mb-1">Earnings (Annual)</div>
-                                            <div class="h5 mb-0 font-weight-bold text-gray-800">$215,000</div>
+                                            <div class="text-xs font-weight-bold text-success text-uppercase mb-1">Mon solde</div>
+                                            <div class="h5 mb-0 font-weight-bold text-gray-800">60.23 €</div>
                                         </div>
                                         <div class="col-auto">
                                             <i class="fas fa-dollar-sign fa-2x text-gray-300"></i>
@@ -81,14 +81,14 @@ require_once("./include.php");
                                 <div class="card-body">
                                     <div class="row no-gutters align-items-center">
                                         <div class="col mr-2">
-                                            <div class="text-xs font-weight-bold text-info text-uppercase mb-1">Tasks</div>
+                                            <div class="text-xs font-weight-bold text-info text-uppercase mb-1">Stockage utilisé</div>
                                             <div class="row no-gutters align-items-center">
                                                 <div class="col-auto">
-                                                    <div class="h5 mb-0 mr-3 font-weight-bold text-gray-800">50%</div>
+                                                    <div class="h5 mb-0 mr-3 font-weight-bold text-gray-800">43.6%</div>
                                                 </div>
                                                 <div class="col">
                                                     <div class="progress progress-sm mr-2">
-                                                        <div class="progress-bar bg-info" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                                                        <div class="progress-bar bg-info" role="progressbar" style="width: 43.6%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -107,11 +107,11 @@ require_once("./include.php");
                                 <div class="card-body">
                                     <div class="row no-gutters align-items-center">
                                         <div class="col mr-2">
-                                            <div class="text-xs font-weight-bold text-warning text-uppercase mb-1">Pending Requests</div>
-                                            <div class="h5 mb-0 font-weight-bold text-gray-800">18</div>
+                                            <div class="text-xs font-weight-bold text-warning text-uppercase mb-1">Mes Sites</div>
+                                            <div class="h5 mb-0 font-weight-bold text-gray-800">3</div>
                                         </div>
                                         <div class="col-auto">
-                                            <i class="fas fa-comments fa-2x text-gray-300"></i>
+                                            <i class="fas fa-file-code fa-2x text-gray-300"></i>
                                         </div>
                                     </div>
                                 </div>
@@ -156,17 +156,17 @@ require_once("./include.php");
                             <div class="card shadow mb-4">
                                 <!-- Card Header - Dropdown -->
                                 <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
-                                    <h6 class="m-0 font-weight-bold text-primary">Revenue Sources</h6>
+                                    <h6 class="m-0 font-weight-bold text-primary">Utilisation du stockage</h6>
                                     <div class="dropdown no-arrow">
                                         <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                             <i class="fas fa-ellipsis-v fa-sm fa-fw text-gray-400"></i>
                                         </a>
                                         <div class="dropdown-menu dropdown-menu-right shadow animated--fade-in" aria-labelledby="dropdownMenuLink">
-                                            <div class="dropdown-header">Dropdown Header:</div>
-                                            <a class="dropdown-item" href="#">Action</a>
-                                            <a class="dropdown-item" href="#">Another action</a>
+                                            <div class="dropdown-header">Trier par :</div>
+                                            <a class="dropdown-item" href="#">- Site</a>
+                                            <a class="dropdown-item" href="#">- Service</a>
                                             <div class="dropdown-divider"></div>
-                                            <a class="dropdown-item" href="#">Something else here</a>
+                                            <a class="dropdown-item" href="#">Voir les statistiques</a>
                                         </div>
                                     </div>
                                 </div>
@@ -177,14 +177,14 @@ require_once("./include.php");
                                     </div>
                                     <div class="mt-4 text-center small">
                                         <span class="mr-2">
-                      <i class="fas fa-circle text-primary"></i> Direct
-                    </span>
+                                            <i class="fas fa-circle text-primary"></i> HTML/CSS
+                                        </span>
                                         <span class="mr-2">
-                      <i class="fas fa-circle text-success"></i> Social
-                    </span>
+                                            <i class="fas fa-circle text-success"></i> PHP
+                                        </span>
                                         <span class="mr-2">
-                      <i class="fas fa-circle text-info"></i> Referral
-                    </span>
+                                            <i class="fas fa-circle text-info"></i> MYSQL
+                                        </span>
                                     </div>
                                 </div>
                             </div>
@@ -200,26 +200,26 @@ require_once("./include.php");
                             <!-- Project Card Example -->
                             <div class="card shadow mb-4">
                                 <div class="card-header py-3">
-                                    <h6 class="m-0 font-weight-bold text-primary">Projects</h6>
+                                    <h6 class="m-0 font-weight-bold text-primary">Offres Web / Stockage utilisé</h6>
                                 </div>
-                                <div class="card-body">
-                                    <h4 class="small font-weight-bold">Server Migration <span class="float-right">20%</span></h4>
+                                <div class="card-body">macommu.fr <span class="float-right">46%</span></h4>
                                     <div class="progress mb-4">
-                                        <div class="progress-bar bg-danger" role="progressbar" style="width: 20%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
+                                        <div class="progress-bar bg-danger" role="progressbar" style="width: 46%" aria-valuenow="46" aria-valuemin="0" aria-valuemax="100"></div>
                                     </div>
-                                    <h4 class="small font-weight-bold">Sales Tracking <span class="float-right">40%</span></h4>
+                                    <h4 class="small font-weight-bold">c-la-fete.com <span class="float-right">13.6%</span></h4>
                                     <div class="progress mb-4">
-                                        <div class="progress-bar bg-warning" role="progressbar" style="width: 40%" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
+                                        <div class="progress-bar bg-warning" role="progressbar" style="width: 13.6%" aria-valuenow="13.6" aria-valuemin="0" aria-valuemax="100"></div>
                                     </div>
-                                    <h4 class="small font-weight-bold">Customer Database <span class="float-right">60%</span></h4>
+                                    <h4 class="small font-weight-bold">monsite.devandcie.fr <span class="float-right">69%</span></h4>
                                     <div class="progress mb-4">
-                                        <div class="progress-bar" role="progressbar" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+                                        <div class="progress-bar" role="progressbar" style="width: 69%" aria-valuenow="69" aria-valuemin="0" aria-valuemax="100"></div>
                                     </div>
-                                    <h4 class="small font-weight-bold">Payout Details <span class="float-right">80%</span></h4>
+                                    <hr>
+                                    <h4 class="small font-weight-bold">forum.macommu.fr <span class="float-right">Attention ! - 95%</span></h4>
                                     <div class="progress mb-4">
-                                        <div class="progress-bar bg-info" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                                        <div class="progress-bar bg-info" role="progressbar" style="width: 95%" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
                                     </div>
-                                    <h4 class="small font-weight-bold">Account Setup <span class="float-right">Complete!</span></h4>
+                                    <h4 class="small font-weight-bold">monforum.de <span class="float-right">Plus de place ! - 99.97%</span></h4>
                                     <div class="progress">
                                         <div class="progress-bar bg-success" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
                                     </div>
@@ -317,7 +317,7 @@ require_once("./include.php");
             </div>
             <!-- End of Main Content -->
 
-            <?php footer()?>
+            <?php footer() ?>
 
         </div>
         <!-- End of Content Wrapper -->
@@ -337,8 +337,8 @@ require_once("./include.php");
                 <div class="modal-header">
                     <h5 class="modal-title" id="exampleModalLabel">Ready to Leave?</h5>
                     <button class="close" type="button" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">×</span>
-          </button>
+                        <span aria-hidden="true">×</span>
+                    </button>
                 </div>
                 <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
                 <div class="modal-footer">
