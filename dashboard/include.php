@@ -1,4 +1,13 @@
 <?php
+require_once("../tools/FlashMessages.php");
+if(!isset($_SESSION)) {
+    session_start();
+}
+function flashvar()
+{
+    $msg = new \Tools\FlashMessages();
+    return $msg;
+}
 function sidebar()
 {
     include("./sidebar.inc.php");

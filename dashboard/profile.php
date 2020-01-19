@@ -50,29 +50,28 @@ require_once("./include.php");
                       <div class="row h-100 sm-no-marg sm-no-pad">
                         <div class="vert-align sm-no-marg sm-no-pad" style="width: 100%">
                           <div class="col-12 space-10px md-hide"></div>
-                          <div class="input-group input-group-lg col-12 sm-left-rounded-input sm-no-pad">
+                          <div class="input-group input-group-default col-12 sm-left-rounded-input sm-no-pad">
                             <div class="input-group-prepend sm-hide">
                               <span class="input-group-text" id="pseudo">Pseudo</span>
                             </div>
                             <input type="text" class="form-control sm-left-rounded-input md-placeholder-hide" placeholder="Pseudo" aria-label="pseudo" aria-describedby="inputGroup-sizing-lg">
                           </div>
                           <div class="col-12 space-10px"></div>
-                          <div class="input-group input-group-default col-12 col-md-8 sm-left-rounded-input sm-no-pad">
-                            <div class="input-group-prepend sm-hide">
-                              <span class="input-group-text" id="about">About</span>
+                          <div class="input-group input-group-default col-12 sm-left-rounded-input sm-no-pad">
+                            <div class="input-group-prepend">
+                              <span class="input-group-text">About</span>
                             </div>
-                            <input type="text" class="form-control sm-left-rounded-input md-placeholder-hide" placeholder="A propos de moi" aria-label="about" aria-describedby="inputGroup-sizing-default">
+                            <textarea class="form-control" style="font-size: 0.5em"></textarea>
                           </div>
-                          <div class="col-md-4"></div>
                           <div class="col-12 space-10px"></div>
                           <div class="input-group mb-3 col-12 sm-left-rounded-input sm-no-pad">
                             <div class="input-group-prepend sm-hide">
                               <label class="input-group-text" for="inputGroupSelect01">Pays</label>
                             </div>
                             <select class='custom-select' id='states-select'>
-                              <option disabled  >Séléctionnez votre <br>pays de résidence :</option>
+                              <option disabled>Séléctionnez votre <br>pays de résidence :</option>
                               <option value='fr' selected>France</option>
-                              <option disabled  >==============</option>
+                              <option disabled>==============</option>
                               <option value='dz'>Algérie</option>
                               <option value='de'>Allemagne</option>
                               <option value='at'>Autriche</option>
@@ -91,9 +90,18 @@ require_once("./include.php");
                               <option value='tn'>Tunisie</option>
                               <option value='us'>USA (Etats Unis)</option>
                               <option value='gb'>United-Kingdoms</option>
-                              <option disabled  >==============</option>
+                              <option disabled>==============</option>
                               <option value='zz'>Autre</option>
                             </select>
+                          </div>
+                          <div class="col-12 space-10px"></div>
+                          <div class="col-12 col-md-12">
+                            <a href="#" class="btn btn-success btn-icon-split float-right">
+                              <span class="icon text-white-50">
+                                <i class="fas fa-check"></i>
+                              </span>
+                              <span class="text">Enregister les modifications</span>
+                            </a>
                           </div>
                         </div>
                       </div>
