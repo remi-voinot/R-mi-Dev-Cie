@@ -113,6 +113,26 @@ body {
 }
 
 @media (min-width:768px) {
+    .md-placeholder-hide::-webkit-input-placeholder {
+        /* WebKit browsers */
+        color: transparent;
+    }
+    .md-placeholder-hide:-moz-placeholder {
+        /* Mozilla Firefox 4 to 18 */
+        color: transparent;
+    }
+    .md-placeholder-hide::-moz-placeholder {
+        /* Mozilla Firefox 19+ */
+        color: transparent;
+    }
+    .md-placeholder-hide::placeholder {
+        /* Mozilla Firefox 19+ */
+        color: transparent;
+    }
+    .md-placeholder-hide :-ms-input-placeholder {
+        /* Internet Explorer 10+ */
+        color: transparent;
+    }
     .md-pad-30 {
         padding-top: 30px;
         padding-left: 30px;
