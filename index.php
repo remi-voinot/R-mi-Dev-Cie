@@ -231,8 +231,8 @@ require_once("./include.php");
         <div class="col-sm-4">
           <div class="team-member">
             <img class="mx-auto rounded-circle" src="img/team/1.jpg" alt="">
-            <h4>Pers 1</h4>
-            <p class="text-muted">Admin</p>
+            <h4>Martisse</h4>
+            <p class="text-muted">Web support</p>
             <ul class="list-inline social-buttons">
               <li class="list-inline-item">
                 <a href="#">
@@ -303,7 +303,7 @@ require_once("./include.php");
       </div>
       <div class="row">
         <div class="col-lg-8 mx-auto text-center">
-          <p class="large text-muted">Je suis vraiment obligé de faire ça ?</p>
+          
         </div>
       </div>
     </div>

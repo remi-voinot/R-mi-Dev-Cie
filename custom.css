@@ -219,3 +219,20 @@ body {
         margin-top: initial;
     }
 }
+
+.soulignement{
+    text-decoration: none;
+}
+
+.bouton{
+	background-color: black;
+	color: white;
+	border: black solid;
+	border-radius: 100px;
+    margin-left: 15.5%;
+    text-align: center;
+    width: 70%;
+    font-size: 70%;
+
+
+}

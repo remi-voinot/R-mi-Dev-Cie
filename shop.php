@@ -3,7 +3,7 @@ session_start();
 require_once("./include.php");
 ?>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
 <head>
 
@@ -30,7 +30,12 @@ require_once("./include.php");
                     FreeBot
                     <div class="shop-separate"></div>
                     <div><span class="dc dc-freebot dc-2x"></span></div>
-                    <div>Un bot simple et gratuit</div>
+                    <div>FreeBot est un bot multifonction, gratuit ! IL a été conçut pour les personnes voulant un bot de qualité sans devoir débourser la moindre somme d'argent.
+                    Ce robot possède une grande gamme de commandes tel que les commandes de modération, de musique ou même les commandes utilitaire.   
+                    </div><br/>
+                    <a class="soulignement" href="#">
+                <div class="bouton">ACCÈDEZ MAINTENANT </div>
+            </a>
                     <div class="space-10px"></div>
                 </div>
             </div>
@@ -41,10 +46,15 @@ require_once("./include.php");
                     PremiumBot
                     <div class="shop-separate"></div>
                     <div><span class="dc dc-premiumbot dc-2x"></span></div>
-                    <div>Un bot payant mais très facile a utiliser et des options inédites</div>
+                    <div>PremiumBot permet au utilisateur de FreeBot d'accèder à l'intégralité des commandes VIP. Vous pourrez ansi à un prix très abordable accèder à des commandes
+                    que vous ne verez jamais sur un autre bot que celui-ci ! De plus vous aurez la possibilité d'accèder au rôle client bot sur notre serveur discord. </div><br/> 
+                    <a class="soulignement" href="#">
+                <div class="bouton">ACCÈDEZ MAINTENANT </div>
+            </a>
                     <div class="space-10px"></div>
                 </div>
             </div>
+            
             <div class="sm-spacer"></div>
             <div class="col-sm-12 col-md-4 txtc">
                 <div class="shop-frame">
@@ -52,6 +62,11 @@ require_once("./include.php");
                     CustomBot
                     <div class="shop-separate"></div>
                     <div><span class="dc dc-freebot dc-2x"></span></div>
+                    <div>Vous n'etes pas encore satisfait, vous cherchez un bot sur mesure qui répond entièrement à vos attente ? Ne vous inquiètez pas, CustomBot est fait pour vous ! 
+                    Un prix attractif, commandez rapidement et reçevait votre bot sur mesure en seulement 1 semaines. Alors qu'attendez vous ?  </div><br/>
+                    <a class="soulignement" href="#">
+                <div class="bouton">ACCÈDEZ MAINTENANT </div>
+            </a>
                     <div class="space-10px"></div>
                 </div>
             </div>
