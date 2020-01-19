@@ -3,6 +3,22 @@ body {
     height: 100%
 }
 
+.no-marg {
+    margin-top: 0;
+    margin-left: 0;
+    margin-bottom: 0;
+    margin-right: 0;
+}
+
+.vert-align {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.marg-10p {
+    padding: 10% 10% 10% 10%;
+}
+
 .r-img {
     border-radius: 50%;
 }
@@ -125,8 +141,8 @@ body {
 }
 
 @media (max-width:768px) {
-    .m-w-100 {
-        max-width: 100%;
+    .m-w-110 {
+        max-width: 110%;
     }
     .sm-hide {
         display: none;

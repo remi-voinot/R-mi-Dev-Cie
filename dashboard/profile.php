@@ -41,15 +41,30 @@ require_once("./include.php");
 
               <div class="card shadow mb-4">
                 <div class="card-header py-3 bg-gray-300">
-                  <h6 class="m-0 font-weight-bold text-primary">Circle Buttons</h6>
+                  <h6 class="m-0 font-weight-bold text-primary">T0nPscEd0</h6>
                 </div>
                 <div class="card-body">
                   <div class="row">
-                    <div class="col-12 col-md-2">
-                      <img src="/img/logos/avatar-gratuit-w.png" class="r-img m-w-100 md-m-w-135" style="" alt="">
-                    </div>
-                    <div class="col-12 col-md-10">
-
+                    <img src="/img/logos/avatar-gratuit-w.png" class="r-img m-w-110 col-sm-12 col-md-4" alt="">
+                    <div class="col-12 col-md-8 pad-10p">
+                      <div class="row h-100">
+                        <div class="vert-align" style="width: 100%">
+                          <div class="input-group input-group-lg col-12">
+                            <div class="input-group-prepend">
+                              <span class="input-group-text" id="pscedo">Pscedo</span>
+                            </div>
+                            <input type="text" class="form-control" aria-label="pscedo" aria-describedby="inputGroup-sizing-lg">
+                          </div>
+                          <div class="col-12 space-10px"></div>
+                          <div class="input-group input-group-default col-8">
+                            <div class="input-group-prepend">
+                              <span class="input-group-text" id="about">About</span>
+                            </div>
+                            <input type="text" class="form-control" aria-label="about" aria-describedby="inputGroup-sizing-default">
+                          </div>
+                          <div class="col-4"></div>
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
