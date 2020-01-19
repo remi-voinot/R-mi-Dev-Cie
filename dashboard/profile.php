@@ -1,12 +1,13 @@
 <?php
 require_once("./include.php");
-?><!DOCTYPE html>
+?>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
 
-  <?php 
-  importh("Error");
+  <?php
+  importh("Mon profil");
   ?>
 
 </head>
@@ -16,7 +17,7 @@ require_once("./include.php");
   <!-- Page Wrapper -->
   <div id="wrapper">
 
-  <?php
+    <?php
     sidebar();
     ?>
 
@@ -31,24 +32,40 @@ require_once("./include.php");
         <!-- Begin Page Content -->
         <div class="container-fluid">
 
-          <!-- 404 Error Text -->
-          <div class="text-center">
-            <div class="error mx-auto" data-text="404">404</div>
-            <p class="lead text-gray-800 mb-5">Page Not Found</p>
-            <p class="text-gray-500 mb-0">It looks like you found a glitch in the matrix...</p>
-            <a href="index.html">&larr; Back to Dashboard</a>
+          <!-- Page Heading -->
+          <h1 class="h3 mb-4 text-gray-800">Mon profile</h1>
+
+          <div class="row">
+
+            <div class="col-12">
+
+              <div class="card shadow mb-4">
+                <div class="card-header py-3 bg-gray-300">
+                  <h6 class="m-0 font-weight-bold text-primary">Circle Buttons</h6>
+                </div>
+                <div class="card-body">
+                  <div class="row">
+                    <div class="col-12 col-md-2">
+                      <img src="/img/logos/avatar-gratuit-w.png" class="r-img m-w-100 md-m-w-135" style="" alt="">
+                    </div>
+                    <div class="col-12 col-md-10">
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+
           </div>
 
         </div>
-        <!-- /.container-fluid -->
 
       </div>
-      <!-- End of Main Content -->
-
-      <?php footer()?>
+      <?php footer() ?>
 
     </div>
-    <!-- End of Content Wrapper -->
 
   </div>
   <!-- End of Page Wrapper -->

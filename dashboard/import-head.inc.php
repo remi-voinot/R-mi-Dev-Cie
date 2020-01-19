@@ -11,5 +11,3 @@
 <link href="css/sb-admin-2.min.css" rel="stylesheet">
 <link rel="stylesheet" href="../custom.css">
 <link rel="stylesheet" href="../src/fontc.css">
-<link rel="stylesheet" href="../custom.css">
-<link rel="stylesheet" href="dash-custom.css">

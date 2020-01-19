@@ -41,7 +41,7 @@
     <div id="user-part" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
         <div class="bg-white py-2 collapse-inner rounded">
             <h6 class="collapse-header">Informations :</h6>
-            <a class="collapse-item" href="buttons">Mon profile</a>
+            <a class="collapse-item" href="profile">Mon profile</a>
             <a class="collapse-item" href="cards">Mot de passe</a>
             <a class="collapse-item" href="cards">Services connectés</a>
             <h6 class="collapse-header">Mes souscriptions :</h6>

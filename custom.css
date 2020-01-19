@@ -3,6 +3,10 @@ body {
     height: 100%
 }
 
+.r-img {
+    border-radius: 50%;
+}
+
 .color-y {
     color: #FED136;
 }
@@ -93,6 +97,9 @@ body {
 }
 
 @media (min-width:768px) {
+    .md-m-w-135 {
+        max-width: 135%;
+    }
     .shop-frame {
         margin-left: 3%;
         margin-right: 3%;
@@ -118,6 +125,9 @@ body {
 }
 
 @media (max-width:768px) {
+    .m-w-100 {
+        max-width: 100%;
+    }
     .sm-hide {
         display: none;
     }
