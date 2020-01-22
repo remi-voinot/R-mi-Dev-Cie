@@ -57,7 +57,7 @@
                     <!-- Dropdown - Alerts -->
                     <div class="dropdown-list dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="alertsDropdown">
                         <h6 class="dropdown-header">
-                            Alerts Center
+                            Notifications
                         </h6>
                         <a class="dropdown-item d-flex align-items-center" href="#">
                             <div class="mr-3">
@@ -66,8 +66,8 @@
                                 </div>
                             </div>
                             <div>
-                                <div class="small text-gray-500">December 12, 2019</div>
-                                <span class="font-weight-bold">A new monthly report is ready to download!</span>
+                                <div class="small text-gray-500">Web / MACOMMU.fr</div>
+                                <span class="font-weight-bold">Express-API connected !</span>
                             </div>
                         </a>
                         <a class="dropdown-item d-flex align-items-center" href="#">
@@ -77,8 +77,8 @@
                                 </div>
                             </div>
                             <div>
-                                <div class="small text-gray-500">December 7, 2019</div>
-                                $290.29 has been deposited into your account!
+                                <div class="small text-gray-500">BOT / Abonnement(s) Premiums</div>
+                                Compte débité de 15 €.
                             </div>
                         </a>
                         <a class="dropdown-item d-flex align-items-center" href="#">
@@ -88,11 +88,11 @@
                                 </div>
                             </div>
                             <div>
-                                <div class="small text-gray-500">December 2, 2019</div>
-                                Spending Alert: We've noticed unusually high spending for your account.
+                                <div class="small text-gray-500">WEB / forum.MACOMMU.fr</div>
+                                Votre espace de stockage est presque plein !
                             </div>
                         </a>
-                        <a class="dropdown-item text-center small text-gray-500" href="#">Show All Alerts</a>
+                        <a class="dropdown-item text-center small text-gray-500" href="#">Voir toutes les notifications</a>
                     </div>
                 </li>
 
@@ -106,49 +106,47 @@
                     <!-- Dropdown - Messages -->
                     <div class="dropdown-list dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="messagesDropdown">
                         <h6 class="dropdown-header">
-                            Message Center
+                            Infos / Messages
                         </h6>
                         <a class="dropdown-item d-flex align-items-center" href="#">
                             <div class="dropdown-list-image mr-3">
-                                <img class="rounded-circle" src="https://source.unsplash.com/fn_BT9fwg_E/60x60" alt="">
-                                <div class="status-indicator bg-success"></div>
+                                <img class="rounded-circle" src="https://d1nhio0ox7pgb.cloudfront.net/_img/g_collection_png/standard/512x512/server.png" alt="">
+                                <!--<div class="status-indicator bg-success"></div>-->
                             </div>
                             <div class="font-weight-bold">
-                                <div class="text-truncate">Hi there! I am wondering if you can help me with a problem I've been having.</div>
-                                <div class="small text-gray-500">Emily Fowler · 58m</div>
+                                <div class="text-truncate">Bienvenue sur votre nouveau site C-LA-FETE.com !</div>
+                                <div class="small text-gray-500">Site Manager · 58m</div>
                             </div>
                         </a>
                         <a class="dropdown-item d-flex align-items-center" href="#">
                             <div class="dropdown-list-image mr-3">
-                                <img class="rounded-circle" src="https://source.unsplash.com/AU4VPcFN4LE/60x60" alt="">
-                                <div class="status-indicator"></div>
+                                <img class="rounded-circle" src="https://d1nhio0ox7pgb.cloudfront.net/_img/g_collection_png/standard/512x512/server.png" alt="">
                             </div>
                             <div>
-                                <div class="text-truncate">I have the photos that you ordered last month, how would you like them sent to you?</div>
-                                <div class="small text-gray-500">Jae Chun · 1d</div>
+                                <div class="text-truncate">Extension du stockage possible !</div>
+                                <div class="small text-gray-500">Data Center · 1d</div>
                             </div>
                         </a>
                         <a class="dropdown-item d-flex align-items-center" href="#">
                             <div class="dropdown-list-image mr-3">
-                                <img class="rounded-circle" src="https://source.unsplash.com/CS2uCrpNzJY/60x60" alt="">
-                                <div class="status-indicator bg-warning"></div>
+                                <img class="rounded-circle" src="https://d1nhio0ox7pgb.cloudfront.net/_img/g_collection_png/standard/512x512/server.png" alt="">
                             </div>
                             <div>
-                                <div class="text-truncate">Last month's report looks great, I am very happy with the progress so far, keep up the good work!</div>
-                                <div class="small text-gray-500">Morgan Alvarez · 2d</div>
+                                <div class="text-truncate">Base de donnée non connecté au bot Extrasse</div>
+                                <div class="small text-gray-500">Bot DB · 2d</div>
                             </div>
                         </a>
                         <a class="dropdown-item d-flex align-items-center" href="#">
                             <div class="dropdown-list-image mr-3">
-                                <img class="rounded-circle" src="https://source.unsplash.com/Mv9hjnEUHR4/60x60" alt="">
-                                <div class="status-indicator bg-success"></div>
+                                <img class="rounded-circle" src="https://d1nhio0ox7pgb.cloudfront.net/_img/g_collection_png/standard/512x512/server.png" alt="">
+                                <div class="status-indicator bg-primary"></div>
                             </div>
                             <div>
-                                <div class="text-truncate">Am I a good boy? The reason I ask is because someone told me that people say this to all dogs, even if they aren't good...</div>
-                                <div class="small text-gray-500">Chicken the Dog · 2w</div>
+                                <div class="text-truncate">Nouveau règlement (CGUV), a lire !!!</div>
+                                <div class="small text-gray-500">Dev'&'Cie' · 2w</div>
                             </div>
                         </a>
-                        <a class="dropdown-item text-center small text-gray-500" href="#">Read More Messages</a>
+                        <a class="dropdown-item text-center small text-gray-500" href="#">Voir toutes les infos et messages</a>
                     </div>
                 </li>
 
@@ -157,8 +155,8 @@
                 <!-- Nav Item - User Information -->
                 <li class="nav-item dropdown no-arrow">
                     <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        <span class="mr-2 d-none d-lg-inline text-gray-600 small">Valerie Luna</span>
-                        <img class="img-profile rounded-circle" src="https://source.unsplash.com/QAB-WJcbgJk/60x60">
+                        <span class="mr-2 d-none d-lg-inline text-gray-600 small">T0nPscEd0</span>
+                        <img class="img-profile rounded-circle" src="https://static.thenounproject.com/png/630740-200.png">
                     </a>
                     <!-- Dropdown - User Information -->
                     <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="userDropdown">
@@ -169,11 +167,11 @@
                             <i class="fas fa-cogs fa-sm fa-fw mr-2 text-gray-400"></i> Settings
                         </a>
                         <a class="dropdown-item" href="#">
-                            <i class="fas fa-list fa-sm fa-fw mr-2 text-gray-400"></i> Activity Log
+                            <i class="fas fa-list fa-sm fa-fw mr-2 text-gray-400"></i> Messages/Infos
                         </a>
                         <div class="dropdown-divider"></div>
                         <a class="dropdown-item" href="#" data-toggle="modal" data-target="#logoutModal">
-                            <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i> Logout
+                            <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i> Se déconnecter
                         </a>
                     </div>
                 </li>

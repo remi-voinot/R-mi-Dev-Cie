@@ -127,6 +127,12 @@
 </div>
 
 <li class="nav-item">
+    <a class="nav-link" href="charts">
+        <i class="fas fa-fw fa-hdd"></i>
+        <span>Bots Customs</span></a>
+</li>
+
+<li class="nav-item">
     <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#subscribed-options" aria-expanded="true" aria-controls="subscribed-options">
         <i class="fas fa-fw fa-dollar-sign"></i>
         <span>Options achetés</span>
@@ -142,6 +148,7 @@
         </div>
     </div>
 </li>
+
 
 <li class="nav-item">
     <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#discord-var" aria-expanded="true" aria-controls="discord-var">
