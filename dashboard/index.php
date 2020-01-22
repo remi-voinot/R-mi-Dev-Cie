@@ -48,7 +48,7 @@ require_once("./include.php");
                                     <div class="row no-gutters align-items-center">
                                         <div class="col mr-2">
                                             <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">Mes bots</div>
-                                            <div class="h5 mb-0 font-weight-bold text-gray-800">3 Premium<br>6 Custom</div>
+                                            <div class="h5 mb-0 font-weight-bold text-gray-800">6 Srv. Free<br>3 Premium<br>6 Custom</div>
                                         </div>
                                         <div class="col-auto">
                                             <i class="fas fa-calendar fa-2x text-gray-300"></i>

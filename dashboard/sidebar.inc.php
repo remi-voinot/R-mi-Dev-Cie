@@ -133,14 +133,12 @@
     </a>
     <div id="subscribed-options" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
         <div class="bg-white py-2 collapse-inner rounded">
-            <h6 class="collapse-header">Informations :</h6>
-            <a class="collapse-item" href="buttons">Mon profile</a>
-            <a class="collapse-item" href="cards">Mot de passe</a>
-            <a class="collapse-item" href="cards">Services connectés</a>
-            <h6 class="collapse-header">Mes souscriptions :</h6>
-            <a class="collapse-item" href="buttons">Solde / Argent</a>
-            <a class="collapse-item" href="cards">Mes bots Discord</a>
-            <a class="collapse-item" href="cards">Mes sites Web</a>
+            <a class="collapse-item" href="buttons">Air-Message</a>
+            <a class="collapse-item" href="cards">Armor Staff</a>
+            <a class="collapse-item" href="cards">Extra-Web</a>
+            <a class="collapse-item" href="buttons">Moderation Plus</a>
+            <a class="collapse-item" href="cards">Linker Sync</a>
+            <a class="collapse-item" href="cards">Eventsize</a>
         </div>
     </div>
 </li>
@@ -177,8 +175,8 @@
     <div id="new-sub" class="collapse" aria-labelledby="headingUtilities" data-parent="#accordionSidebar">
         <div class="bg-white py-2 collapse-inner rounded">
             <a class="collapse-item" href="utilities-color">Nouveau site</a>
-            <a class="collapse-item" href="utilities-border">Nouveau serveur FreeBot</a>
-            <a class="collapse-item" href="utilities-border">Nouveau serveur PremiumBot</a>
+            <a class="collapse-item" href="utilities-border">Nouveau serveur<br>FreeBot</a>
+            <a class="collapse-item" href="utilities-border">Nouveau serveur<br>PremiumBot</a>
             <a class="collapse-item" href="utilities-border">Nouveau bot CustomBot</a>
         </div>
     </div>
