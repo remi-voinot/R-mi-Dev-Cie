@@ -2,6 +2,11 @@
 @import url("./src/segoe-ui-font/style.css");
 @import url("./src/flag-font/css/flag-icon.css");
 @import url('https://fonts.googleapis.com/css?family=Nunito&display=swap');
+.w-h-2em {
+    width: 2em;
+    height: 2em;
+}
+
 .btn-place {
     height: 38px;
     min-width: 10px
