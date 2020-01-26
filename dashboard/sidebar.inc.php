@@ -45,9 +45,9 @@
                 <a class="collapse-item" href="new-password">Mot de passe</a>
                 <a class="collapse-item" href="connected-services">Services connectés</a>
                 <h6 class="collapse-header">Mes souscriptions :</h6>
-                <a class="collapse-item" href="buttons">Solde / Argent</a>
-                <a class="collapse-item" href="cards">Mes bots Discord</a>
-                <a class="collapse-item" href="cards">Mes sites Web</a>
+                <a class="collapse-item" href="balance">Solde / Argent</a>
+                <a class="collapse-item" href="my-bots">Mes bots Discord</a>
+                <a class="collapse-item" href="my-websites">Mes sites Web</a>
             </div>
         </div>
     </li>
@@ -86,13 +86,13 @@
         <div id="subscribed-sites" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
             <div class="bg-white py-2 collapse-inner rounded">
                 <h6 class="collapse-header">Sites vitrines :</h6>
-                <a class="collapse-item" href="login">MACOMMU.fr</a>
-                <a class="collapse-item" href="register">C-LA-FETE.com</a>
-                <a class="collapse-item" href="forgot-password">MONSITE.devandcie.fr</a>
+                <a class="collapse-item" href="website?website=MACOMMU.fr">MACOMMU.fr</a>
+                <a class="collapse-item" href="website?website=C-LA-FETE.com">C-LA-FETE.com</a>
+                <a class="collapse-item" href="website?website=MONSITE.devandcie.fr">MONSITE.devandcie.fr</a>
                 <div class="collapse-divider"></div>
                 <h6 class="collapse-header">Sites forums:</h6>
-                <a class="collapse-item" href="404">forum.MACOMMU.fr</a>
-                <a class="collapse-item" href="blank">MONFORUM.de</a>
+                <a class="collapse-item" href="website?website=forum.MACOMMU.fr">forum.MACOMMU.fr</a>
+                <a class="collapse-item" href="website?website=MONFORUM.de">MONFORUM.de</a>
             </div>
         </div>
     </li>
@@ -112,8 +112,8 @@
         </a>
         <div id="services" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
             <div class="bg-white py-2 collapse-inner rounded">
-                <a class="collapse-item" href="404">Bases de données</a>
-                <a class="collapse-item" href="blank">API connectées</a>
+                <a class="collapse-item" href="databases">Bases de données</a>
+                <a class="collapse-item" href="connected-api">API connectées</a>
             </div>
         </div>
     </li>
@@ -139,12 +139,12 @@
         </a>
         <div id="subscribed-options" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
             <div class="bg-white py-2 collapse-inner rounded">
-                <a class="collapse-item" href="buttons">Air-Message</a>
-                <a class="collapse-item" href="cards">Armor Staff</a>
-                <a class="collapse-item" href="cards">Extra-Web</a>
-                <a class="collapse-item" href="buttons">Moderation Plus</a>
-                <a class="collapse-item" href="cards">Linker Sync</a>
-                <a class="collapse-item" href="cards">Eventsize</a>
+                <a class="collapse-item" href="air-msg">Air-Message</a>
+                <a class="collapse-item" href="arm-sta">Armor Staff</a>
+                <a class="collapse-item" href="ext-web">Extra-Web</a>
+                <a class="collapse-item" href="mod-plu">Moderation Plus</a>
+                <a class="collapse-item" href="lin-syn">Linker Sync</a>
+                <a class="collapse-item" href="eve-ize">Eventsize</a>
             </div>
         </div>
     </li>
@@ -158,8 +158,8 @@
         <div id="discord-var" class="collapse" aria-labelledby="headingUtilities" data-parent="#accordionSidebar">
             <div class="bg-white py-2 collapse-inner rounded">
                 <h6 class="collapse-header">Utilisations :</h6>
-                <a class="collapse-item" href="utilities-color">Par serveur</a>
-                <a class="collapse-item" href="utilities-border">Par commande</a>
+                <a class="collapse-item" href="rank-server-discord">Par serveur</a>
+                <a class="collapse-item" href="rank-cmd-discord">Par commande</a>
                 <h6 class="collapse-header">Stats :</h6>
                 <a class="collapse-item" href="rank-chat-discord">Chat rank</a>
                 <a class="collapse-item" href="rank-invite-discord">Invite rank</a>
@@ -181,10 +181,10 @@
         </a>
         <div id="new-sub" class="collapse" aria-labelledby="headingUtilities" data-parent="#accordionSidebar">
             <div class="bg-white py-2 collapse-inner rounded">
-                <a class="collapse-item" href="utilities-color">Nouveau site</a>
-                <a class="collapse-item" href="utilities-border">Nouveau serveur<br>FreeBot</a>
-                <a class="collapse-item" href="utilities-border">Nouveau serveur<br>PremiumBot</a>
-                <a class="collapse-item" href="utilities-border">Nouveau bot CustomBot</a>
+                <a class="collapse-item" href="new-website">Nouveau site</a>
+                <a class="collapse-item" href="new-srv-freebot">Nouveau serveur<br>FreeBot</a>
+                <a class="collapse-item" href="new-srv-premiumbot">Nouveau serveur<br>PremiumBot</a>
+                <a class="collapse-item" href="new-custombot">Nouveau bot CustomBot</a>
             </div>
         </div>
     </li>
@@ -210,7 +210,7 @@
         <div id="web-stats" class="collapse" aria-labelledby="headingUtilities" data-parent="#accordionSidebar">
             <div class="bg-white py-2 collapse-inner rounded">
                 <a class="collapse-item" href="tables">Revenus pubs</a>
-                <a class="collapse-item" href="utilities-border">Invite rank</a>
+                <a class="collapse-item" href="utilities-border">Global stats</a>
             </div>
         </div>
     </li>
