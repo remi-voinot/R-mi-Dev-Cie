@@ -2,6 +2,10 @@
 @import url("./src/segoe-ui-font/style.css");
 @import url("./src/flag-font/css/flag-icon.css");
 @import url('https://fonts.googleapis.com/css?family=Nunito&display=swap');
+.w-25pp {
+    width: 25%
+}
+
 .v-a-c {
     vertical-align: middle !important;
 }

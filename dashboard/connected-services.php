@@ -5,58 +5,97 @@ require_once("./include.php");
 <html lang="en">
 
 <head>
-
   <?php
   importh("Services connectés");
   ?>
-
 </head>
 
 <body id="page-top">
-
-  <!-- Page Wrapper -->
   <div id="wrapper">
-
     <?php
     sidebar();
     ?>
-
-    <!-- Content Wrapper -->
     <div id="content-wrapper" class="d-flex flex-column">
-
-      <!-- Main Content -->
       <div id="content">
-
         <?php topbar() ?>
-
-        <!-- Begin Page Content -->
         <div class="container-fluid">
-
-          <!-- Page Heading -->
           <h1 class="h3 mb-4 text-gray-800">Services connectés</h1>
-
-          <table class="table table-borderless">
-            <tbody>
-              <tr>
-                <td style="width:25%"><img src="https://discordapp.com/assets/ef555bf639a11bd65ae3065263788bba.png" class="img-fluid"></td>
-                <th class="v-a-c">Discord Developers API</th>
-                <td class="v-a-c">Description</td>
-              </tr>
-            </tbody>
-          </table>
+          <div class="row">
+            <div class="col-12">
+              <div class="card shadow mb-4">
+                <div class="card-header py-3 bg-gray-300">
+                  <h6 class="m-0 font-weight-bold text-primary">Services personnels</h6>
+                </div>
+                <div class="card-body">
+                  <div class="row no-marg">
+                    <div class="col-12">
+                      <table class="table table-borderless no-marg">
+                        <tbody>
+                          <tr>
+                            <td class="w-25pp"><img src="/dashboard/img/d-dev.png" class="img-fluid"></td>
+                            <th class="v-a-c">Discord Developers API</th>
+                            <td class="v-a-c">Description</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12">
+              <div class="card shadow mb-4">
+                <div class="card-header py-3 bg-gray-300">
+                  <h6 class="m-0 font-weight-bold text-primary">Services bots / Discord</h6>
+                </div>
+                <div class="card-body">
+                  <div class="row no-marg">
+                    <div class="col-12">
+                      <table class="table table-borderless no-marg">
+                        <tbody>
+                          <tr>
+                            <td class="w-25pp"><img src="/dashboard/img/g-ads.png" class="img-fluid"></td>
+                            <th class="v-a-c">Discord Developers API</th>
+                            <td class="v-a-c">Description</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12">
+              <div class="card shadow mb-4">
+                <div class="card-header py-3 bg-gray-300">
+                  <h6 class="m-0 font-weight-bold text-primary">Services bots / Discord</h6>
+                </div>
+                <div class="card-body">
+                  <div class="row no-marg">
+                    <div class="col-12">
+                      <table class="table table-borderless no-marg">
+                        <tbody>
+                          <tr>
+                            <td class="w-25pp"><img src="/dashboard/img/d-api.png" class="img-fluid"></td>
+                            <th class="v-a-c">Discord Developers API</th>
+                            <td class="v-a-c">Description</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
       <?php footer() ?>
     </div>
   </div>
-  <!-- End of Page Wrapper -->
-
-  <!-- Scroll to Top Button-->
   <a class="scroll-to-top rounded" href="#page-top">
     <i class="fas fa-angle-up"></i>
   </a>
-
-  <!-- Logout Modal-->
   <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog" role="document">
       <div class="modal-content">
@@ -74,17 +113,9 @@ require_once("./include.php");
       </div>
     </div>
   </div>
-
-  <!-- Bootstrap core JavaScript-->
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-  <!-- Core plugin JavaScript-->
   <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-
-  <!-- Custom scripts for all pages-->
   <script src="js/sb-admin-2.min.js"></script>
-
 </body>
-
 </html>
