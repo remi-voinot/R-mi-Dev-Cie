@@ -34,7 +34,7 @@ require_once("./include.php");
         <div class="col-lg-12 text-center">
           <h2 class="section-heading text-uppercase">Pourquoi Dev'&'Cie ?</h2>
           <h3 class="section-subheading text-muted">Notre entreprise a pour but de satisfaire gratuitement nos clients en leurs offrant des bots discord de qualité. <br/> 
-          Nous vous proposons également des services payants qui vous permettront d'avoir vos propres bot personalisés. <br/> Vous avez aussi la possibilité de commander des sites internet.</h3>
+          Nous vous proposons également des services payants qui vous permettront d'avoir vos propres bots personnalisés. <br/> Vous avez aussi la possibilité de commander des sites internet.</h3>
         </div>
       </div>
       <div class="row text-center">
@@ -44,7 +44,7 @@ require_once("./include.php");
             <i class="fas fa-server fa-stack-1x fa-inverse"></i>
           </span>
           <h4 class="service-heading">Serveurs dernière génération</h4>
-          <p class="text-muted">Des machines avec les meilleurs composants du marché, optimisé pour garantir une qualité maximale à nos clients.</p>
+          <p class="text-muted">Des machines avec les meilleurs composants du marché, optimisées pour garantir une qualité maximale à nos clients.</p>
         </div>
         <div class="col-md-4">
           <span class="fa-stack fa-4x">
@@ -115,7 +115,7 @@ require_once("./include.php");
           </a>
           <div class="portfolio-caption">
             <h4>Custom Bot</h4>
-            <p class="text-muted">Avec Custom Bot concevez vos propre bot sur mesure !</p>
+            <p class="text-muted">Avec Custom Bot concevez vos propres bots sur mesure !</p>
           </div>
         </div>
         
@@ -173,7 +173,7 @@ require_once("./include.php");
               <div class="timeline-panel">
                 <div class="timeline-heading">
                   <h4>Dialex</h4>
-                  <h4 class="subheading">Dévelopeur bot</h4>
+                  <h4 class="subheading">Développeur bot</h4>
                 </div>
                 <div class="timeline-body">
                   <p class="text-muted">C'est lui qui est chargé de faire vos bots discord</p>
@@ -204,7 +204,7 @@ require_once("./include.php");
                   <h4 class="subheading">Développeur bot</h4>
                 </div>
                 <div class="timeline-body">
-                  <p class="text-muted">Il contribut à la création des bots discord</p>
+                  <p class="text-muted">Il contribue à la création des bots discord</p>
                 </div>
               </div>
             </li>
