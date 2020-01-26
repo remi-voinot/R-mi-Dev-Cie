@@ -209,8 +209,8 @@
         </a>
         <div id="web-stats" class="collapse" aria-labelledby="headingUtilities" data-parent="#accordionSidebar">
             <div class="bg-white py-2 collapse-inner rounded">
-                <a class="collapse-item" href="tables">Revenus pubs</a>
-                <a class="collapse-item" href="utilities-border">Global stats</a>
+                <a class="collapse-item" href="web-profits-pubs">Revenus pubs</a>
+                <a class="collapse-item" href="web-stats">Global stats</a>
             </div>
         </div>
     </li>
