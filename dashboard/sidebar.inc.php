@@ -139,12 +139,12 @@
         </a>
         <div id="subscribed-options" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
             <div class="bg-white py-2 collapse-inner rounded">
-                <a class="collapse-item" href="air-msg">Air-Message</a>
-                <a class="collapse-item" href="arm-sta">Armor Staff</a>
-                <a class="collapse-item" href="ext-web">Extra-Web</a>
-                <a class="collapse-item" href="mod-plu">Moderation Plus</a>
-                <a class="collapse-item" href="lin-syn">Linker Sync</a>
-                <a class="collapse-item" href="eve-ize">Eventsize</a>
+                <a class="collapse-item" href="commands/air-msg">Air-Message</a>
+                <a class="collapse-item" href="commands/arm-sta">Armor Staff</a>
+                <a class="collapse-item" href="commands/ext-web">Extra-Web</a>
+                <a class="collapse-item" href="commands/mod-plu">Moderation Plus</a>
+                <a class="collapse-item" href="commands/lin-syn">Linker Sync</a>
+                <a class="collapse-item" href="commands/eve-ize">Eventsize</a>
             </div>
         </div>
     </li>
