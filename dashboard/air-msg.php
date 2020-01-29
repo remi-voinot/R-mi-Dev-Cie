@@ -41,8 +41,8 @@ require_once("./include.php");
 
               <div class="card shadow mb-4">
                 <div class="card-header py-3 bg-gray-300">
-                  <span class="m-0 font-weight-bold text-primary" style="display: table;">Air Message</span>
-                  <div class="custom-control custom-switch">
+                  <span class="m-0 font-weight-bold text-primary">Air Message</span>
+                  <div class="custom-control custom-switch float-right">
                     <input type="checkbox" class="custom-control-input" id="customSwitches">
                     <label class="custom-control-label" for="customSwitches">Activation de la commande</label>
                   </div>
