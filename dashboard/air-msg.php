@@ -1,5 +1,5 @@
 <?php
-require_once("./include.inc.php");
+require_once("./include.php");
 ?>
 <!DOCTYPE html>
 <html lang="en">
