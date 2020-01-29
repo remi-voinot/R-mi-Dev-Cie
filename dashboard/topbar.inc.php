@@ -1,4 +1,4 @@
-<?php require_once("../tools/FlashMessages.php"); ?>
+<?php require_once("tools/FlashMessages.php"); ?>
 <!-- Topbar -->
 <div class="row no-marg">
     <div class="col-12">
