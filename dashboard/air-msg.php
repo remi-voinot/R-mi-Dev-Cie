@@ -67,13 +67,20 @@ require_once("./include.php");
                     <div class="sm-spacer md-hide"></div>
                     <div class="col-12 space-10px"></div>
                     <div class="input-group input-group-default col-12 col-md-4 sm-left-rounded-input sm-no-pad">
-                      <input type="text" class="form-control sm-left-rounded-input md-placeholder-hide" value="?air-msg" aria-label="pseudo" aria-describedby="inputGroup-sizing-lg">
+                      <input type="text" class="form-control sm-left-rounded-input md-placeholder-hide" value="Air-Message" disabled aria-describedby="inputGroup-sizing-lg">
                     </div>
                     <div class="col-12 md-hide space-10px"></div>
                     <div class="input-group input-group-default col-12 col-md-8 sm-left-rounded-input sm-no-pad">
-                      <input type="text" class="form-control sm-left-rounded-input md-placeholder-hide" value="Desc" aria-label="pseudo" aria-describedby="inputGroup-sizing-lg">
+                      <input type="text" class="form-control sm-left-rounded-input md-placeholder-hide" value="Desc" disabled aria-describedby="inputGroup-sizing-lg">
                     </div>
                     <div class="col-12 space-10px"></div>
+                    <div class="input-group input-group-default col-12 sm-left-rounded-input sm-no-pad">
+                      <textarea type="text" class="form-control sm-left-rounded-input md-placeholder-hide" disabled aria-describedby="inputGroup-sizing-lg">Decription ici</textarea>
+                    </div>
+                    <div class="col-12 space-10px"></div>
+                    <div class="col-12">
+                      <h3>METHODE VITE FAIT ET CRADE</h3>
+                    </div>
                   </div>
                 </div>
               </div>
