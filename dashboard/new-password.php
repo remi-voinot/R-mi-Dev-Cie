@@ -79,7 +79,7 @@ require_once("./include.php");
                             </a>
                           </div>
                           <hr>
-                          Votre mot de passe est <code>crypté</code> de façon à ne pas pouvoir être récurépé en clair.
+                          <span>Votre mot de passe est <code>crypté</code> de façon à ne pas pouvoir être récurépé en clair.</span>
                         </div>
                       </div>
                     </div>

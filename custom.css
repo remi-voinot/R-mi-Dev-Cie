@@ -2,6 +2,14 @@
 @import url("./src/segoe-ui-font/style.css");
 @import url("./src/flag-font/css/flag-icon.css");
 @import url('https://fonts.googleapis.com/css?family=Nunito&display=swap');
+.no-warp {
+    white-space: nowrap;
+}
+
+.marg-down-0-5em {
+    margin-bottom: 0.5em;
+}
+
 .input-disabled-div {
     background-color: #eaecf4;
     border-radius: 0.35rem;
