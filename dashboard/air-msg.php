@@ -36,39 +36,46 @@ require_once("./include.php");
           <h1 class="h3 mb-4 text-gray-800">Commande Premium</h1>
 
           <div class="row">
-
             <div class="col-12">
-
-              <div class="card shadow mb-4">
-                <div class="card-header py-3 bg-gray-300">
+              <div class="card shadow mb-4 raw">
+                <div class="card-header py-3 bg-gray-300 col-12">
                   <span class="m-0 font-weight-bold text-primary">Air Message</span>
                   <div class="custom-control custom-switch float-right">
                     <input type="checkbox" class="custom-control-input" id="customSwitches">
                     <label class="custom-control-label" for="customSwitches">Activation de la commande</label>
                   </div>
                 </div>
-                <div class="card-body">
+                <div class="card-body col-12">
                   <div class="row no-marg">
-                    <div class="col-12">
-                      <div class="row">
-                        <div class="col-4">
-                          <div class="list-group" id="list-tab" role="tablist">
-                            <a class="list-group-item list-group-item-action active" id="list-aaa-list" data-toggle="list" href="#list-aaa" role="tab" aria-controls="aaa">Commande 1</a>
-                            <a class="list-group-item list-group-item-action" id="list-bbb-list" data-toggle="list" href="#list-bbb" role="tab" aria-controls="bbb">Commande 2</a>
-                            <a class="list-group-item list-group-item-action" id="list-ccc-list" data-toggle="list" href="#list-ccc" role="tab" aria-controls="ccc">Commande 3</a>
-                            <a class="list-group-item list-group-item-action" id="list-ddd-list" data-toggle="list" href="#list-ddd" role="tab" aria-controls="ddd">Commande 4</a>
-                          </div>
-                        </div>
-                        <div class="col-8">
-                          <div class="tab-content" id="nav-tabContent">
-                            <div class="tab-pane fade show active" id="list-aaa" role="tabpanel" aria-labelledby="list-aaa-list">Commande 1</div>
-                            <div class="tab-pane fade" id="list-bbb" role="tabpanel" aria-labelledby="list-bbb-list">Commande 2</div>
-                            <div class="tab-pane fade" id="list-ccc" role="tabpanel" aria-labelledby="list-ccc-list">Commande 3</div>
-                            <div class="tab-pane fade" id="list-ddd" role="tabpanel" aria-labelledby="list-ddd-list">Commande 4</div>
-                          </div>
-                        </div>
+                    <div class="col-12 col-md-4">
+                      <div class="list-group" id="list-tab" role="tablist">
+                        <a class="list-group-item list-group-item-action active" id="list-aaa-list" data-toggle="list" href="#list-aaa" role="tab" aria-controls="aaa">Commande 1</a>
+                        <a class="list-group-item list-group-item-action" id="list-bbb-list" data-toggle="list" href="#list-bbb" role="tab" aria-controls="bbb">Commande 2</a>
+                        <a class="list-group-item list-group-item-action" id="list-ccc-list" data-toggle="list" href="#list-ccc" role="tab" aria-controls="ccc">Commande 3</a>
+                        <a class="list-group-item list-group-item-action" id="list-ddd-list" data-toggle="list" href="#list-ddd" role="tab" aria-controls="ddd">Commande 4</a>
                       </div>
-
+                    </div>
+                    <div class="sm-spacer md-hide"></div>
+                    <div class="col-12 col-md-8">
+                      <div class="tab-content" id="nav-tabContent">
+                        <div class="tab-pane fade show active" id="list-aaa" role="tabpanel" aria-labelledby="list-aaa-list">Description 1</div>
+                        <div class="tab-pane fade" id="list-bbb" role="tabpanel" aria-labelledby="list-bbb-list">Description 2</div>
+                        <div class="tab-pane fade" id="list-ccc" role="tabpanel" aria-labelledby="list-ccc-list">Description 3</div>
+                        <div class="tab-pane fade" id="list-ddd" role="tabpanel" aria-labelledby="list-ddd-list">Description 4</div>
+                      </div>
+                    </div>
+                    <div class="sm-spacer md-hide"></div>
+                    <div class="col-12 space-10px"></div>
+                    <div class="input-group input-group-default col-12 col-md-4 sm-left-rounded-input sm-no-pad">
+                      <span class="input-disabled-div">Air-Message</span>
+                    </div>
+                    <div class="col-12 md-hide space-10px"></div>
+                    <div class="input-group input-group-default col-12 col-md-8 sm-left-rounded-input sm-no-pad">
+                      <span class="input-disabled-div">Desc</span>
+                    </div>
+                    <div class="col-12 space-10px"></div>
+                    <div class="input-group input-group-default col-12 sm-left-rounded-input sm-no-pad">
+                      <span class="input-disabled-div">Ta description, avec des saut de<br>l<br> i<br>  g<br>   n<br>    e<br>      s</span>
                     </div>
                   </div>
                 </div>
