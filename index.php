@@ -167,6 +167,7 @@ require_once("./include.php");
               </div>
             </li>
             <li>
+            
               <div class="timeline-image">
                 <img class="rounded-circle img-fluid" src="img/logos/avatar-gratuit1.png" alt="">
               </div>
@@ -182,15 +183,15 @@ require_once("./include.php");
             </li>
             <li class="timeline-inverted">
               <div class="timeline-image">
-                <img class="rounded-circle img-fluid" src="img/logos/SPOILER_avatar-gratuit.png" alt="">
+                <img class="rounded-circle img-fluid" src="img/logos/avatar-gratuit.png" alt="">
               </div>
               <div class="timeline-panel">
                 <div class="timeline-heading">
-                  <h4>Thibault</h4>
-                  <h4 class="subheading">Graphiste</h4>
+                  <h4>Martisse</h4>
+                  <h4 class="subheading">Community Manager</h4>
                 </div>
                 <div class="timeline-body">
-                  <p class="text-muted">Thibault graphiste de père en fils </p>
+                  <p class="text-muted">Si vous avez un problème n'hésitez pas à le contacter !</p>
                 </div>
               </div>
             </li>
@@ -213,97 +214,6 @@ require_once("./include.php");
               </div>
             </li>
           </ul>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Team -->
-  <section class="bg-light page-section" id="team">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12 text-center">
-          <h2 class="section-heading text-uppercase">Le staff !</h2>
-          <h3 class="section-subheading text-muted">Je vous laisse faire la suite !</h3>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-sm-4">
-          <div class="team-member">
-            <img class="mx-auto rounded-circle" src="img/team/1.jpg" alt="">
-            <h4>Martisse</h4>
-            <p class="text-muted">Web support</p>
-            <ul class="list-inline social-buttons">
-              <li class="list-inline-item">
-                <a href="#">
-                  <i class="fab fa-twitter"></i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a href="#">
-                  <i class="fab fa-facebook-f"></i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a href="#">
-                  <i class="fab fa-linkedin-in"></i>
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div class="col-sm-4">
-          <div class="team-member">
-            <img class="mx-auto rounded-circle" src="img/team/2.jpg" alt="">
-            <h4>Pers 2</h4>
-            <p class="text-muted">Développeur</p>
-            <ul class="list-inline social-buttons">
-              <li class="list-inline-item">
-                <a href="#">
-                  <i class="fab fa-twitter"></i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a href="#">
-                  <i class="fab fa-facebook-f"></i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a href="#">
-                  <i class="fab fa-linkedin-in"></i>
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div class="col-sm-4">
-          <div class="team-member">
-            <img class="mx-auto rounded-circle" src="img/team/3.jpg" alt="">
-            <h4>Pers 3</h4>
-            <p class="text-muted">Autre</p>
-            <ul class="list-inline social-buttons">
-              <li class="list-inline-item">
-                <a href="#">
-                  <i class="fab fa-twitter"></i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a href="#">
-                  <i class="fab fa-facebook-f"></i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a href="#">
-                  <i class="fab fa-linkedin-in"></i>
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-lg-8 mx-auto text-center">
-          
         </div>
       </div>
     </div>
