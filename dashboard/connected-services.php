@@ -28,17 +28,33 @@ require_once("./include.php");
                 </div>
                 <div class="card-body">
                   <div class="row no-marg">
-                    <div class="col-12">
-                      <table class="table table-borderless no-marg">
-                        <tbody>
-                          <tr>
-                            <td class="w-25pp"><img src="/dashboard/img/d-dev.png" class="img-fluid"></td>
-                            <th class="v-a-c">Discord Developers API</th>
-                            <td class="v-a-c">Description</td>
-                          </tr>
-                        </tbody>
-                      </table>
+                    <div class="col-sm-mdstop-12 col-md-4 max-height-10em">
+                      <img src="/dashboard/img/d-dev.png" class="img-fluid max-height-10em">
                     </div>
+                    <div class="space-10px md-hide"></div>
+                    <div class="col-sm-mdstop-12 col-md-4 d-flex align-items-center"><span>Discord Developers API</span></div>
+                    <div class="space-10px md-hide"></div>
+                    <div class="col-sm-mdstop-12 col-md-4 d-flex align-items-center"><span>Description</span></div>
+                    <div class="space-1em"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12">
+              <div class="card shadow mb-4">
+                <div class="card-header py-3 bg-gray-300">
+                  <h6 class="m-0 font-weight-bold text-primary">Services web</h6>
+                </div>
+                <div class="card-body">
+                  <div class="row no-marg">
+                    <div class="col-sm-mdstop-12 col-md-4 max-height-10em">
+                      <img src="/dashboard/img/g-ads.png" class="img-fluid max-height-10em">
+                    </div>
+                    <div class="space-10px md-hide"></div>
+                    <div class="col-sm-mdstop-12 col-md-4 d-flex align-items-center"><span>Google Ads API</span></div>
+                    <div class="space-10px md-hide"></div>
+                    <div class="col-sm-mdstop-12 col-md-4 d-flex align-items-center"><span>Description</span></div>
+                    <div class="space-1em"></div>
                   </div>
                 </div>
               </div>
@@ -50,39 +66,14 @@ require_once("./include.php");
                 </div>
                 <div class="card-body">
                   <div class="row no-marg">
-                    <div class="col-12">
-                      <table class="table table-borderless no-marg">
-                        <tbody>
-                          <tr>
-                            <td class="w-25pp"><img src="/dashboard/img/g-ads.png" class="img-fluid"></td>
-                            <th class="v-a-c">Discord Developers API</th>
-                            <td class="v-a-c">Description</td>
-                          </tr>
-                        </tbody>
-                      </table>
+                    <div class="col-sm-mdstop-12 col-md-4 max-height-10em">
+                      <img src="/dashboard/img/d-api.png" class="img-fluid max-height-10em">
                     </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-12">
-              <div class="card shadow mb-4">
-                <div class="card-header py-3 bg-gray-300">
-                  <h6 class="m-0 font-weight-bold text-primary">Services bots / Discord</h6>
-                </div>
-                <div class="card-body">
-                  <div class="row no-marg">
-                    <div class="col-12">
-                      <table class="table table-borderless no-marg">
-                        <tbody>
-                          <tr>
-                            <td class="w-25pp"><img src="/dashboard/img/d-api.png" class="img-fluid"></td>
-                            <th class="v-a-c">Discord Developers API</th>
-                            <td class="v-a-c">Description</td>
-                          </tr>
-                        </tbody>
-                      </table>
-                    </div>
+                    <div class="space-10px md-hide"></div>
+                    <div class="col-sm-mdstop-12 col-md-4 d-flex align-items-center"><span>Dev'&'API</span></div>
+                    <div class="space-10px md-hide"></div>
+                    <div class="col-sm-mdstop-12 col-md-4 d-flex align-items-center"><span>Description</span></div>
+                    <div class="space-1em"></div>
                   </div>
                 </div>
               </div>
@@ -118,4 +109,5 @@ require_once("./include.php");
   <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
   <script src="js/sb-admin-2.min.js"></script>
 </body>
+
 </html>
