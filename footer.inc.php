@@ -26,7 +26,7 @@
       <div class="col-md-4">
         <ul class="list-inline quicklinks">
           <li class="list-inline-item">
-            <a href="#">Mentions légales</a>
+            <a href="mentionslegales">Mentions légales</a>
           </li>
           <li class="list-inline-item">
             <a href="#">CGU</a>

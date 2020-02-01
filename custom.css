@@ -191,6 +191,13 @@ body {
     height: 10px;
 }
 
+.space-100px {
+    min-width: 1px;
+    width: 1px;
+    min-height: 1px;
+    height: 100px;
+}
+
 .hide {
     display: none;
 }
@@ -403,3 +410,4 @@ body {
     width: 70%;
     font-size: 70%;
 }
+
