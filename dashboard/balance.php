@@ -92,34 +92,34 @@ require_once("./include.php");
                 </div>
                 <!-- Card Body -->
                 <div class="card-body">
-                <div class="table-responsive row">
-                  <table class="table table-bordered" width="100%">
-                    <thead>
-                      <tr>
-                        <th class="col-9">Dépense</th>
-                        <th class="col-3 no-warp text-right">Prix</th>
-                      </tr>
-                    </thead>
-                    <tfoot>
-                      <tr>
-                        <th class="col-9">TOTAL</th>
-                        <th class="col-3 no-warp text-right">45€ / Mois</th>
-                      </tr>
-                    </tfoot>
-                    <tbody>
-                      <tr>
-                        <td>Site de view</td>
-                        <td class="no-warp text-right">2€ / Mois</td>
-                      </tr>
-                      <tr>
-                        <td>Bot Custom "Mon-Bot"</td>
-                        <td class="no-warp text-right">43€ / Mois</td>
-                      </tr>
-                    </tbody>
-                  </table>
-                </div>
-                <hr>
-                <span>Nous vous créditeront du montant <code>(45€)</code> de votre facture le <code>01/01/2000</code> vers <code>4h30 du matin (Heure GMT+1/Paris)</code>. Nous vous enverons dans les heures voir les jours <code>(8 jours maximum)</code> une facture à l'adresse email renseigné lors de la création du compte (ou l'email actuel si il y a eu changement). Cette facture comprend la date, les différents services souscrits ou crédités.</span>
+                  <div class="table-responsive row">
+                    <table class="table table-bordered" width="100%">
+                      <thead>
+                        <tr>
+                          <th class="col-9">Dépense</th>
+                          <th class="col-3 no-warp text-right">Prix</th>
+                        </tr>
+                      </thead>
+                      <tfoot>
+                        <tr>
+                          <th class="col-9">TOTAL</th>
+                          <th class="col-3 no-warp text-right">45€ / Mois</th>
+                        </tr>
+                      </tfoot>
+                      <tbody>
+                        <tr>
+                          <td>Site de view</td>
+                          <td class="no-warp text-right">2€ / Mois</td>
+                        </tr>
+                        <tr>
+                          <td>Bot Custom "Mon-Bot"</td>
+                          <td class="no-warp text-right">43€ / Mois</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                  <hr>
+                  <span>Nous vous créditeront du montant <code>(45€)</code> de votre facture le <code>01/01/2000</code> vers <code>4h30 du matin (Heure GMT+1/Paris)</code>. Nous vous enverons dans les heures voir les jours <code>(8 jours maximum)</code> une facture à l'adresse email renseigné lors de la création du compte (ou l'email actuel si il y a eu changement). Cette facture comprend la date, les différents services souscrits ou crédités.</span>
                 </div>
               </div>
             </div>
@@ -142,8 +142,14 @@ require_once("./include.php");
                   </div>
                 </div>
                 <!-- Card Body -->
-                <div class="card-body">
-                  <span>Text en cours !</span>
+                <div class="card-body row">
+                  <div class="col-12 col-md-9">
+                    <span>Vous avez choisi <code>Paypal</code> pour allimenter votre solde en argent.</span>
+                  </div>
+                  <div class="space-10px md-hide"></div>
+                  <a href="#" class="col-12 col-md-3 btn btn-warning">
+                    <span><i class="fab fa-paypal"></i>  Paypal</span>
+                  </a>
                 </div>
               </div>
             </div>

@@ -2,10 +2,24 @@
 @import url("./src/segoe-ui-font/style.css");
 @import url("./src/flag-font/css/flag-icon.css");
 @import url('https://fonts.googleapis.com/css?family=Nunito&display=swap');
+.no-border {
+    border-color: transparent;
+    border: 0px;
+}
+
+.bg-yellow {
+    background: #f6c23e;
+    background-color: #f6c23e;
+}
+
 .row-copy {
     display: flex;
     flex-wrap: wrap;
     min-height: 1px;
+}
+
+.prel-warp {
+    white-space: normal !important;
 }
 
 .no-warp {
@@ -36,6 +50,11 @@
 
 .v-a-c {
     vertical-align: middle !important;
+}
+
+.w-h-1em {
+    width: 1em;
+    height: 1em;
 }
 
 .w-h-2em {

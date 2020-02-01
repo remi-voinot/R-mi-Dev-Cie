@@ -44,7 +44,7 @@
                 <a class="collapse-item" href="profile">Mon profile</a>
                 <a class="collapse-item" href="new-password">Mot de passe</a>
                 <a class="collapse-item" href="connected-services">Services connectés</a>
-                <h6 class="collapse-header">Mes souscriptions :</h6>
+                <h6 class="collapse-header prel-warp">Mes souscriptions :</h6>
                 <a class="collapse-item" href="balance">Solde / Argent</a>
                 <a class="collapse-item" href="my-bots">Mes bots Discord</a>
                 <a class="collapse-item" href="my-websites">Mes sites Web</a>
