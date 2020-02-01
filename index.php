@@ -129,7 +129,7 @@ require_once("./include.php");
         <div class="col-lg-12 text-center">
           <h2 class="section-heading text-uppercase">Notre équipe</h2>
 
-          <h3 class="section-subheading text-muted">Nous vous présentons notre équipe de passionnés au service de nos clients </h3>
+          <h3 class="section-subheading text-muted">Nous vous présentons notre équipe de passionnés au service de nos clients.</h3>
 
         </div>
       </div>
@@ -161,7 +161,7 @@ require_once("./include.php");
                 </div>
                 <div class="timeline-body">
 
-                  <p class="text-muted">IL s'occupe de développement du site web Dev'&'Cie et il gère l'équipe de Développeur bot </p>
+                  <p class="text-muted">Il s'occupe de développement du site web Dev'&'Cie et il gère l'équipe de Développeurs web et bot.</p>
 
                 </div>
               </div>
@@ -177,7 +177,7 @@ require_once("./include.php");
                   <h4 class="subheading">Développeur bot</h4>
                 </div>
                 <div class="timeline-body">
-                  <p class="text-muted">C'est lui qui est chargé de faire vos bots discord</p>
+                  <p class="text-muted">C'est lui qui est chargé de faire vos bots discord.</p>
                 </div>
               </div>
             </li>
@@ -191,7 +191,7 @@ require_once("./include.php");
                   <h4 class="subheading">Community Manager</h4>
                 </div>
                 <div class="timeline-body">
-                  <p class="text-muted">Si vous avez un problème n'hésitez pas à le contacter !</p>
+                  <p class="text-muted">Si vous avez un problème n'hésitez pas à le contacter ! Il s'occupe du support de Dev'&'Cie.</p>
                 </div>
               </div>
             </li>
@@ -205,7 +205,7 @@ require_once("./include.php");
                   <h4 class="subheading">Développeur bot</h4>
                 </div>
                 <div class="timeline-body">
-                  <p class="text-muted">Il contribue à la création des bots discord</p>
+                  <p class="text-muted">Il contribue à la création des bots discord.</p>
                 </div>
               </div>
             </li>
@@ -224,7 +224,7 @@ require_once("./include.php");
       <div class="row">
         <div class="col-lg-12 text-center">
           <h2 class="section-heading text-uppercase">Contactez-nous</h2>
-          <h3 class="section-subheading text-muted">Vous souhaitez nous donnez une suggestion ou une remarque, cette section est faite pour vous !</h3>
+          <h3 class="section-subheading text-muted">Vous souhaitez nous donnez une suggestion ou une remarque, cette section est faite pour vous !<br>* Champs requis</h3>
         </div>
       </div>
       <div class="row">
