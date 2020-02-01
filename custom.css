@@ -2,6 +2,11 @@
 @import url("./src/segoe-ui-font/style.css");
 @import url("./src/flag-font/css/flag-icon.css");
 @import url('https://fonts.googleapis.com/css?family=Nunito&display=swap');
+.display-4-copy {
+    font-weight: 300;
+    line-height: 1.2;
+}
+
 .no-border {
     border-color: transparent;
     border: 0px;
@@ -184,6 +189,13 @@ body {
     height: 1em;
 }
 
+.space-2em {
+    min-width: 1px;
+    width: 1px;
+    min-height: 2em;
+    height: 2em;
+}
+
 .space-10px {
     min-width: 1px;
     width: 1px;
@@ -191,11 +203,11 @@ body {
     height: 10px;
 }
 
-.space-100px {
+.space-50px {
     min-width: 1px;
     width: 1px;
     min-height: 1px;
-    height: 100px;
+    height: 50px;
 }
 
 .hide {
@@ -410,4 +422,3 @@ body {
     width: 70%;
     font-size: 70%;
 }
-
