@@ -3,18 +3,107 @@
 *                 Part
 !========================================
 */
-
-.part-top {
-    background: #222222;
-    &-title {
-        display: inline-block;
-        padding: 0 16px;
-        text-decoration: none;
-        color: #ffffff;
-        background: $primary;
-        font-size: 1.1rem;
-        &:hover {
-            background: #0c7cd5
-        }
+.main-row {
+    display: flex;
+    flex-wrap: wrap;
 }
+
+.part- {
+    &topbar {
+        max-height: 48px;
+
+        &-title {
+            display: inline-block;
+            padding: 0 16px;
+            text-decoration: none;
+            color: #ffffff;
+            font-size: 1.1rem;
+
+            &.a-title {
+                background: $primary !important;
+            }
+
+            &.a-title:hover {
+                background: darken($primary, 10%) !important;
+                transition: 0.3s;
+            }
+
+            &:hover {
+                background: $gray-090;
+                transition: 0.3s;
+            }
+        }
+    }
+
+    &searchbar {
+        padding: 16px;
+        min-height: 54px;
+
+        .input {
+            min-height: 28px;
+            display: block;
+            padding: 3px 2px;
+            border: none;
+            border-bottom: 1px solid #aaa;
+            -webkit-transition: border-color .3s;
+            transition: border-color .3s;
+            background: #333;
+            color: #fff;
+            font-family: Roboto, Source Sans Pro, Calibri, Arial, sans-serif;
+            font-size: .85rem;
+            line-height: 1;
+
+            &:focus {
+                border-color: #2196f3;
+                outline: none
+            }
+        }
+
+        .select {
+            display: inline-block;
+            background: #333;
+            color: #fff;
+            font-family: Roboto, Source Sans Pro, Calibri, Arial, sans-serif;
+            font-size: .85rem;
+            border: 1px solid #aaa;
+        }
+    }
+
+    &mainsite {
+        min-height: 100%;
+
+        @media (max-width:576px) {
+            min-height: calc(100% - 130px);
+        }
+
+        @media (min-width:576px) {
+            min-height: calc(100% - 102px);
+        }
+
+        padding-top: 16px;
+        padding-bottom: 16px;
+
+    }
+
+    &sidebar {
+        min-height: calc(100% - 131px);
+        padding: 16px;
+        @media (min-width: 768px) {
+            border-right: 1px solid #202020;
+        }
+        @media (max-width: 768px) {
+            border-top: 1px solid #202020;
+        }
+            
+    }
+
+    &docs {
+        min-height: calc(100% - 131px);
+        padding: 16px;
+
+        @media (max-width: 768px) {
+        height: 100%;
+        }
+
+    }
 }

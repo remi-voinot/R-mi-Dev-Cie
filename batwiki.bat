@@ -1,0 +1,1 @@
+cls && sass ./wiki/scss/in.scss:./wiki/css/out.css --watch --no-cache

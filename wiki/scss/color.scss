@@ -1,0 +1,79 @@
+/**
+!========================================
+*                Color
+!========================================
+*/
+
+// Color BG Gradient
+@each $color,
+$value in $colors {
+    .bg-gradient-#{$color} {
+        background-color: $value;
+        background-image: linear-gradient(180deg, $value 10%, darken($value, 15%) 100%);
+        background-size: cover;
+    }
+}
+// Gray BG Gradient
+@each $color,
+$value in $grays {
+    .bg-gradient-gray-#{$color} {
+        background-color: $value;
+        background-image: linear-gradient(180deg, $value 10%, darken($value, 15%) 100%);
+        background-size: cover;
+    }
+}
+
+// Color BG
+
+@each $color,
+$value in $colors {
+    .bg-#{$color} {
+        background-color: $value !important;
+    }
+}
+
+// Gray BG
+
+@each $color,
+$value in $grays {
+    .bg-gray-#{$color} {
+        background-color: $value !important;
+    }
+}
+
+// Color border
+@each $color,
+$value in $colors {
+    .border-#{$color} {
+        border-color: $color;
+        border-style: solid;
+    }
+}
+
+// Gray border
+
+@each $color,
+$value in $grays {
+    .border-gray-#{$color} {
+        border-color: $color;
+        border-style: solid;
+    }
+}
+
+// Color Color
+
+@each $color,
+$value in $colors {
+    .color-#{$color} {
+        color: $value !important;
+    }
+}
+
+// Gray Color
+
+@each $color,
+$value in $grays {
+    .color-gray-#{$color} {
+        color: $value !important;
+    }
+}

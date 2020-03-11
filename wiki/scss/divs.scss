@@ -1,0 +1,83 @@
+/**
+!========================================
+*                Divs.
+!========================================
+*/
+
+.hide {
+    display: none;
+}
+
+.show {
+    display: initial;
+}
+
+@media (max-width:350px) {
+    .xxs-hide {
+        display: none;
+    }
+
+    .xxs-show {
+        display: initial;
+    }
+}
+
+@media (max-width:576px) {
+    .xs-hide {
+        display: none;
+    }
+
+    .xs-show {
+        display: initial;
+    }
+}
+
+@media (min-width:576px) {
+    .sm-hide {
+        display: none;
+    }
+
+    .sm-show {
+        display: initial;
+    }
+}
+
+@media (min-width:768px) {
+    .md-hide {
+        display: none;
+    }
+
+    .md-show {
+        display: initial;
+    }
+}
+
+@media (min-width:992px) {
+    .lg-hide {
+        display: none;
+    }
+
+    .lg-show {
+        display: initial;
+    }
+}
+
+@media (min-width:1200px) {
+    .xl-hide {
+        display: none;
+    }
+
+    .xl-show {
+        display: initial;
+    }
+}
+
+/**
+!========================================
+*                 Space
+!========================================
+*/
+
+.marg-left-0-5em {
+    margin-left: 0.5em;
+}
