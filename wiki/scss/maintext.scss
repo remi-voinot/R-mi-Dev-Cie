@@ -1,0 +1,218 @@
+.content-main {
+    color: #ababab;
+
+    .title {
+        .global {
+            font-family: Roboto Condensed, Source Sans Pro, Calibri, Arial, sans-serif;
+            display: inline-block;
+            font-size: 2.5rem;
+            font-weight: 500;
+            line-height: 1.2;
+            margin: 0;
+        }
+
+        .text {
+            color: #666666;
+            font-family: Roboto Condensed, Source Sans Pro, Calibri, Arial, sans-serif;
+            font-size: 1.2rem;
+            font-weight: 100;
+            font-weight: 200;
+            line-height: 1.5;
+            text-align: left;
+        }
+
+        a.text {
+            color: $primary;
+            text-decoration: none;
+            background-color: transparent;
+            transition: color .3s, border-color .3s, background-color .3s;
+            cursor: pointer;
+            font-weight: 200;
+            font-family: Roboto Condensed, Source Sans Pro, Calibri, Arial, sans-serif;
+            font-size: 1.2rem;
+            line-height: 1.5;
+
+            &:hover {
+                border-bottom: 1px solid $primary;
+                color: darken($primary, 10%);
+            }
+        }
+    }
+
+    .description {
+        color: #cccccc;
+        margin-top: 30px;
+    }
+
+    h2 {
+        color: #cccccc;
+        margin-top: 40px;
+        font-size: 2rem;
+        margin-bottom: .5rem;
+        font-weight: 500;
+        line-height: 1.2;
+    }
+
+    pre {
+        margin: 16px;
+        padding: 8px;
+        margin-left: 10px;
+        background: #1b1b1b;
+        color: #abb2bf;
+
+        span {
+            font-family: Roboto Mono, Source Code Pro, Consolas, monospace;
+            font-size: .8rem;
+            display: block;
+            overflow-x: auto;
+            padding: .5em;
+            background: inherit;
+        }
+    }
+
+    @media only screen and (min-width: 700px) {
+        .table-responsivess td {
+            border-left: 0.5px solid #2d2d2d;
+            border-right: 0.5px solid #2d2d2d;
+
+            &::before {
+                border-left: 0.5px solid $primary;
+                border-right: 0.5px solid $primary;
+            }
+        }
+
+        .table-responsivess td:first-child {
+            border-right: 0.5px solid #2d2d2d;
+            border-left: 0;
+
+            &::before {
+                border-right: 0.5px solid $primary;
+                border-left: 0;
+            }
+        }
+
+        .table-responsivess td:last-child {
+            border-left: 0.5px solid #2d2d2d;
+            border-right: 0;
+
+            &::before {
+                border-left: 0.5px solid $primary;
+                border-right: 0;
+            }
+        }
+    }
+
+    @media only screen and (max-width: 700px) {
+
+        .table-responsivess td {
+            border-top: 1px solid #2d2d2d;
+            border-bottom: 1px solid #2d2d2d;
+
+            &::before {
+                border-top: 1px solid $primary;
+                border-bottom: 1px solid $primary;
+            }
+        }
+
+        .table-responsivess td:first-child {
+            border-bottom: 1px solid #2d2d2d;
+            border-top: 0;
+
+            &::before {
+                border-bottom: 1px solid $primary;
+                border-top: 0;
+            }
+        }
+
+        .table-responsivess td:last-child {
+            border-top: 1px solid #2d2d2d;
+            border-bottom: 0;
+
+            &::before {
+                border-top: 1px solid $primary;
+                border-bottom: 0;
+            }
+        }
+
+        .table-responsivess {
+            border-top: 2px solid #2d2d2d;
+            ;
+        }
+
+        .table-responsivess table,
+        .table-responsivess thead,
+        .table-responsivess tbody,
+        .table-responsivess tr,
+        .table-responsivess th,
+        .table-responsivess td {
+            display: block;
+        }
+
+        .table-responsivess thead {
+            display: none;
+        }
+
+        .table-responsivess td {
+            padding-left: 150px;
+            position: relative;
+            margin-top: -1px;
+            background-color: #1b1b1b;
+        }
+
+        .table-responsivess td:nth-child(odd) {
+            background-color: #1b1b1b;
+        }
+
+        .table-responsivess td::before {
+            padding: 10px;
+            content: attr(data-label);
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 130px;
+            bottom: 0;
+            background-color: #1b1b1b            ;
+            color: #FFF;
+            display: flex;
+            align-items: center;
+            font-weight: bold;
+            padding: 16px;
+            text-align: center;
+            background: #2196f3;
+            color: #fff;
+            font-weight: 700;
+            text-transform: uppercase;
+            border-collapse: collapse;
+        }
+
+        .table-responsivess th+td {
+            padding-left: 10px;
+        }
+
+    }
+
+    table {
+        margin-left: 10px;
+        border-collapse: collapse;
+        border: 1px solid #2d2d2d;
+
+        tr {
+            background: #1b1b1b;
+        }
+
+        th {
+            padding: 16px;
+            text-align: center;
+            background: #2196f3;
+            color: #fff;
+            font-weight: 700;
+            text-transform: uppercase;
+            border-collapse: collapse;
+        }
+
+        td {
+            padding: 16px;
+            text-align: center;
+        }
+    }
+}

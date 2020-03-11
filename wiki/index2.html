@@ -6,9 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/out.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
+    <script>document.querySelectorAll('.table-responsive').forEach(function (table) {
+        let labels = Array.from(table.querySelectorAll('th')).map(function (th) {
+            return th.innerText
+        })
+        table.querySelectorAll('td').forEach(function (td, i) {
+            td.setAttribute('data-label', labels[i % labels.length])
+        })
+    })</script>
     <div class="bg-gray-222 part-topbar">
         <div class="l-h-3 container">
             <a href="" class="part-topbar-title a-title">Wiki</a>
@@ -23,26 +32,59 @@
                 <option value="" selected>current</option>
             </select>
             <span class="sm-hide xxs-hide"> Current : 0.0.1-beta</span>
-            <img src="https://img.shields.io/static/v1?label=current&message=0.0.1&color=success" class="marg-left-0-5em xs-hide">
-            <img src="https://img.shields.io/static/v1?label=new beta&message=0.0.2&color=ea9914" class="marg-left-0-5em hide md-show">
-            <img src="https://img.shields.io/static/v1?label=deprecated&message=0.0.0&color=critical" class="marg-left-0-5em hide lg-show">
-            <img src="https://img.shields.io/static/v1?label=api&message=disabled&color=inactive" class="marg-left-0-5em hide lg-show">
+            <img src="https://img.shields.io/static/v1?label=current&message=0.0.1&color=success"
+                class="marg-left-0-5em xs-hide">
+            <img src="https://img.shields.io/static/v1?label=new beta&message=0.0.2&color=ea9914"
+                class="marg-left-0-5em hide md-show">
+            <img src="https://img.shields.io/static/v1?label=deprecated&message=0.0.0&color=critical"
+                class="marg-left-0-5em hide lg-show">
+            <img src="https://img.shields.io/static/v1?label=api&message=disabled&color=inactive"
+                class="marg-left-0-5em hide lg-show">
             <input type="text" class="input float-sm-right ml-auto" placeholder="Search">
         </div>
     </div>
-
-
-
-    
-
     <div class="part-mainsite main-row container">
-        <div class="col-12 col-md-10 part-docs"><span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias veniam similique, enim ad doloribus eveniet iure quod, sint eum culpa nulla impedit. Exercitationem natus beatae, voluptatem maiores atque fugit at?
-        Est ea cum aperiam voluptatibus expedita ut unde tenetur magni tempore excepturi consectetur, suscipit laudantium explicabo nostrum pariatur iure minima, quaerat ipsum veritatis ipsam aut praesentium. Quibusdam maxime laudantium nisi.
-        Architecto a aliquid quia debitis tempora sit, quam deleniti, rerum laudantium, ea vel illum est perspiciatis praesentium fugit magnam temporibus consequuntur. Magnam fuga officia corporis sequi ea eum ipsum dolorum!
-        Fugit doloribus inventore dolorum porro facilis, impedit ipsam? Odio sit quisquam, amet ipsum architecto sed beatae repudiandae impedit, quam dolores non officia ea! Incidunt reprehenderit exercitationem eius mollitia voluptas commodi?
-        Reiciendis quo consectetur est. Aliquid reiciendis, voluptatem sapiente perferendis voluptas veniam quia beatae ipsam culpa provident esse dignissimos natus? Aliquid pariatur dolorem necessitatibus rerum cupiditate! Minus quam esse iure animi.
-        Neque voluptatem laudantium magni placeat non odio, cumque tenetur qui asperiores ullam pariatur illum obcaecati officia voluptates aliquid aut repellendus excepturi consequatur dignissimos doloremque quo, mollitia beatae? Enim, veniam sint.</span></div>
-        <div class="col-12 col-md-2 order-md-first part-sidebar hidden-md-down"><div></div></div>
+        <div class="col-12 col-md-10 part-docs no-h content-main">
+            <div class="title">
+                <h1 class="global">MyClass</h1>
+                <span class="text">extends</span>
+                <a href="#" class="text">Variable</a>
+            </div>
+            <div class="description">
+                <span>The main hub for interacting with the Discord API, and the starting point for any bot.</span>
+            </div>
+            <h2>Truc</h2>
+            <pre><span>Function</span></pre>
+            <table class="table-responsivess">
+                <thead>
+                    <tr>
+                        <th>Parameter</th>
+                        <th>Type</th>
+                        <th>Optional</th>
+                        <th>Default</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td data-label="Parameter">options</td>
+                        <td data-label="Parameter"><span class="">
+                                <span class=""><a href="#/docs/main/stable/typedef/ClientOptions" class="">ClientOptions</a>
+                                    <!----></span></span></td>
+                        <td data-label="Parameter"><em class="fa fa-check"></em></td>
+                        <td data-label="Parameter"><em>none</em></td>
+                        <td data-label="Parameter">
+                            <p>Options for the client</p>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="col-12 col-md-2 order-md-first part-sidebar hidden-md-down">
+            <div class="ul">Type</div>
+            <a class="li" href="#/a">A1</a>
+            <a class="li" href="#/b">B2</a>
+        </div>
     </div>
 </body>
 
