@@ -7,17 +7,11 @@
     <title>Document</title>
     <link rel="stylesheet" href="css/out.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="./table.js" async></script>
+    <link rel="stylesheet" href="../vendor/fontawesome-free/css/all.css">
 </head>
 
 <body>
-    <script>document.querySelectorAll('.table-responsive').forEach(function (table) {
-        let labels = Array.from(table.querySelectorAll('th')).map(function (th) {
-            return th.innerText
-        })
-        table.querySelectorAll('td').forEach(function (td, i) {
-            td.setAttribute('data-label', labels[i % labels.length])
-        })
-    })</script>
     <div class="bg-gray-222 part-topbar">
         <div class="l-h-3 container">
             <a href="" class="part-topbar-title a-title">Wiki</a>
@@ -45,17 +39,22 @@
     </div>
     <div class="part-mainsite main-row container">
         <div class="col-12 col-md-10 part-docs no-h content-main">
+            <!--END MAIN CONTENT-->
             <div class="title">
-                <h1 class="global">MyClass</h1>
+                <span class="h1 global">MyClass</span>
                 <span class="text">extends</span>
                 <a href="#" class="text">Variable</a>
             </div>
+
             <div class="description">
                 <span>The main hub for interacting with the Discord API, and the starting point for any bot.</span>
             </div>
-            <h2>Truc</h2>
-            <pre><span>Function</span></pre>
-            <table class="table-responsivess">
+
+            <h2 class="h2">Truc</h2>
+
+            <span class="pre">Function</span>
+
+            <table class="table tablers table-responsive">
                 <thead>
                     <tr>
                         <th>Parameter</th>
@@ -67,18 +66,50 @@
                 </thead>
                 <tbody>
                     <tr>
-                        <td data-label="Parameter">options</td>
-                        <td data-label="Parameter"><span class="">
-                                <span class=""><a href="#/docs/main/stable/typedef/ClientOptions" class="">ClientOptions</a>
-                                    <!----></span></span></td>
-                        <td data-label="Parameter"><em class="fa fa-check"></em></td>
-                        <td data-label="Parameter"><em>none</em></td>
-                        <td data-label="Parameter">
-                            <p>Options for the client</p>
+                        <td>options</td>
+                        <td>
+                            <span class=""><a href="#/docs/main/stable/typedef/ClientOptions" class="">ClientOptions</a></span></td>
+                        <td><em class="fa fa-check"></em></td>
+                        <td><em>none</em></td>
+                        <td>
+                            <span>Options for the client</span>
                         </td>
                     </tr>
                 </tbody>
             </table>
+<!--
+            <div class="col-12 row no-marg-pad">
+                <div class="col-12 col-sm-6 th order-min-sm-1 col-sm-5-20 order-sm-1">Parameter</div>
+                <div class="col-12 col-sm-6 td order-min-sm-2 col-sm-5-20 order-sm-6">options</div>
+
+                <div class="col-12 col-sm-6 th order-min-sm-3 col-sm-3-20 order-sm-2">Type</div>
+                <div class="col-12 col-sm-6 td order-min-sm-4 col-sm-3-20 order-sm-7"><a href="#/docs/main/stable/typedef/ClientOptions" class="">ClientOptions</a></div>
+                
+                <div class="col-12 col-sm-6 th order-min-sm-5 col-sm-4-20 order-sm-3">Optional</div>
+                <div class="col-12 col-sm-6 td order-min-sm-6 col-sm-4-20 order-sm-8"><em class="fa fa-check"></em></div>
+                
+                <div class="col-12 col-sm-6 th order-min-sm-7 col-sm-4-20 order-sm-4">Default</div>
+                <div class="col-12 col-sm-6 td order-min-sm-8 col-sm-4-20 order-sm-9">none</div>
+                
+                <div class="col-12 col-sm-6 th order-min-sm-9 col-sm-4-20 order-sm-5">Description</div>
+                <div class="col-12 col-sm-6 td order-min-sm-10 col-sm-4-20 order-sm-10">Options for the client</div>
+            </div>-->
+
+            <div class="col-12 menu-div">
+                <div class="row menu">
+                    <div class="col-12 col-md-6">
+                        <div class="ul">Titre</div>
+                        <div class="li">Text</div>
+                        <div class="li">Text</div>
+                    </div>
+                    <div class="col-12 col-md-6 min-sm-marg-top-0-5em">
+                        <div class="ul">Titre</div>
+                        <div class="li">Text</div>
+                        <div class="li">Text</div>
+                    </div>
+                </div>
+            </div>
+            <!--END MAIN CONTENT-->
         </div>
         <div class="col-12 col-md-2 order-md-first part-sidebar hidden-md-down">
             <div class="ul">Type</div>
@@ -86,6 +117,17 @@
             <a class="li" href="#/b">B2</a>
         </div>
     </div>
+    <script>
+
+        document.querySelectorAll('.table-responsivess').forEach(function (table) {
+            let labels = Array.from(table.querySelectorAll('th')).map(function (th) {
+                return th.innerText
+            })
+            table.querySelectorAll('.td-mobile').forEach(function (td, i) {
+                td.setAttribute('data-label', labels[i % labels.length])
+            })
+        })
+    </script>
 </body>
 
 </html>

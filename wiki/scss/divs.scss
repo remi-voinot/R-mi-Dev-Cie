@@ -78,6 +78,103 @@
 !========================================
 */
 
+.no-marg-pad {
+    margin: 0;
+    padding: 0;
+}
+
 .marg-left-0-5em {
     margin-left: 0.5em;
+}
+
+@media screen and (max-width:576px) {
+    .min-sm-marg-top-0-5em {
+        margin-top: 0.5em;
+    }
+}
+
+/**
+!========================================
+*                 Order
+!========================================
+*/
+
+$griders: () !default;
+$griders: map-merge(("sm" : 540,
+        "md" : 720,
+        "lg" : 960,
+        "xl" : 1140,
+    ),
+    $griders);
+
+@for $i from 1 through 25 {
+    .order-g-#{$i} {
+        order: $i;
+    }
+}
+
+
+@each $name,
+$size in $griders {
+    @media screen and (min-width: #{$size}px) {
+        @for $i from 1 through 25 {
+            .order-#{$name}-#{$i} {
+                order: $i;
+            }
+        }
+    }
+
+    @media screen and (max-width: #{$size}px) {
+        @for $i from 1 through 25 {
+            .order-min-#{$name}-#{$i} {
+                order: $i;
+            }
+        }
+    }
+}
+
+@for $sub from 1 through 20 {
+    @for $med from 1 through 20 {
+        .col-#{$med}-#{$sub} {
+            flex: 0 0 #{$med/$sub * 100%};
+            max-width: #{$med/$sub * 100%};
+        }
+    }
+}
+
+@each $name,
+$size in $griders {
+    @media screen and (min-width: #{$size}px) {
+        @for $sub from 1 through 20 {
+            @for $med from 1 through 20 {
+                .col-#{$name}-#{$med}-#{$sub} {
+                    flex: 0 0 #{$med/$sub * 100%};
+                    max-width: #{$med/$sub * 100%};
+                }
+            }
+        }
+    }
+
+    @media screen and (max-width: #{$size}px) {
+        @for $sub from 1 through 20 {
+            @for $med from 1 through 20 {
+                .col-min-#{$name}-#{$med}-#{$sub} {
+                    flex: 0 0 #{$med/$sub * 100%};
+                    max-width: #{$med/$sub * 100%};
+                }
+            }
+        }
+    }
+}
+
+@function multiply($a, $b) {
+    @return $a * $b;
+}
+
+@function div($a, $b) {
+    @return $a / $b;
+}
+
+.table-responsive {
+    display: table;
 }
