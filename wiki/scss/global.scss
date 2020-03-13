@@ -10,6 +10,14 @@
     box-sizing: border-box;
 }
 
+.pointer {
+    cursor: pointer;
+}
+
+.cursor {
+    cursor: context-menu;
+}
+
 .no-h {
         height: fit-content;
     }
@@ -27,53 +35,11 @@ html, body {
     min-height: 100%; 
     
 }
-
-$white:    #ffffff !default;
-a:default {
+a, .a-div {
+    color: $primary;
     text-decoration: none;
-    color: $white;
-}
-a:link:default {
-    text-decoration: none;
-    color: $white;
-}
-
-
-a:visited:default {
-    text-decoration: none;
-    color: $white;
-}
-
-
-a:hover:default {
-    text-decoration: none;
-    color: $white;
-}
-
-a:active:default {
-    text-decoration: none;
-    color: $white;
-}
-
-
-a:link:hover {
-    text-decoration: none;
-    color: $white;
-}
-
-
-a:visited:hover {
-    text-decoration: none;
-    color: $white;
-}
-
-
-a:hover:hover {
-    text-decoration: none;
-    color: $white;
-}
-
-a:active:hover {
-    text-decoration: none;
-    color: $white;
+    &:hover {
+        color: #82c4f8;
+        text-decoration: none;
+    }
 }

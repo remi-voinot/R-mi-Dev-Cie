@@ -9,18 +9,18 @@ $secondary: #999999;
 $primary-dark: darken($primary, 10%);
 $secondary-dark: darken($secondary, 25%);
 
-$blue:    #2196f3 !default;
-$indigo:  #6610f2 !default;
-$purple:  #6f42c1 !default;
-$pink:    #e83e8c !default;
-$red:     #dc3545 !default;
-$orange:  #fd7e14 !default;
-$yellow:  #ffc107 !default;
-$green:   #28a745 !default;
-$teal:    #20c997 !default;
-$cyan:    #17a2b8 !default;
+$blue: #2196f3 !default;
+$indigo: #6610f2 !default;
+$purple: #6f42c1 !default;
+$pink: #e83e8c !default;
+$red: #dc3545 !default;
+$orange: #fd7e14 !default;
+$yellow: #ffc107 !default;
+$green: #28a745 !default;
+$teal: #20c997 !default;
+$cyan: #17a2b8 !default;
 
-$white:    #ffffff !default;
+$white: #ffffff !default;
 $gray-100: #f8f9fa !default;
 $gray-200: #e9ecef !default;
 $gray-300: #dee2e6 !default;
@@ -37,36 +37,30 @@ $gray-202: #202020 !default;
 $gray-1B1: #1b1b1b !default;
 $gray-111: #111111 !default;
 $gray-090: #090909 !default;
-$black:    #000000 !default;
+$black: #000000 !default;
 
 $colors: () !default;
-$colors: map-merge(
-  (
-    "blue":       $blue,
-    "indigo":     $indigo,
-    "purple":     $purple,
-    "pink":       $pink,
-    "red":        $red,
-    "orange":     $orange,
-    "yellow":     $yellow,
-    "green":      $green,
-    "teal":       $teal,
-    "cyan":       $cyan,
-    "white":      $white,
-    "gray":       $gray-600,
-    "gray-dark":  $gray-800,
-    "primary":    $primary,
-    "secondaty":  $secondary,
+$colors: map-merge(("blue": $blue,
+    "indigo": $indigo,
+    "purple": $purple,
+    "pink": $pink,
+    "red": $red,
+    "orange": $orange,
+    "yellow": $yellow,
+    "green": $green,
+    "teal": $teal,
+    "cyan": $cyan,
+    "white": $white,
+    "gray": $gray-600,
+    "gray-dark": $gray-800,
+    "primary": $primary,
+    "secondaty": $secondary,
     "primary-dark": $primary-dark,
-    "secondary-dark": $secondary-dark
-  ),
-  $colors
-);
+    "secondary-dark": $secondary-dark),
+  $colors);
 
 $grays: () !default;
-$grays: map-merge(
-  (
-    "AAA": $gray-AAA,
+$grays: map-merge(("AAA": $gray-AAA,
     "000": $white,
     "090": $gray-090,
     "1B1": $gray-1B1,
@@ -85,7 +79,14 @@ $grays: map-merge(
     "900": $gray-900,
     "999": $black,
   ),
-  $grays
-);
+  $grays);
 
 $body-bg: $gray-111;
+
+a {
+  color: $primary
+}
+
+a:hover {
+  color: #82c4f8;
+}

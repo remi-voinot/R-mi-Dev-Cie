@@ -5,8 +5,641 @@
 !========================================
 */
 @import url(../../src/fontc.css);
-.fa-0-9x {
-  font-size: 0.9rem; }
+a {
+  color: #2196f3; }
+
+a:hover {
+  color: #82c4f8; }
+
+.font-0-0 {
+  font-size: 0em; }
+
+.font-0-1 {
+  font-size: 0.1em; }
+
+.font-0-2 {
+  font-size: 0.2em; }
+
+.font-0-3 {
+  font-size: 0.3em; }
+
+.font-0-4 {
+  font-size: 0.4em; }
+
+.font-0-5 {
+  font-size: 0.5em; }
+
+.font-0-6 {
+  font-size: 0.6em; }
+
+.font-0-7 {
+  font-size: 0.7em; }
+
+.font-0-8 {
+  font-size: 0.8em; }
+
+.font-0-9 {
+  font-size: 0.9em; }
+
+.font-1-0 {
+  font-size: 1em; }
+
+.font-1-1 {
+  font-size: 1.1em; }
+
+.font-1-2 {
+  font-size: 1.2em; }
+
+.font-1-3 {
+  font-size: 1.3em; }
+
+.font-1-4 {
+  font-size: 1.4em; }
+
+.font-1-5 {
+  font-size: 1.5em; }
+
+.font-1-6 {
+  font-size: 1.6em; }
+
+.font-1-7 {
+  font-size: 1.7em; }
+
+.font-1-8 {
+  font-size: 1.8em; }
+
+.font-1-9 {
+  font-size: 1.9em; }
+
+.font-2-0 {
+  font-size: 2em; }
+
+.font-2-1 {
+  font-size: 2.1em; }
+
+.font-2-2 {
+  font-size: 2.2em; }
+
+.font-2-3 {
+  font-size: 2.3em; }
+
+.font-2-4 {
+  font-size: 2.4em; }
+
+.font-2-5 {
+  font-size: 2.5em; }
+
+.font-2-6 {
+  font-size: 2.6em; }
+
+.font-2-7 {
+  font-size: 2.7em; }
+
+.font-2-8 {
+  font-size: 2.8em; }
+
+.font-2-9 {
+  font-size: 2.9em; }
+
+.font-3-0 {
+  font-size: 3em; }
+
+.font-3-1 {
+  font-size: 3.1em; }
+
+.font-3-2 {
+  font-size: 3.2em; }
+
+.font-3-3 {
+  font-size: 3.3em; }
+
+.font-3-4 {
+  font-size: 3.4em; }
+
+.font-3-5 {
+  font-size: 3.5em; }
+
+.font-3-6 {
+  font-size: 3.6em; }
+
+.font-3-7 {
+  font-size: 3.7em; }
+
+.font-3-8 {
+  font-size: 3.8em; }
+
+.font-3-9 {
+  font-size: 3.9em; }
+
+.font-4-0 {
+  font-size: 4em; }
+
+.font-4-1 {
+  font-size: 4.1em; }
+
+.font-4-2 {
+  font-size: 4.2em; }
+
+.font-4-3 {
+  font-size: 4.3em; }
+
+.font-4-4 {
+  font-size: 4.4em; }
+
+.font-4-5 {
+  font-size: 4.5em; }
+
+.font-4-6 {
+  font-size: 4.6em; }
+
+.font-4-7 {
+  font-size: 4.7em; }
+
+.font-4-8 {
+  font-size: 4.8em; }
+
+.font-4-9 {
+  font-size: 4.9em; }
+
+.font-5-0 {
+  font-size: 5em; }
+
+.font-5-1 {
+  font-size: 5.1em; }
+
+.font-5-2 {
+  font-size: 5.2em; }
+
+.font-5-3 {
+  font-size: 5.3em; }
+
+.font-5-4 {
+  font-size: 5.4em; }
+
+.font-5-5 {
+  font-size: 5.5em; }
+
+.font-5-6 {
+  font-size: 5.6em; }
+
+.font-5-7 {
+  font-size: 5.7em; }
+
+.font-5-8 {
+  font-size: 5.8em; }
+
+.font-5-9 {
+  font-size: 5.9em; }
+
+.font-6-0 {
+  font-size: 6em; }
+
+.font-6-1 {
+  font-size: 6.1em; }
+
+.font-6-2 {
+  font-size: 6.2em; }
+
+.font-6-3 {
+  font-size: 6.3em; }
+
+.font-6-4 {
+  font-size: 6.4em; }
+
+.font-6-5 {
+  font-size: 6.5em; }
+
+.font-6-6 {
+  font-size: 6.6em; }
+
+.font-6-7 {
+  font-size: 6.7em; }
+
+.font-6-8 {
+  font-size: 6.8em; }
+
+.font-6-9 {
+  font-size: 6.9em; }
+
+.font-7-0 {
+  font-size: 7em; }
+
+.font-7-1 {
+  font-size: 7.1em; }
+
+.font-7-2 {
+  font-size: 7.2em; }
+
+.font-7-3 {
+  font-size: 7.3em; }
+
+.font-7-4 {
+  font-size: 7.4em; }
+
+.font-7-5 {
+  font-size: 7.5em; }
+
+.font-7-6 {
+  font-size: 7.6em; }
+
+.font-7-7 {
+  font-size: 7.7em; }
+
+.font-7-8 {
+  font-size: 7.8em; }
+
+.font-7-9 {
+  font-size: 7.9em; }
+
+.font-8-0 {
+  font-size: 8em; }
+
+.font-8-1 {
+  font-size: 8.1em; }
+
+.font-8-2 {
+  font-size: 8.2em; }
+
+.font-8-3 {
+  font-size: 8.3em; }
+
+.font-8-4 {
+  font-size: 8.4em; }
+
+.font-8-5 {
+  font-size: 8.5em; }
+
+.font-8-6 {
+  font-size: 8.6em; }
+
+.font-8-7 {
+  font-size: 8.7em; }
+
+.font-8-8 {
+  font-size: 8.8em; }
+
+.font-8-9 {
+  font-size: 8.9em; }
+
+.font-9-0 {
+  font-size: 9em; }
+
+.font-9-1 {
+  font-size: 9.1em; }
+
+.font-9-2 {
+  font-size: 9.2em; }
+
+.font-9-3 {
+  font-size: 9.3em; }
+
+.font-9-4 {
+  font-size: 9.4em; }
+
+.font-9-5 {
+  font-size: 9.5em; }
+
+.font-9-6 {
+  font-size: 9.6em; }
+
+.font-9-7 {
+  font-size: 9.7em; }
+
+.font-9-8 {
+  font-size: 9.8em; }
+
+.font-9-9 {
+  font-size: 9.9em; }
+
+.font-10-0 {
+  font-size: 10em; }
+
+.font-10-1 {
+  font-size: 10.1em; }
+
+.font-10-2 {
+  font-size: 10.2em; }
+
+.font-10-3 {
+  font-size: 10.3em; }
+
+.font-10-4 {
+  font-size: 10.4em; }
+
+.font-10-5 {
+  font-size: 10.5em; }
+
+.font-10-6 {
+  font-size: 10.6em; }
+
+.font-10-7 {
+  font-size: 10.7em; }
+
+.font-10-8 {
+  font-size: 10.8em; }
+
+.font-10-9 {
+  font-size: 10.9em; }
+
+.font-11-0 {
+  font-size: 11em; }
+
+.font-11-1 {
+  font-size: 11.1em; }
+
+.font-11-2 {
+  font-size: 11.2em; }
+
+.font-11-3 {
+  font-size: 11.3em; }
+
+.font-11-4 {
+  font-size: 11.4em; }
+
+.font-11-5 {
+  font-size: 11.5em; }
+
+.font-11-6 {
+  font-size: 11.6em; }
+
+.font-11-7 {
+  font-size: 11.7em; }
+
+.font-11-8 {
+  font-size: 11.8em; }
+
+.font-11-9 {
+  font-size: 11.9em; }
+
+.font-12-0 {
+  font-size: 12em; }
+
+.font-12-1 {
+  font-size: 12.1em; }
+
+.font-12-2 {
+  font-size: 12.2em; }
+
+.font-12-3 {
+  font-size: 12.3em; }
+
+.font-12-4 {
+  font-size: 12.4em; }
+
+.font-12-5 {
+  font-size: 12.5em; }
+
+.font-12-6 {
+  font-size: 12.6em; }
+
+.font-12-7 {
+  font-size: 12.7em; }
+
+.font-12-8 {
+  font-size: 12.8em; }
+
+.font-12-9 {
+  font-size: 12.9em; }
+
+.font-13-0 {
+  font-size: 13em; }
+
+.font-13-1 {
+  font-size: 13.1em; }
+
+.font-13-2 {
+  font-size: 13.2em; }
+
+.font-13-3 {
+  font-size: 13.3em; }
+
+.font-13-4 {
+  font-size: 13.4em; }
+
+.font-13-5 {
+  font-size: 13.5em; }
+
+.font-13-6 {
+  font-size: 13.6em; }
+
+.font-13-7 {
+  font-size: 13.7em; }
+
+.font-13-8 {
+  font-size: 13.8em; }
+
+.font-13-9 {
+  font-size: 13.9em; }
+
+.font-14-0 {
+  font-size: 14em; }
+
+.font-14-1 {
+  font-size: 14.1em; }
+
+.font-14-2 {
+  font-size: 14.2em; }
+
+.font-14-3 {
+  font-size: 14.3em; }
+
+.font-14-4 {
+  font-size: 14.4em; }
+
+.font-14-5 {
+  font-size: 14.5em; }
+
+.font-14-6 {
+  font-size: 14.6em; }
+
+.font-14-7 {
+  font-size: 14.7em; }
+
+.font-14-8 {
+  font-size: 14.8em; }
+
+.font-14-9 {
+  font-size: 14.9em; }
+
+.font-15-0 {
+  font-size: 15em; }
+
+.font-15-1 {
+  font-size: 15.1em; }
+
+.font-15-2 {
+  font-size: 15.2em; }
+
+.font-15-3 {
+  font-size: 15.3em; }
+
+.font-15-4 {
+  font-size: 15.4em; }
+
+.font-15-5 {
+  font-size: 15.5em; }
+
+.font-15-6 {
+  font-size: 15.6em; }
+
+.font-15-7 {
+  font-size: 15.7em; }
+
+.font-15-8 {
+  font-size: 15.8em; }
+
+.font-15-9 {
+  font-size: 15.9em; }
+
+.font-16-0 {
+  font-size: 16em; }
+
+.font-16-1 {
+  font-size: 16.1em; }
+
+.font-16-2 {
+  font-size: 16.2em; }
+
+.font-16-3 {
+  font-size: 16.3em; }
+
+.font-16-4 {
+  font-size: 16.4em; }
+
+.font-16-5 {
+  font-size: 16.5em; }
+
+.font-16-6 {
+  font-size: 16.6em; }
+
+.font-16-7 {
+  font-size: 16.7em; }
+
+.font-16-8 {
+  font-size: 16.8em; }
+
+.font-16-9 {
+  font-size: 16.9em; }
+
+.font-17-0 {
+  font-size: 17em; }
+
+.font-17-1 {
+  font-size: 17.1em; }
+
+.font-17-2 {
+  font-size: 17.2em; }
+
+.font-17-3 {
+  font-size: 17.3em; }
+
+.font-17-4 {
+  font-size: 17.4em; }
+
+.font-17-5 {
+  font-size: 17.5em; }
+
+.font-17-6 {
+  font-size: 17.6em; }
+
+.font-17-7 {
+  font-size: 17.7em; }
+
+.font-17-8 {
+  font-size: 17.8em; }
+
+.font-17-9 {
+  font-size: 17.9em; }
+
+.font-18-0 {
+  font-size: 18em; }
+
+.font-18-1 {
+  font-size: 18.1em; }
+
+.font-18-2 {
+  font-size: 18.2em; }
+
+.font-18-3 {
+  font-size: 18.3em; }
+
+.font-18-4 {
+  font-size: 18.4em; }
+
+.font-18-5 {
+  font-size: 18.5em; }
+
+.font-18-6 {
+  font-size: 18.6em; }
+
+.font-18-7 {
+  font-size: 18.7em; }
+
+.font-18-8 {
+  font-size: 18.8em; }
+
+.font-18-9 {
+  font-size: 18.9em; }
+
+.font-19-0 {
+  font-size: 19em; }
+
+.font-19-1 {
+  font-size: 19.1em; }
+
+.font-19-2 {
+  font-size: 19.2em; }
+
+.font-19-3 {
+  font-size: 19.3em; }
+
+.font-19-4 {
+  font-size: 19.4em; }
+
+.font-19-5 {
+  font-size: 19.5em; }
+
+.font-19-6 {
+  font-size: 19.6em; }
+
+.font-19-7 {
+  font-size: 19.7em; }
+
+.font-19-8 {
+  font-size: 19.8em; }
+
+.font-19-9 {
+  font-size: 19.9em; }
+
+.font-20-0 {
+  font-size: 20em; }
+
+.font-20-1 {
+  font-size: 20.1em; }
+
+.font-20-2 {
+  font-size: 20.2em; }
+
+.font-20-3 {
+  font-size: 20.3em; }
+
+.font-20-4 {
+  font-size: 20.4em; }
+
+.font-20-5 {
+  font-size: 20.5em; }
+
+.font-20-6 {
+  font-size: 20.6em; }
+
+.font-20-7 {
+  font-size: 20.7em; }
+
+.font-20-8 {
+  font-size: 20.8em; }
+
+.font-20-9 {
+  font-size: 20.9em; }
 
 /*!
  * Bootstrap v4.4.1 (https://getbootstrap.com/)
@@ -7816,6 +8449,44 @@ a.text-dark:hover, a.text-dark:focus {
     border-color: #dee2e6; } }
 /**
 !========================================
+*                Global
+!========================================
+*/
+*,
+::after,
+::before {
+  box-sizing: border-box; }
+
+.pointer {
+  cursor: pointer; }
+
+.cursor {
+  cursor: context-menu; }
+
+.no-h {
+  height: fit-content; }
+
+html, body {
+  height: 100%;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: left;
+  background-color: #111111;
+  min-height: 100%; }
+
+a, .a-div {
+  color: #2196f3;
+  text-decoration: none; }
+  a:hover, .a-div:hover {
+    color: #82c4f8;
+    text-decoration: none; }
+
+/**
+!========================================
 *                Color
 !========================================
 */
@@ -8353,6 +9024,13 @@ a.text-dark:hover, a.text-dark:focus {
   display: flex;
   flex-wrap: wrap; }
 
+.part-menulink {
+  font-weight: bolder;
+  color: #2196f3;
+  text-transform: uppercase;
+  padding-bottom: 16px; }
+  .part-menulink a {
+    font-size: 1.2rem; }
 .part-topbar {
   max-height: 48px; }
   .part-topbar-title {
@@ -8419,6 +9097,12 @@ a.text-dark:hover, a.text-dark:focus {
     font-size: 1rem;
     font-weight: 700;
     color: #dbdbdb; }
+  .part-sidebar .ul-men {
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #ababab;
+    margin-bottom: 7px; }
   .part-sidebar .li {
     padding: 4px 32px 4px 4px;
     display: block;
@@ -8505,7 +9189,8 @@ a.text-dark:hover, a.text-dark:focus {
     font-size: 2em;
     font-weight: 400; }
   .content-main .section,
-  .content-main h2 {
+  .content-main h2,
+  .content-main .h2 {
     color: #cccccc;
     margin-top: 40px;
     font-size: 1.5em;
@@ -8528,6 +9213,30 @@ a.text-dark:hover, a.text-dark:focus {
     overflow-x: auto;
     height: 100%;
     font-size: .8rem; }
+    .content-main .pre .violet,
+    .content-main pre .violet {
+      color: #c678dd; }
+    .content-main .pre .green,
+    .content-main pre .green {
+      color: #98c379; }
+    .content-main .pre .yellow,
+    .content-main pre .yellow {
+      color: #e6c07b; }
+    .content-main .pre .orange,
+    .content-main pre .orange {
+      color: #d19a66; }
+    .content-main .pre .red,
+    .content-main pre .red {
+      color: #e06c75; }
+    .content-main .pre .blue,
+    .content-main pre .blue {
+      color: #61aeee; }
+    .content-main .pre .gray,
+    .content-main pre .gray {
+      color: #5c6370; }
+    .content-main .pre .italic,
+    .content-main pre .italic {
+      font-style: italic; }
   @media only screen and (max-width: 992px) {
     .content-main .th {
       display: table-cell;
@@ -8621,67 +9330,100 @@ a.text-dark:hover, a.text-dark:focus {
       border-color: #2196f3;
       background: #161616;
       transition: color .3s, border-color .3s, background-color .3s; }
-
-/**
-!========================================
-*                Global
-!========================================
-*/
-*,
-::after,
-::before {
-  box-sizing: border-box; }
-
-.no-h {
-  height: fit-content; }
-
-html, body {
-  height: 100%;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  font-size: 1rem;
-  font-weight: 400;
-  line-height: 1.5;
-  color: #212529;
-  text-align: left;
-  background-color: #111111;
-  min-height: 100%; }
-
-a:default {
-  text-decoration: none;
-  color: #ffffff; }
-
-a:link:default {
-  text-decoration: none;
-  color: #ffffff; }
-
-a:visited:default {
-  text-decoration: none;
-  color: #ffffff; }
-
-a:hover:default {
-  text-decoration: none;
-  color: #ffffff; }
-
-a:active:default {
-  text-decoration: none;
-  color: #ffffff; }
-
-a:link:hover {
-  text-decoration: none;
-  color: #ffffff; }
-
-a:visited:hover {
-  text-decoration: none;
-  color: #ffffff; }
-
-a:hover:hover {
-  text-decoration: none;
-  color: #ffffff; }
-
-a:active:hover {
-  text-decoration: none;
-  color: #ffffff; }
+  .content-main .contentext {
+    margin: 20px 2px;
+    padding: 8px;
+    transition: color .3s, border-color .3s, background-color .3s; }
+    .content-main .contentext .titles .titre {
+      font-family: Roboto Mono, Source Code Pro, Consolas, monospace;
+      color: #cccccc;
+      text-decoration: none;
+      font-size: 1.17em; }
+    .content-main .contentext .titles .param {
+      color: #999999;
+      font-size: 1rem;
+      -webkit-transition: color .3s;
+      transition: color .3s;
+      font-size: 1rem; }
+    .content-main .contentext .titles:hover {
+      color: #2196f3; }
+    .content-main .contentext .titles .tagerr {
+      font-family: Roboto, Montserrat, monospace;
+      background: #ff0920;
+      padding: 5px;
+      opacity: .75;
+      color: #fff;
+      border-radius: 3px;
+      text-transform: uppercase;
+      font-size: .85rem;
+      font-weight: 700;
+      -webkit-transition: opacity .3s;
+      transition: opacity .3s; }
+      .content-main .contentext .titles .tagerr:hover {
+        background: #ff2337; }
+    .content-main .contentext .titles .tag {
+      font-family: Roboto, Montserrat, monospace;
+      background: #0c7cd5;
+      padding: 5px;
+      opacity: .75;
+      color: #fff;
+      border-radius: 3px;
+      text-transform: uppercase;
+      font-size: .85rem;
+      font-weight: 700;
+      -webkit-transition: opacity .3s;
+      transition: opacity .3s; }
+      .content-main .contentext .titles .tag:hover {
+        background: #0d8aed; }
+    .content-main .contentext .warns {
+      margin: 5px 0;
+      color: #000000;
+      background: #ffe6e6;
+      display: inline-block;
+      margin: 0;
+      padding: 4px 8px;
+      border: 1px #ffb3b3 solid;
+      border-left: 2px #f66f66 solid; }
+      .content-main .contentext .warns-m {
+        margin: 5px; }
+    .content-main .contentext .infos {
+      margin: 5px 0;
+      color: #000000;
+      background: #c1e2fc;
+      display: inline-block;
+      margin: 0;
+      padding: 4px 8px;
+      border: 1px #90cbf9 solid;
+      border-left: 2px #48a8f5 solid; }
+      .content-main .contentext .infos-m {
+        margin: 5px; }
+    .content-main .contentext .c-in {
+      color: #cccccc;
+      position: relative;
+      left: 0;
+      margin-top: 8px;
+      padding: 6px 0 6px 8px;
+      border-left: 2px solid #373737;
+      -webkit-transition: border-left-color .3s;
+      transition: border-left-color .3s; }
+      .content-main .contentext .c-in:hover {
+        border-left-color: #2196f3; }
+      .content-main .contentext .c-in .type {
+        margin-top: 8px;
+        color: #737373;
+        font-weight: 700; }
+        .content-main .contentext .c-in .type a {
+          color: #2196f3;
+          font-weight: 700; }
+  .content-main code {
+    font-family: Roboto Mono,Source Code Pro,Consolas,monospace;
+    font-size: .8rem;
+    line-height: 1.15;
+    background: #1a1a1a;
+    border-radius: 2px;
+    padding: 2px 4px;
+    color: #cccccc;
+    line-height: 1.15; }
 
 /*
 !========================================
@@ -8752,6 +9494,9 @@ a:active:hover {
 
 .min-sm-marg-top-0-5em {
   margin-top: 0.5em; }
+
+.pad-top-30 {
+  padding-top: 30px !important; }
 
 /**
 !========================================
@@ -8833,6 +9578,150 @@ a:active:hover {
 .order-g-25 {
   order: 25; }
 
+.pad-top-0 {
+  paddingtop: 0; }
+
+.pad-left-0 {
+  paddingleft: 0; }
+
+.pad-bottom-0 {
+  paddingbottom: 0; }
+
+.pad-right-0 {
+  paddingright: 0; }
+
+@media screen and (min-width: 540px) {
+  .pad-sm-top-0 {
+    paddingtop: 0; }
+
+  .pad-sm-left-0 {
+    paddingleft: 0; }
+
+  .pad-sm-bottom-0 {
+    paddingbottom: 0; }
+
+  .pad-sm-right-0 {
+    paddingright: 0; } }
+@media screen and (max-width: 540px) {
+  .pad-min-sm-top-0 {
+    padding-top: 0; }
+
+  .pad-min-sm-left-0 {
+    padding-left: 0; }
+
+  .pad-min-sm-bottom-0 {
+    padding-bottom: 0; }
+
+  .pad-min-sm-right-0 {
+    padding-right: 0; } }
+.pad-top-0 {
+  paddingtop: 0; }
+
+.pad-left-0 {
+  paddingleft: 0; }
+
+.pad-bottom-0 {
+  paddingbottom: 0; }
+
+.pad-right-0 {
+  paddingright: 0; }
+
+@media screen and (min-width: 769px) {
+  .pad-md-top-0 {
+    paddingtop: 0; }
+
+  .pad-md-left-0 {
+    paddingleft: 0; }
+
+  .pad-md-bottom-0 {
+    paddingbottom: 0; }
+
+  .pad-md-right-0 {
+    paddingright: 0; } }
+@media screen and (max-width: 769px) {
+  .pad-min-md-top-0 {
+    padding-top: 0; }
+
+  .pad-min-md-left-0 {
+    padding-left: 0; }
+
+  .pad-min-md-bottom-0 {
+    padding-bottom: 0; }
+
+  .pad-min-md-right-0 {
+    padding-right: 0; } }
+.pad-top-0 {
+  paddingtop: 0; }
+
+.pad-left-0 {
+  paddingleft: 0; }
+
+.pad-bottom-0 {
+  paddingbottom: 0; }
+
+.pad-right-0 {
+  paddingright: 0; }
+
+@media screen and (min-width: 960px) {
+  .pad-lg-top-0 {
+    paddingtop: 0; }
+
+  .pad-lg-left-0 {
+    paddingleft: 0; }
+
+  .pad-lg-bottom-0 {
+    paddingbottom: 0; }
+
+  .pad-lg-right-0 {
+    paddingright: 0; } }
+@media screen and (max-width: 960px) {
+  .pad-min-lg-top-0 {
+    padding-top: 0; }
+
+  .pad-min-lg-left-0 {
+    padding-left: 0; }
+
+  .pad-min-lg-bottom-0 {
+    padding-bottom: 0; }
+
+  .pad-min-lg-right-0 {
+    padding-right: 0; } }
+.pad-top-0 {
+  paddingtop: 0; }
+
+.pad-left-0 {
+  paddingleft: 0; }
+
+.pad-bottom-0 {
+  paddingbottom: 0; }
+
+.pad-right-0 {
+  paddingright: 0; }
+
+@media screen and (min-width: 1140px) {
+  .pad-xl-top-0 {
+    paddingtop: 0; }
+
+  .pad-xl-left-0 {
+    paddingleft: 0; }
+
+  .pad-xl-bottom-0 {
+    paddingbottom: 0; }
+
+  .pad-xl-right-0 {
+    paddingright: 0; } }
+@media screen and (max-width: 1140px) {
+  .pad-min-xl-top-0 {
+    padding-top: 0; }
+
+  .pad-min-xl-left-0 {
+    padding-left: 0; }
+
+  .pad-min-xl-bottom-0 {
+    padding-bottom: 0; }
+
+  .pad-min-xl-right-0 {
+    padding-right: 0; } }
 @media screen and (min-width: 540px) {
   .order-sm-1 {
     order: 1; }
@@ -8983,7 +9872,7 @@ a:active:hover {
 
   .order-min-sm-25 {
     order: 25; } }
-@media screen and (min-width: 720px) {
+@media screen and (min-width: 769px) {
   .order-md-1 {
     order: 1; }
 
@@ -9058,7 +9947,7 @@ a:active:hover {
 
   .order-md-25 {
     order: 25; } }
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 769px) {
   .order-min-md-1 {
     order: 1; }
 
@@ -14233,7 +15122,7 @@ a:active:hover {
   .col-min-sm-20-20 {
     flex: 0 0 100%;
     max-width: 100%; } }
-@media screen and (min-width: 720px) {
+@media screen and (min-width: 769px) {
   .col-md-1-1 {
     flex: 0 0 100%;
     max-width: 100%; }
@@ -15833,7 +16722,7 @@ a:active:hover {
   .col-md-20-20 {
     flex: 0 0 100%;
     max-width: 100%; } }
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 769px) {
   .col-min-md-1-1 {
     flex: 0 0 100%;
     max-width: 100%; }

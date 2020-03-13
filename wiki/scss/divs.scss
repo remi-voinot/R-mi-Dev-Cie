@@ -92,6 +92,10 @@
     margin-top: 0.5em;
 }
 
+.pad-top-30 {
+    padding-top: 30px !important;
+}
+
 
 /**
 !========================================
@@ -101,17 +105,63 @@
 
 $griders: () !default;
 $griders: map-merge(("sm" : 540,
-        "md" : 720,
+        "md" : 769,
         "lg" : 960,
         "xl" : 1140,
     ),
     $griders);
+
+$sides: () !default;
+$sides: map-merge((
+        "t" : "top",
+        "l" : "left",
+        "b" : "bottom",
+        "r" : "right",
+    ),
+    $sides);
 
 @for $i from 1 through 25 {
     .order-g-#{$i} {
         order: $i;
     }
 }
+
+
+
+@each $name,
+$size in $griders {
+
+    @each $a,
+    $b in $sides {
+        .pad-#{$b}-0 {
+            padding#{$b}: 0;
+        }
+    }
+
+
+    @media screen and (min-width: #{$size}px) {
+
+        @each $a,
+        $b in $sides {
+            .pad-#{$name}-#{$b}-0 {
+                padding#{$b}: 0;
+            }
+        }
+
+    }
+
+    @media screen and (max-width: #{$size}px) {
+
+        @each $a,
+        $b in $sides {
+            .pad-min-#{$name}-#{$b}-0 {
+                padding-#{$b}: 0;
+            }
+        }
+    }
+}
+
+
 
 
 @each $name,
@@ -122,6 +172,7 @@ $size in $griders {
                 order: $i;
             }
         }
+
     }
 
     @media screen and (max-width: #{$size}px) {
@@ -132,6 +183,7 @@ $size in $griders {
         }
     }
 }
+
 
 @for $sub from 1 through 20 {
     @for $med from 1 through 20 {

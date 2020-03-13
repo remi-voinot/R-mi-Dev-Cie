@@ -51,7 +51,8 @@
     }
 
     .section,
-    h2 {
+    h2,
+    .h2 {
         color: #cccccc;
         margin-top: 40px;
         font-size: 1.5em;
@@ -76,6 +77,39 @@
         overflow-x: auto;
         height: 100%;
         font-size: .8rem;
+
+        .violet {
+            color: #c678dd;
+        }
+
+        .green {
+            color: #98c379;
+        }
+
+        .yellow {
+            color: #e6c07b;
+        }
+
+        .orange {
+            color: #d19a66;
+        }
+
+        .red {
+            color: #e06c75;
+        }
+
+        .blue {
+            color: #61aeee;
+        }
+
+        .gray {
+            color: #5c6370;
+        }
+
+        .italic {
+            font-style: italic;
+        }
+
     }
 
     @media only screen and (max-width: 992px) {
@@ -227,5 +261,145 @@
                 transition: color .3s, border-color .3s, background-color .3s;
             }
         }
+    }
+
+    .contentext {
+        margin: 20px 2px;
+        padding: 8px;
+        transition: color .3s, border-color .3s, background-color .3s;
+
+        .titles {
+
+            .titre {
+                font-family: Roboto Mono, Source Code Pro, Consolas, monospace;
+                color: #cccccc;
+                text-decoration: none;
+                font-size: 1.17em;
+
+
+            }
+
+            .param {
+                color: #999999;
+                font-size: 1rem;
+                -webkit-transition: color .3s;
+                transition: color .3s;
+                font-size: 1rem;
+            }
+
+            &:hover {
+                color: $primary;
+
+            }
+
+
+            .tagerr {
+                font-family: Roboto, Montserrat, monospace;
+                background: #ff0920;
+                padding: 5px;
+                opacity: .75;
+                color: #fff;
+                border-radius: 3px;
+                text-transform: uppercase;
+                font-size: .85rem;
+                font-weight: 700;
+                -webkit-transition: opacity .3s;
+                transition: opacity .3s;
+
+                &:hover {
+                    background: lighten(#ff0920, 5%);
+                }
+            }
+
+            .tag {
+                font-family: Roboto, Montserrat, monospace;
+                background: #0c7cd5;
+                padding: 5px;
+                opacity: .75;
+                color: #fff;
+                border-radius: 3px;
+                text-transform: uppercase;
+                font-size: .85rem;
+                font-weight: 700;
+                -webkit-transition: opacity .3s;
+                transition: opacity .3s;
+
+                &:hover {
+                    background: lighten(#0c7cd5, 5%);
+                }
+
+            }
+        }
+
+        .warns {
+            margin: 5px 0;
+            color: #000000;
+            background: #ffe6e6;
+            $border-color1: #ffb3b3;
+            $border-left-color1: #f66f66;
+            display: inline-block;
+            margin: 0;
+            padding: 4px 8px;
+            border: 1px $border-color1 solid;
+            border-left: 2px $border-left-color1 solid;
+
+            &-m {
+                margin: 5px;
+            }
+        }
+
+        .infos {
+            margin: 5px 0;
+            color: #000000;
+            background: #c1e2fc;
+            $border-color2: #90cbf9;
+            $border-left-color2: #48a8f5;
+            display: inline-block;
+            margin: 0;
+            padding: 4px 8px;
+            border: 1px $border-color2 solid;
+            border-left: 2px $border-left-color2 solid;
+
+            &-m {
+                margin: 5px;
+            }
+        }
+
+        .c-in {
+            color: #cccccc;
+            position: relative;
+            left: 0;
+            margin-top: 8px;
+            padding: 6px 0 6px 8px;
+            border-left: 2px solid #373737;
+            -webkit-transition: border-left-color .3s;
+            transition: border-left-color .3s;
+
+            &:hover {
+                border-left-color: $primary;
+
+            }
+
+            .type {
+                margin-top: 8px;
+                color: #737373;
+                font-weight: 700;
+
+                a {
+                    color: $primary;
+                    font-weight: 700;
+                }
+            }
+        }
+    }
+    code {
+        font-family: Roboto Mono,Source Code Pro,Consolas,monospace;
+        font-size: .8rem;
+        line-height: 1.15;
+        background: #1a1a1a;
+        border-radius: 2px;
+        padding: 2px 4px;
+        color: #cccccc;
+        line-height: 1.15;
     }
 }

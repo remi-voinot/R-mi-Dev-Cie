@@ -1,5 +1,10 @@
 @import "../../src/fontc.css";
 
-.fa-0-9x {
-    font-size: 0.9rem;
+@for $sub from 0 through 20 {
+    @for $med from 0 through 9 {
+        .font-#{$sub}-#{$med} {
+            $a: ($sub + ($med /10));
+            font-size: #{$a}em;
+        }
+    }
 }
