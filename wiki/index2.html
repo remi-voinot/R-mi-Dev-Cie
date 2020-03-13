@@ -7,7 +7,6 @@
     <title>Document</title>
     <link rel="stylesheet" href="css/out.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src="./table.js" async></script>
     <link rel="stylesheet" href="../vendor/fontawesome-free/css/all.css">
 </head>
 
@@ -56,7 +55,7 @@
 
             <table class="table tablers table-responsive">
                 <thead>
-                    <tr>
+                    <tr class="tr-th">
                         <th>Parameter</th>
                         <th>Type</th>
                         <th>Optional</th>
@@ -77,23 +76,6 @@
                     </tr>
                 </tbody>
             </table>
-<!--
-            <div class="col-12 row no-marg-pad">
-                <div class="col-12 col-sm-6 th order-min-sm-1 col-sm-5-20 order-sm-1">Parameter</div>
-                <div class="col-12 col-sm-6 td order-min-sm-2 col-sm-5-20 order-sm-6">options</div>
-
-                <div class="col-12 col-sm-6 th order-min-sm-3 col-sm-3-20 order-sm-2">Type</div>
-                <div class="col-12 col-sm-6 td order-min-sm-4 col-sm-3-20 order-sm-7"><a href="#/docs/main/stable/typedef/ClientOptions" class="">ClientOptions</a></div>
-                
-                <div class="col-12 col-sm-6 th order-min-sm-5 col-sm-4-20 order-sm-3">Optional</div>
-                <div class="col-12 col-sm-6 td order-min-sm-6 col-sm-4-20 order-sm-8"><em class="fa fa-check"></em></div>
-                
-                <div class="col-12 col-sm-6 th order-min-sm-7 col-sm-4-20 order-sm-4">Default</div>
-                <div class="col-12 col-sm-6 td order-min-sm-8 col-sm-4-20 order-sm-9">none</div>
-                
-                <div class="col-12 col-sm-6 th order-min-sm-9 col-sm-4-20 order-sm-5">Description</div>
-                <div class="col-12 col-sm-6 td order-min-sm-10 col-sm-4-20 order-sm-10">Options for the client</div>
-            </div>-->
 
             <div class="col-12 menu-div">
                 <div class="row menu">
@@ -114,20 +96,11 @@
         <div class="col-12 col-md-2 order-md-first part-sidebar hidden-md-down">
             <div class="ul">Type</div>
             <a class="li" href="#/a">A1</a>
+            <a class="li li-selected" href="#/b">B2</a>
             <a class="li" href="#/b">B2</a>
         </div>
     </div>
-    <script>
-
-        document.querySelectorAll('.table-responsivess').forEach(function (table) {
-            let labels = Array.from(table.querySelectorAll('th')).map(function (th) {
-                return th.innerText
-            })
-            table.querySelectorAll('.td-mobile').forEach(function (td, i) {
-                td.setAttribute('data-label', labels[i % labels.length])
-            })
-        })
-    </script>
+    <div class="part-loading">text</div>
 </body>
 
 </html>

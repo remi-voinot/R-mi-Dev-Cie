@@ -34,6 +34,7 @@ $gray-333: #333333 !default;
 $gray-900: #212529 !default;
 $gray-222: #222222 !default;
 $gray-202: #202020 !default;
+$gray-1B1: #1b1b1b !default;
 $gray-111: #111111 !default;
 $gray-090: #090909 !default;
 $black:    #000000 !default;
@@ -68,6 +69,7 @@ $grays: map-merge(
     "AAA": $gray-AAA,
     "000": $white,
     "090": $gray-090,
+    "1B1": $gray-1B1,
     "100": $gray-100,
     "111": $gray-111,
     "200": $gray-200,

@@ -3,6 +3,7 @@ RewriteEngine On
 RewriteCond %{THE_REQUEST} !/phpmyadmin [NC]
 RewriteCond %{THE_REQUEST} !/dashboard [NC]
 RewriteCond %{THE_REQUEST} !/admintemplate [NC]
+RewriteCond %{THE_REQUEST} !/wiki [NC]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule ^([^\.]+)$ $1.php [NC,L]
 </IfModule>
