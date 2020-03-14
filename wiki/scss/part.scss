@@ -15,6 +15,7 @@
         a {
             font-size: 1.2rem;
         }
+
         font-weight: bolder;
         color: $primary;
         text-transform: uppercase;
@@ -82,7 +83,7 @@
     }
 
     &mainsite {
-        
+
         min-height: 100%;
 
         @media (max-width:576px) {
@@ -98,6 +99,58 @@
 
     }
 
+    &footers {
+        padding: 16px;
+        min-height: 54px;
+        transition: color .3s, border-color .3s, background-color .3s;
+        text-align: center;
+
+        a {
+            font-weight: bolder;
+            text-decoration: none;
+            color: #888888;
+
+            &:hover {
+                color: #a2a2a2;
+                text-decoration: underline
+            }
+
+        }
+
+        a.button {
+            display: inline-block;
+            padding: 8px 6px;
+            border-radius: 4px;
+            background: #2196f3;
+            color: #fff;
+            font-size: .9rem;
+            text-decoration: none;
+            font-weight: 100;
+            font-family: Roboto,Source Sans Pro,Calibri,Arial,sans-serif;
+        }
+
+    }
+
+    &docs {
+        min-height: calc(100% - 131px);
+
+
+        @media (min-width: 768px) {
+            padding: 16px 32px;
+        }
+
+        @media (max-width: 768px) {
+            height: 100%;
+            padding: 16px 5px;
+        }
+
+        @media (max-width: 320px) {
+            height: 100%;
+            padding: 16px 0;
+        }
+
+    }
+
     &sidebar {
         min-height: calc(100% - 131px);
 
@@ -108,6 +161,14 @@
         @media (max-width: 768px) {
             border-top: 1px solid #202020;
             padding-top: 15px;
+        }
+
+        .ico {
+            float: right;
+            right: 10px;
+            color: white;
+            padding: 3px;
+            cursor: pointer;
         }
 
         .ul {
@@ -132,7 +193,11 @@
             color: inherit;
             text-decoration: none;
             border-left: 2px solid rgba(33, 150, 243, 0);
-            transition: color .3s,
+            transition:
+                display 1s,
+                visibility 0.3s,
+                opacity 0.3s,
+                color .3s,
                 border-color .3s,
                 background-color .3s;
             color: #999;
@@ -147,33 +212,18 @@
                 border-bottom-right-radius: 4px;
                 border-top-left-radius: 2px;
                 border-bottom-left-radius: 2px;
-
             }
+        }
+
+        .li-hid {
+            opacity: 0;
+            height: 0;
+            padding: 0;
         }
 
         .li-selected {
             background: #1b1b1b;
             border-color: lighten($gray-202, 10%);
-        }
-
-    }
-
-    &docs {
-        min-height: calc(100% - 131px);
-
-
-        @media (min-width: 768px) {
-            padding: 16px 32px;
-        }
-
-        @media (max-width: 768px) {
-            height: 100%;
-            padding: 16px 5px;
-        }
-
-        @media (max-width: 320px) {
-            height: 100%;
-            padding: 16px 0;
         }
 
     }

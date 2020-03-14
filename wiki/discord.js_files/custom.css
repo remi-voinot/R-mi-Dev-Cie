@@ -1,8 +1,0 @@
-.visi-n {
-    opacity: 0;
-    visibility: hidden;
-    -webkit-transition: visibility 0.2s linear, opacity 0.2s linear;
-    -moz-transition: visibility 0.2s linear, opacity 0.2s linear;
-    -o-transition: visibility 0.2s linear, opacity 0.2s linear;
-    transition: visibility 0.2s linear, opacity 0.2s linear;
-}

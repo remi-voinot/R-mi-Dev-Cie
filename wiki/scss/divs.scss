@@ -4,8 +4,12 @@
 !========================================
 */
 
+.p-marg-top {
+    margin-bottom: 1rem;
+}
+
 .hide {
-    display: none;
+    display: none !important;
 }
 
 .show {
@@ -14,7 +18,7 @@
 
 @media (max-width:350px) {
     .xxs-hide {
-        display: none;
+        display: none !important;
     }
 
     .xxs-show {
@@ -24,7 +28,7 @@
 
 @media (max-width:576px) {
     .xs-hide {
-        display: none;
+        display: none !important;
     }
 
     .xs-show {
@@ -34,7 +38,7 @@
 
 @media (min-width:576px) {
     .sm-hide {
-        display: none;
+        display: none !important;
     }
 
     .sm-show {
@@ -44,7 +48,7 @@
 
 @media (min-width:768px) {
     .md-hide {
-        display: none;
+        display: none !important;
     }
 
     .md-show {
@@ -54,7 +58,7 @@
 
 @media (min-width:992px) {
     .lg-hide {
-        display: none;
+        display: none !important;
     }
 
     .lg-show {
@@ -64,7 +68,7 @@
 
 @media (min-width:1200px) {
     .xl-hide {
-        display: none;
+        display: none !important;
     }
 
     .xl-show {

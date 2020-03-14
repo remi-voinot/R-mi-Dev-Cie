@@ -8467,7 +8467,7 @@ a.text-dark:hover, a.text-dark:focus {
   height: fit-content; }
 
 html, body {
-  height: 100%;
+  min-height: 100%;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 1rem;
@@ -8476,7 +8476,9 @@ html, body {
   color: #212529;
   text-align: left;
   background-color: #111111;
-  min-height: 100%; }
+  /*div {
+      min-height: fit-content
+  }*/ }
 
 a, .a-div {
   color: #2196f3;
@@ -9083,6 +9085,41 @@ a, .a-div {
   @media (min-width: 576px) {
     .part-mainsite {
       min-height: calc(100% - 102px); } }
+.part-footers {
+  padding: 16px;
+  min-height: 54px;
+  transition: color .3s, border-color .3s, background-color .3s;
+  text-align: center; }
+  .part-footers a {
+    font-weight: bolder;
+    text-decoration: none;
+    color: #888888; }
+    .part-footers a:hover {
+      color: #a2a2a2;
+      text-decoration: underline; }
+  .part-footers a.button {
+    display: inline-block;
+    padding: 8px 6px;
+    border-radius: 4px;
+    background: #2196f3;
+    color: #fff;
+    font-size: .9rem;
+    text-decoration: none;
+    font-weight: 100;
+    font-family: Roboto,Source Sans Pro,Calibri,Arial,sans-serif; }
+.part-docs {
+  min-height: calc(100% - 131px); }
+  @media (min-width: 768px) {
+    .part-docs {
+      padding: 16px 32px; } }
+  @media (max-width: 768px) {
+    .part-docs {
+      height: 100%;
+      padding: 16px 5px; } }
+  @media (max-width: 320px) {
+    .part-docs {
+      height: 100%;
+      padding: 16px 0; } }
 .part-sidebar {
   min-height: calc(100% - 131px); }
   @media (min-width: 768px) {
@@ -9092,6 +9129,12 @@ a, .a-div {
     .part-sidebar {
       border-top: 1px solid #202020;
       padding-top: 15px; } }
+  .part-sidebar .ico {
+    float: right;
+    right: 10px;
+    color: white;
+    padding: 3px;
+    cursor: pointer; }
   .part-sidebar .ul {
     text-transform: uppercase;
     font-size: 1rem;
@@ -9110,7 +9153,7 @@ a, .a-div {
     color: inherit;
     text-decoration: none;
     border-left: 2px solid rgba(33, 150, 243, 0);
-    transition: color .3s, border-color .3s, background-color .3s;
+    transition: display 1s, visibility 0.3s, opacity 0.3s, color .3s, border-color .3s, background-color .3s;
     color: #999;
     font-size: .8rem; }
     .part-sidebar .li:hover {
@@ -9122,22 +9165,13 @@ a, .a-div {
       border-bottom-right-radius: 4px;
       border-top-left-radius: 2px;
       border-bottom-left-radius: 2px; }
+  .part-sidebar .li-hid {
+    opacity: 0;
+    height: 0;
+    padding: 0; }
   .part-sidebar .li-selected {
     background: #1b1b1b;
     border-color: #3a3a3a; }
-.part-docs {
-  min-height: calc(100% - 131px); }
-  @media (min-width: 768px) {
-    .part-docs {
-      padding: 16px 32px; } }
-  @media (max-width: 768px) {
-    .part-docs {
-      height: 100%;
-      padding: 16px 5px; } }
-  @media (max-width: 320px) {
-    .part-docs {
-      height: 100%;
-      padding: 16px 0; } }
 .part-loading {
   position: fixed;
   top: 0;
@@ -9334,47 +9368,49 @@ a, .a-div {
     margin: 20px 2px;
     padding: 8px;
     transition: color .3s, border-color .3s, background-color .3s; }
-    .content-main .contentext .titles .titre {
-      font-family: Roboto Mono, Source Code Pro, Consolas, monospace;
-      color: #cccccc;
-      text-decoration: none;
-      font-size: 1.17em; }
-    .content-main .contentext .titles .param {
-      color: #999999;
-      font-size: 1rem;
-      -webkit-transition: color .3s;
-      transition: color .3s;
-      font-size: 1rem; }
-    .content-main .contentext .titles:hover {
-      color: #2196f3; }
-    .content-main .contentext .titles .tagerr {
-      font-family: Roboto, Montserrat, monospace;
-      background: #ff0920;
-      padding: 5px;
-      opacity: .75;
-      color: #fff;
-      border-radius: 3px;
-      text-transform: uppercase;
-      font-size: .85rem;
-      font-weight: 700;
-      -webkit-transition: opacity .3s;
-      transition: opacity .3s; }
-      .content-main .contentext .titles .tagerr:hover {
-        background: #ff2337; }
-    .content-main .contentext .titles .tag {
-      font-family: Roboto, Montserrat, monospace;
-      background: #0c7cd5;
-      padding: 5px;
-      opacity: .75;
-      color: #fff;
-      border-radius: 3px;
-      text-transform: uppercase;
-      font-size: .85rem;
-      font-weight: 700;
-      -webkit-transition: opacity .3s;
-      transition: opacity .3s; }
-      .content-main .contentext .titles .tag:hover {
-        background: #0d8aed; }
+    .content-main .contentext .titles {
+      line-height: 2.0; }
+      .content-main .contentext .titles .titre {
+        font-family: Roboto Mono, Source Code Pro, Consolas, monospace;
+        color: #cccccc;
+        text-decoration: none;
+        font-size: 1.17em; }
+      .content-main .contentext .titles .param {
+        color: #999999;
+        font-size: 1rem;
+        -webkit-transition: color .3s;
+        transition: color .3s;
+        font-size: 1rem; }
+      .content-main .contentext .titles:hover {
+        color: #2196f3; }
+      .content-main .contentext .titles .tagerr {
+        font-family: Roboto, Montserrat, monospace;
+        background: #ff0920;
+        padding: 5px;
+        opacity: .75;
+        color: #fff;
+        border-radius: 3px;
+        text-transform: uppercase;
+        font-size: .85rem;
+        font-weight: 700;
+        -webkit-transition: opacity .3s;
+        transition: opacity .3s; }
+        .content-main .contentext .titles .tagerr:hover {
+          background: #ff2337; }
+      .content-main .contentext .titles .tag {
+        font-family: Roboto, Montserrat, monospace;
+        background: #0c7cd5;
+        padding: 5px;
+        opacity: .75;
+        color: #fff;
+        border-radius: 3px;
+        text-transform: uppercase;
+        font-size: .85rem;
+        font-weight: 700;
+        -webkit-transition: opacity .3s;
+        transition: opacity .3s; }
+        .content-main .contentext .titles .tag:hover {
+          background: #0d8aed; }
     .content-main .contentext .warns {
       margin: 5px 0;
       color: #000000;
@@ -9438,45 +9474,48 @@ a, .a-div {
 *                Divs.
 !========================================
 */
+.p-marg-top {
+  margin-bottom: 1rem; }
+
 .hide {
-  display: none; }
+  display: none !important; }
 
 .show {
   display: initial; }
 
 @media (max-width: 350px) {
   .xxs-hide {
-    display: none; }
+    display: none !important; }
 
   .xxs-show {
     display: initial; } }
 @media (max-width: 576px) {
   .xs-hide {
-    display: none; }
+    display: none !important; }
 
   .xs-show {
     display: initial; } }
 @media (min-width: 576px) {
   .sm-hide {
-    display: none; }
+    display: none !important; }
 
   .sm-show {
     display: initial; } }
 @media (min-width: 768px) {
   .md-hide {
-    display: none; }
+    display: none !important; }
 
   .md-show {
     display: initial; } }
 @media (min-width: 992px) {
   .lg-hide {
-    display: none; }
+    display: none !important; }
 
   .lg-show {
     display: initial; } }
 @media (min-width: 1200px) {
   .xl-hide {
-    display: none; }
+    display: none !important; }
 
   .xl-show {
     display: initial; } }
