@@ -8,16 +8,15 @@
     <link rel="stylesheet" href="css/out.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="../vendor/fontawesome-free/css/all.css">
-    <script src="./ids.js"></script>
-    <script></script>
+    <script src="js/out.js"></script>
 </head>
 
 <body>
     <div class="bg-gray-222 part-topbar">
         <div class="l-h-3 container">
-            <a href="" class="part-topbar-title a-title">Wiki</a>
-            <a href="" class="part-topbar-title float-right">Wiki</a>
-            <a href="" class="part-topbar-title float-right">Wiki 2</a>
+            <a href="#" class="part-topbar-title a-title">Wiki</a>
+            <a href="../" class="part-topbar-title float-right">Accueil</a>
+            <a href="../dashboard/" class="part-topbar-title float-right">Dashboard</a>
         </div>
     </div>
     <div class="bg-gray-333">
@@ -143,7 +142,7 @@
         <p class="p-marg-top">A powerful library for interacting with the Discord API</p>
         <p class="">4 978 942 downloads 5 184 stars 100 contributors</p>
 
-        <a href="#" class="button"><i class="fa fa-circle-notch"></i> Acceuil de Dev'&'Cie</a>
+        <a href="../" class="button"><i class="glyphicon gly"></i> Accueil de Dev'&'Cie</a>
 
     </div>
 

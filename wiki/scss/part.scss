@@ -29,7 +29,7 @@
             display: inline-block;
             padding: 0 16px;
             text-decoration: none;
-            color: #ffffff;
+            color: #ffffff !important;
             font-size: 1.1rem;
 
             &.a-title {
@@ -39,11 +39,13 @@
             &.a-title:hover {
                 background: darken($primary, 10%) !important;
                 transition: 0.3s;
+                color: #82c4f8 !important;
             }
 
             &:hover {
                 background: $gray-090;
                 transition: 0.3s;
+                color: #ffffff !important;
             }
         }
     }

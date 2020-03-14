@@ -29,3 +29,18 @@
 hr {
     border-top: 1px solid rgba(0, 0, 0, 0.3);
 }
+
+body.sidebar-toggled {
+    .li-short {
+        font-size: 0.4rem;
+        font-weight: 500;
+        padding: 0;
+    }
+}
+@media (max-width: 768px) {
+    .li-short {
+        font-size: 0.4rem !important;
+        font-weight: 500 !important;
+        padding: 0 !important;
+    }
+}

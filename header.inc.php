@@ -22,6 +22,9 @@ require_once("./tools/FlashMessages.php");
           <a class="nav-link js-scroll-trigger" href="dashboard">Dashboard</a>
         </li>
         <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="wiki">Wiki/Docs</a>
+        </li>
+        <li class="nav-item">
           <a class="nav-link js-scroll-trigger" href="signin">S'inscrire</a>
         </li>
         <li class="nav-item">

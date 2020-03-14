@@ -14,7 +14,7 @@
 
     <!-- Nav Item - Dashboard -->
     <li class="nav-item active">
-        <a class="nav-link" href="index">
+        <a class="nav-link" href="./">
             <i class="fas fa-fw fa-tachometer-alt"></i>
             <span>Dashboard</span></a>
     </li>
@@ -22,7 +22,13 @@
     <li class="nav-item active">
         <a class="nav-link" href="/">
             <i class="fas fa-fw fa-home"></i>
-            <span>Acceuil du site</span></a>
+            <span>Accueil du site</span></a>
+    </li>
+
+    <li class="nav-item active">
+        <a class="nav-link" href="/wiki">
+            <i class="fas fa-fw fa-book"></i>
+            <span>Wiki / Docs</span></a>
     </li>
 
     <!-- Divider -->
@@ -170,7 +176,7 @@
     <!-- Divider -->
     <hr class="sidebar-divider d-none d-md-block">
 
-    <div class="sidebar-heading">
+    <div class="sidebar-heading li-short">
         Souscriptions
     </div>
 

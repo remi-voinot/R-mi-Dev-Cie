@@ -9039,16 +9039,18 @@ a, .a-div {
     display: inline-block;
     padding: 0 16px;
     text-decoration: none;
-    color: #ffffff;
+    color: #ffffff !important;
     font-size: 1.1rem; }
     .part-topbar-title.a-title {
       background: #2196f3 !important; }
     .part-topbar-title.a-title:hover {
       background: #0c7cd5 !important;
-      transition: 0.3s; }
+      transition: 0.3s;
+      color: #82c4f8 !important; }
     .part-topbar-title:hover {
       background: #090909;
-      transition: 0.3s; }
+      transition: 0.3s;
+      color: #ffffff !important; }
 .part-searchbar {
   padding: 16px;
   min-height: 54px; }
